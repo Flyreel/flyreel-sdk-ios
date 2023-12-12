@@ -1,0 +1,58 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Flyreel
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import AVKit
+import Combine
+import CoreLocation
+import DeveloperToolsSupport
+@_exported import Flyreel
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import UserNotifications
+import _AVKit_SwiftUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum FlyreelEnvironment {
+  case sandbox
+  case production
+  public static func == (a: Flyreel.FlyreelEnvironment, b: Flyreel.FlyreelEnvironment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct FlyreelConfiguration {
+  public init(settingsVersion: Swift.String, organizationId: Swift.String, environment: Flyreel.FlyreelEnvironment = .production)
+}
+@_hasMissingDesignatedInitializers final public class FlyreelSDK {
+  final public var configuration: Flyreel.FlyreelConfiguration {
+    get
+  }
+  public static var shared: Flyreel.FlyreelSDK {
+    get
+  }
+  @objc deinit
+}
+extension Flyreel.FlyreelSDK {
+  final public func set(configuration: Flyreel.FlyreelConfiguration)
+}
+extension Flyreel.FlyreelSDK {
+  final public func presentFlyreel(on rootViewController: UIKit.UIViewController, animated: Swift.Bool = true)
+  final public func presentFlyreel(on rootViewController: UIKit.UIViewController, zipCode: Swift.String, accessCode: Swift.String, shouldSkipLoginPage: Swift.Bool = true, animated: Swift.Bool = true)
+  final public func presentFlyreel(on rootViewController: UIKit.UIViewController, deepLinkURL: Foundation.URL, shouldSkipLoginPage: Swift.Bool = true, animated: Swift.Bool = true)
+}
+extension SwiftUI.View {
+  public func presentFlyreel(isPresented: SwiftUI.Binding<Swift.Bool>, flyreel: Flyreel.FlyreelSDK = .shared) -> some SwiftUI.View
+  
+  public func presentFlyreel(isPresented: SwiftUI.Binding<Swift.Bool>, flyreel: Flyreel.FlyreelSDK = .shared, zipCode: Swift.String, accessCode: Swift.String, shouldSkipLoginPage: Swift.Bool = true) -> some SwiftUI.View
+  
+  public func presentFlyreel(isPresented: SwiftUI.Binding<Swift.Bool>, flyreel: Flyreel.FlyreelSDK = .shared, deepLinkURL: Foundation.URL, shouldSkipLoginPage: Swift.Bool = true) -> some SwiftUI.View
+  
+}
+extension Flyreel.FlyreelEnvironment : Swift.Equatable {}
+extension Flyreel.FlyreelEnvironment : Swift.Hashable {}

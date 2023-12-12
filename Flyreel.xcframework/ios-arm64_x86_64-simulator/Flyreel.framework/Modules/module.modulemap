@@ -1,0 +1,11 @@
+framework module Flyreel {
+  umbrella header "Flyreel.h"
+  export *
+
+  module * { export * }
+}
+
+module Flyreel.Swift {
+  header "Flyreel-Swift.h"
+  requires objc
+}
