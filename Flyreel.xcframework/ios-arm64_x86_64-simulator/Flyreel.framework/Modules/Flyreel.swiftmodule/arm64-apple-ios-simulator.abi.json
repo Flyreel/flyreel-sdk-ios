@@ -429,6 +429,20 @@
       },
       {
         "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "Flyreel"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Flyreel"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -904,6 +918,27 @@
           },
           {
             "kind": "Function",
+            "name": "enableLogs",
+            "printedName": "enableLogs()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Flyreel0A3SDKC10enableLogsyyF",
+            "mangledName": "$s7Flyreel0A3SDKC10enableLogsyyF",
+            "moduleName": "Flyreel",
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "presentFlyreel",
             "printedName": "presentFlyreel(on:animated:)",
             "children": [
@@ -1145,6 +1180,20 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Flyreel"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "Flyreel"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Flyreel"
       },
@@ -1701,6 +1750,13 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Flyreel"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Flyreel"
       },
@@ -3009,42 +3065,21 @@
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/REST\/Requests\/Bot\/BotMediaUploadRESTRequest.swift",
       "kind": "StringLiteral",
-      "offset": 393,
-      "length": 57,
-      "value": "\"\/proxy\/media\/\""
-    },
-    {
-      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/REST\/Requests\/Bot\/BotMediaUploadRESTRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 424,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/REST\/Requests\/Bot\/BotMediaUploadRESTRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 437,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/REST\/Requests\/Bot\/BotMediaUploadRESTRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 449,
-      "length": 1,
-      "value": "\"\""
+      "offset": 338,
+      "length": 37,
+      "value": "\"\/integrations\/firebase\/upload-media\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/REST\/Requests\/Bot\/BotMediaUploadRESTRequest.swift",
       "kind": "Dictionary",
-      "offset": 620,
+      "offset": 545,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/REST\/Requests\/Bot\/BotMediaUploadRESTRequest.swift",
       "kind": "StringLiteral",
-      "offset": 828,
+      "offset": 753,
       "length": 7,
       "value": "\"media\""
     },
@@ -4583,106 +4618,85 @@
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/Utils\/JWTokenDecoder.swift",
-      "kind": "StringLiteral",
-      "offset": 256,
-      "length": 24,
-      "value": "\"Decoded JWT \""
-    },
-    {
-      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/Utils\/JWTokenDecoder.swift",
-      "kind": "StringLiteral",
-      "offset": 279,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/Utils\/JWTokenDecoder.swift",
       "kind": "Array",
-      "offset": 392,
+      "offset": 343,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/Utils\/JWTokenDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 534,
-      "length": 24,
-      "value": "\"Failed to decode JSON:\""
-    },
-    {
-      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/Utils\/JWTokenDecoder.swift",
-      "kind": "StringLiteral",
-      "offset": 725,
+      "offset": 667,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/Utils\/JWTokenDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 736,
+      "offset": 678,
       "length": 3,
       "value": "\"+\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/Utils\/JWTokenDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 779,
+      "offset": 721,
       "length": 3,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/Utils\/JWTokenDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 790,
+      "offset": 732,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/Utils\/JWTokenDecoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 904,
+      "offset": 846,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/Utils\/JWTokenDecoder.swift",
       "kind": "FloatLiteral",
-      "offset": 922,
+      "offset": 864,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/Utils\/JWTokenDecoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1006,
+      "offset": 948,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/Utils\/JWTokenDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 1036,
+      "offset": 978,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/Utils\/JWTokenDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 1086,
+      "offset": 1028,
       "length": 3,
       "value": "\"=\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/Utils\/JWTokenDecoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1103,
+      "offset": 1045,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/Utils\/JWTokenDecoder.swift",
       "kind": "Array",
-      "offset": 1426,
+      "offset": 1368,
       "length": 2,
       "value": "[]"
     },
@@ -4702,22 +4716,8 @@
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/CheckIfFlyreelWasAlreadyStartedUseCase.swift",
-      "kind": "StringLiteral",
-      "offset": 569,
-      "length": 13,
-      "value": "\"factsObject\""
-    },
-    {
-      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/CheckIfFlyreelWasAlreadyStartedUseCase.swift",
       "kind": "BooleanLiteral",
-      "offset": 640,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/CheckIfFlyreelWasAlreadyStartedUseCase.swift",
-      "kind": "BooleanLiteral",
-      "offset": 680,
+      "offset": 614,
       "length": 5,
       "value": "false"
     },
@@ -5907,51 +5907,93 @@
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/Utils\/DataTaskPublisher+throwRESTErrorIfIncorrectResponse.swift",
       "kind": "StringLiteral",
-      "offset": 786,
+      "offset": 796,
       "length": 62,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/Utils\/DataTaskPublisher+throwRESTErrorIfIncorrectResponse.swift",
       "kind": "StringLiteral",
-      "offset": 809,
+      "offset": 819,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/Utils\/DataTaskPublisher+throwRESTErrorIfIncorrectResponse.swift",
       "kind": "StringLiteral",
-      "offset": 844,
+      "offset": 854,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/Utils\/DataTaskPublisher+throwRESTErrorIfIncorrectResponse.swift",
       "kind": "StringLiteral",
-      "offset": 847,
+      "offset": 857,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/Utils\/DataTaskPublisher+throwRESTErrorIfIncorrectResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 884,
+      "offset": 894,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/Utils\/DataTaskPublisher+throwRESTErrorIfIncorrectResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 892,
+      "offset": 902,
       "length": 3,
       "value": "299"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/Utils\/DataTaskPublisher+throwRESTErrorIfIncorrectResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 1000,
+      "offset": 1010,
       "length": 3,
       "value": "401"
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Utils\/FlyreelLogger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 81,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Utils\/FlyreelLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 74,
+      "value": "\"[FlyreelSDK] %{private}@ funtion:%{private}@ line:%{private}i %{public}@\""
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Utils\/FlyreelLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 717,
+      "length": 17,
+      "value": "\"[%@] %{public}@\""
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Utils\/FlyreelLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 773,
+      "length": 12,
+      "value": "\"FlyreelSDK\""
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Utils\/FlyreelLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 799,
+      "length": 8,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Utils\/FlyreelLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 806,
+      "length": 1,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/REST\/HTTPMethod.swift",
@@ -6488,49 +6530,56 @@
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Flyreel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1727,
+      "offset": 1649,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Flyreel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2041,
+      "offset": 1801,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Flyreel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2072,
+      "offset": 2115,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Flyreel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2446,
+      "offset": 2146,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Flyreel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2477,
+      "offset": 2520,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Flyreel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3659,
+      "offset": 2551,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Flyreel.swift",
       "kind": "BooleanLiteral",
-      "offset": 4380,
+      "offset": 3733,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Flyreel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4454,
       "length": 4,
       "value": "true"
     },
@@ -6565,42 +6614,28 @@
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/REST\/Requests\/Bot\/ConversationDataRESTRequest.swift",
       "kind": "StringLiteral",
-      "offset": 471,
-      "length": 57,
-      "value": "\"\/proxy\/not\/real\/ep\/\""
+      "offset": 312,
+      "length": 43,
+      "value": "\"\/integrations\/firebase\/rules-engine\/facts\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/REST\/Requests\/Bot\/ConversationDataRESTRequest.swift",
       "kind": "StringLiteral",
-      "offset": 508,
-      "length": 1,
-      "value": "\"\/\""
+      "offset": 406,
+      "length": 37,
+      "value": "\"\/integrations\/firebase\/user-profile\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/REST\/Requests\/Bot\/ConversationDataRESTRequest.swift",
       "kind": "StringLiteral",
-      "offset": 521,
-      "length": 1,
-      "value": "\"\/facts\""
-    },
-    {
-      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/REST\/Requests\/Bot\/ConversationDataRESTRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 579,
-      "length": 21,
-      "value": "\"\/proxy\/user-profile\""
-    },
-    {
-      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/REST\/Requests\/Bot\/ConversationDataRESTRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1203,
+      "offset": 1040,
       "length": 16,
       "value": "\"organizationId\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/REST\/Requests\/Bot\/ConversationDataRESTRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1253,
+      "offset": 1090,
       "length": 11,
       "value": "\"flyreelId\""
     },
@@ -6922,28 +6957,28 @@
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/JSONCache.swift",
       "kind": "BooleanLiteral",
-      "offset": 3859,
+      "offset": 3808,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/JSONCache.swift",
       "kind": "Array",
-      "offset": 4052,
+      "offset": 4001,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/JSONCache.swift",
       "kind": "BooleanLiteral",
-      "offset": 4618,
+      "offset": 4567,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/JSONCache.swift",
       "kind": "BooleanLiteral",
-      "offset": 5411,
+      "offset": 5360,
       "length": 5,
       "value": "false"
     },
@@ -6978,70 +7013,63 @@
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Bot\/BotEngine.swift",
       "kind": "StringLiteral",
-      "offset": 1592,
+      "offset": 1415,
       "length": 21,
       "value": "\"inspectionCompleted\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Bot\/BotEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 1628,
+      "offset": 1451,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Bot\/BotEngine.swift",
       "kind": "StringLiteral",
-      "offset": 2385,
+      "offset": 2208,
       "length": 21,
       "value": "\"inspectionCompleted\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Bot\/BotEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 2421,
+      "offset": 2244,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Bot\/BotEngine.swift",
       "kind": "Dictionary",
-      "offset": 2726,
+      "offset": 2548,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Bot\/BotEngine.swift",
       "kind": "StringLiteral",
-      "offset": 2753,
-      "length": 13,
-      "value": "\"factsObject\""
-    },
-    {
-      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Bot\/BotEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 3707,
+      "offset": 3472,
       "length": 13,
       "value": "\"factsObject\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/REST\/RESTService.swift",
       "kind": "StringLiteral",
-      "offset": 5519,
+      "offset": 5535,
       "length": 50,
       "value": "\"URLRequest: \""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/REST\/RESTService.swift",
       "kind": "StringLiteral",
-      "offset": 5560,
+      "offset": 5576,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/REST\/RESTService.swift",
       "kind": "StringLiteral",
-      "offset": 5563,
+      "offset": 5579,
       "length": 4,
       "value": "\" sent\""
     },
@@ -7390,10 +7418,59 @@
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/ConversationDataService.swift",
+      "kind": "StringLiteral",
+      "offset": 1277,
+      "length": 13,
+      "value": "\"factsObject\""
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/ConversationDataService.swift",
       "kind": "Dictionary",
-      "offset": 2109,
+      "offset": 1313,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/ConversationDataService.swift",
+      "kind": "Dictionary",
+      "offset": 2025,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/ConversationDataService.swift",
+      "kind": "StringLiteral",
+      "offset": 2252,
+      "length": 43,
+      "value": "\"Unable to fetch facts data, cache loading\""
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/ConversationDataService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2585,
+      "length": 3,
+      "value": "404"
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/ConversationDataService.swift",
+      "kind": "StringLiteral",
+      "offset": 2726,
+      "length": 57,
+      "value": "\"No online state of the conversation, starting a new one\""
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/ConversationDataService.swift",
+      "kind": "Dictionary",
+      "offset": 2817,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/ConversationDataService.swift",
+      "kind": "StringLiteral",
+      "offset": 2950,
+      "length": 43,
+      "value": "\"Unable to fetch facts data, cache loading\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/NotificationsService.swift",
@@ -8532,105 +8609,203 @@
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/FlyreelDeepLinkCredentials.swift",
       "kind": "StringLiteral",
-      "offset": 547,
+      "offset": 563,
       "length": 45,
       "value": "\"URL was invalid or did not have query items\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/FlyreelDeepLinkCredentials.swift",
       "kind": "StringLiteral",
-      "offset": 836,
+      "offset": 852,
       "length": 16,
       "value": "\"flyreelZipCode\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/FlyreelDeepLinkCredentials.swift",
       "kind": "StringLiteral",
-      "offset": 895,
+      "offset": 911,
       "length": 19,
       "value": "\"flyreelAccessCode\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/FlyreelDeepLinkCredentials.swift",
       "kind": "StringLiteral",
-      "offset": 949,
+      "offset": 981,
       "length": 40,
       "value": "\"Invalid Flyreel deeplinking parameters\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 2203,
+      "length": 26,
+      "value": "\"Syncing process: success\""
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
       "kind": "IntegerLiteral",
-      "offset": 1848,
+      "offset": 2263,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 2396,
+      "length": 58,
+      "value": "\"Syncing process: \""
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 2436,
+      "length": 8,
+      "value": "\" messages to sync\""
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
       "kind": "IntegerLiteral",
-      "offset": 2224,
+      "offset": 2754,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
       "kind": "IntegerLiteral",
-      "offset": 2252,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2997,
+      "offset": 2782,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 3631,
+      "offset": 2966,
+      "length": 40,
+      "value": "\"Syncing process: progress \""
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3000,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 3004,
+      "length": 1,
+      "value": "\"%\""
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 3306,
+      "length": 26,
+      "value": "\"Syncing process: success\""
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 3493,
+      "length": 25,
+      "value": "\"Syncing process: failed\""
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 3912,
+      "length": 64,
+      "value": "\"Syncing process: facts state for flyreel \""
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 3967,
+      "length": 7,
+      "value": "\" cleared\""
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4122,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 4756,
       "length": 5,
       "value": "\"mp4\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3724,
-      "length": 5,
-      "value": "false"
+      "kind": "StringLiteral",
+      "offset": 4803,
+      "length": 39,
+      "value": "\"Syncing process: cached video message\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
       "kind": "BooleanLiteral",
-      "offset": 4336,
+      "offset": 4945,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 4507,
+      "offset": 5428,
+      "length": 39,
+      "value": "\"Syncing process: video upload success\""
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5677,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 5848,
       "length": 30,
       "value": "\"This file was already cached\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5005,
-      "length": 5,
-      "value": "false"
+      "kind": "StringLiteral",
+      "offset": 6030,
+      "length": 39,
+      "value": "\"Syncing process: cached image message\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
       "kind": "BooleanLiteral",
-      "offset": 5617,
+      "offset": 6442,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 5788,
+      "offset": 6925,
+      "length": 39,
+      "value": "\"Syncing process: image upload success\""
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7174,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 7345,
       "length": 30,
       "value": "\"This file was already cached\""
     },
@@ -8671,15 +8846,8 @@
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/FileUploader.swift",
-      "kind": "StringLiteral",
-      "offset": 2523,
-      "length": 17,
-      "value": "\"www.fakeurl.com\""
-    },
-    {
-      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/FileUploader.swift",
       "kind": "FloatLiteral",
-      "offset": 3276,
+      "offset": 3331,
       "length": 5,
       "value": "100.0"
     },
@@ -10287,6 +10455,13 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Utils\/Adapters\/SystemFileManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 646,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/DIContainer.swift",
       "kind": "IntegerLiteral",
       "offset": 2403,
@@ -10380,91 +10555,91 @@
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/DIContainer.swift",
       "kind": "StringLiteral",
-      "offset": 13728,
+      "offset": 13949,
       "length": 19,
       "value": "\"onboarding_page_1\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/DIContainer.swift",
       "kind": "IntegerLiteral",
-      "offset": 13985,
+      "offset": 14206,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/DIContainer.swift",
       "kind": "StringLiteral",
-      "offset": 14255,
+      "offset": 14476,
       "length": 19,
       "value": "\"onboarding_page_2\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/DIContainer.swift",
       "kind": "IntegerLiteral",
-      "offset": 14512,
+      "offset": 14733,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/DIContainer.swift",
       "kind": "IntegerLiteral",
-      "offset": 14575,
+      "offset": 14796,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/DIContainer.swift",
       "kind": "StringLiteral",
-      "offset": 14828,
+      "offset": 15049,
       "length": 19,
       "value": "\"onboarding_page_4\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/DIContainer.swift",
       "kind": "IntegerLiteral",
-      "offset": 15087,
+      "offset": 15308,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/DIContainer.swift",
       "kind": "StringLiteral",
-      "offset": 15408,
+      "offset": 15629,
       "length": 19,
       "value": "\"onboarding_page_1\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/DIContainer.swift",
       "kind": "IntegerLiteral",
-      "offset": 15665,
+      "offset": 15886,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/DIContainer.swift",
       "kind": "StringLiteral",
-      "offset": 15935,
+      "offset": 16156,
       "length": 19,
       "value": "\"onboarding_page_2\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/DIContainer.swift",
       "kind": "IntegerLiteral",
-      "offset": 16192,
+      "offset": 16413,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/DIContainer.swift",
       "kind": "StringLiteral",
-      "offset": 16462,
+      "offset": 16683,
       "length": 19,
       "value": "\"onboarding_page_4\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/DIContainer.swift",
       "kind": "IntegerLiteral",
-      "offset": 16721,
+      "offset": 16942,
       "length": 1,
       "value": "2"
     },
@@ -10638,71 +10813,78 @@
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5784,
+      "length": 31,
+      "value": "\"Cannot start the conversation\""
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 6611,
+      "offset": 6686,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6905,
+      "offset": 6980,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 6941,
+      "offset": 7016,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 7317,
+      "offset": 7392,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 7969,
+      "offset": 8044,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 8031,
+      "offset": 8106,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 8119,
+      "offset": 8194,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 8661,
+      "offset": 8736,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 8787,
+      "offset": 8862,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 9798,
+      "offset": 9873,
       "length": 5,
       "value": "false"
     },
@@ -10716,261 +10898,268 @@
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 11023,
+      "offset": 11098,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 11729,
+      "offset": 11804,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 12053,
+      "offset": 12128,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 12066,
+      "offset": 12141,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 12102,
+      "offset": 12177,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 12251,
+      "offset": 12326,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 12298,
+      "offset": 12373,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 12343,
+      "offset": 12418,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 12642,
+      "offset": 12717,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 12869,
+      "offset": 12944,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 13010,
+      "offset": 13085,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 13131,
+      "offset": 13206,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 13703,
+      "offset": 13778,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 14024,
+      "offset": 14099,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 14037,
+      "offset": 14112,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 14073,
+      "offset": 14148,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 14225,
+      "offset": 14300,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 14272,
+      "offset": 14347,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 14317,
+      "offset": 14392,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 14613,
+      "offset": 14688,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 14837,
+      "offset": 14912,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 14978,
+      "offset": 15053,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 15099,
+      "offset": 15174,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 15671,
+      "offset": 15746,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 15996,
+      "offset": 16071,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 16269,
+      "offset": 16344,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 17052,
+      "offset": 17143,
       "length": 41,
       "value": "\"Unknown case of UIImagePickerController\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 17785,
+      "offset": 17876,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 18146,
+      "offset": 18237,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 18328,
+      "offset": 18419,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 18444,
+      "offset": 18535,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 20166,
+      "offset": 20257,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 21069,
+      "offset": 21160,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 21787,
+      "offset": 21878,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 23341,
+      "offset": 23432,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 23902,
+      "offset": 23993,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 24374,
+      "offset": 24465,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/FlyreelObjectService.swift",
+      "kind": "StringLiteral",
+      "offset": 1234,
+      "length": 31,
+      "value": "\"Unable to get flyreel object:\""
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/RequestLocationPermissionUseCase.swift",
@@ -11055,13 +11244,6 @@
       "offset": 984,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/ImageLoader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 728,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Networking\/Utils\/DynamicValue.swift",
@@ -11807,22 +11989,36 @@
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Bot\/AnswerService.swift",
+      "kind": "StringLiteral",
+      "offset": 907,
+      "length": 50,
+      "value": "\"Unable to submit an answer, saving it to a cache\""
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Bot\/AnswerService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1056,
+      "offset": 1220,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Bot\/AnswerService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1143,
+      "offset": 1307,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Bot\/AnswerService.swift",
+      "kind": "Array",
+      "offset": 1768,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Bot\/AnswerService.swift",
       "kind": "BooleanLiteral",
-      "offset": 3085,
+      "offset": 3337,
       "length": 4,
       "value": "true"
     },
@@ -11985,7 +12181,7 @@
       "kind": "FloatLiteral",
       "offset": 647,
       "length": 3,
-      "value": "0.9"
+      "value": "0.8"
     },
     {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/UploadPhotoUseCase.swift",
