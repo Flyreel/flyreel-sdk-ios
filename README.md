@@ -9,7 +9,7 @@
 Add `pod Flyreel` to your Podfile
 
 ```
-pod Flyreel
+pod 'Flyreel'
 ```
 
 ### Swift Package Manager
