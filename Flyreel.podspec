@@ -3,6 +3,7 @@ Pod::Spec.new do |spec|
   spec.name         = "Flyreel"
   spec.version      = "1.0.0"
   spec.summary      = "Flyreel SDK."
+  spec.homepage     = "https://risk.lexisnexis.com/products/flyreel"
 
   spec.license      = {
     :type => 'MIT',
