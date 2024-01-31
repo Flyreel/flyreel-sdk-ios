@@ -9776,6 +9776,13 @@
       "value": "1"
     },
     {
+      "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/ConfigurationService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 689,
+      "length": 1,
+      "value": "3"
+    },
+    {
       "filePath": "\/Users\/wojciks0\/Desktop\/dev\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/OnboardingFlow\/OnboardingFlowViewController.swift",
       "kind": "StringLiteral",
       "offset": 823,
