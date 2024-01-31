@@ -13,6 +13,7 @@ import Swift
 import SwiftUI
 import UIKit
 import UserNotifications
+import WebKit
 import _AVKit_SwiftUI
 import _Concurrency
 import _StringProcessing
