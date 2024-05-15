@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		f5RUTLjiuhJC890QGU5j4FRRT+Q=
+		8fnveXFJyUd9qGYzpk9Gc3NXkuk=
 		</data>
 		<key>Headers/Flyreel-Swift.h</key>
 		<data>
-		Ewr+axMu7pHUfXhz80X8XUjcA/w=
+		uJDk6EFqZJF3qh4SS6CTyCmPHdw=
 		</data>
 		<key>Headers/Flyreel.h</key>
 		<data>
@@ -18,27 +18,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kPthO9/B7M6gImtyNgLASMc9JlQ=
+		1R9MGVlZLo9GL+AWkhIOkkOCOpo=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ws4ducuc2HKn28636phj+IUj2iY=
+		qQn7GwQaaNA539+5xNKwAEeSIqw=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		NnpZs5qvds5lCPFFlsmEcOnniX0=
+		kY1qJiPTq6o5e+Q7hIBoO+NLJgI=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		7Q+LeRbqRmXJyTnPanBJKhE8+WQ=
+		Nb8wV895/0J9j+DnJi14/1rSFoE=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		NnpZs5qvds5lCPFFlsmEcOnniX0=
+		kY1qJiPTq6o5e+Q7hIBoO+NLJgI=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		RNM7eAJ4gs4GNMIUb62ZI869LP0=
+		sYbL6Uzm+QTYdRhnFt1nYUTN1Bo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,14 +51,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZmVaPkp8ZsqCE0UnmlPx5xbOJARD/yqC/Ao7Bq8cDzA=
+			5UzE/Jdu+McWipRv1YH+FXNFU7/jw7c7yuPj9eBLG34=
 			</data>
 		</dict>
 		<key>Headers/Flyreel-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gCgjMFocCAWeJwOqkxehCvvVsZ53MUhHJ+356IBgFzc=
+			26GPkWTvvigG2es56SdjTUHcNoFfoDMVN4LM9J8xiEI=
 			</data>
 		</dict>
 		<key>Headers/Flyreel.h</key>
@@ -72,35 +72,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mcHtrCs25Hpbn3sUoy1O1zFvBsryKOKj/gfiyTV0DsI=
+			Fu/0ncQAAifPGkRANRt8kAfRNma5lkan0+szqX6gDUs=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			88rVIqGJtcnkbnZe7LQV918C+0Vjyb0idyr2ZW/9JRc=
+			ZE9Jc0FRenwp9ogwVwoCJpO6OUQ/4SK4pBaD5LcJFDY=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vF2/BobWKm9G/tDyu1lPYN9O7edpJpap07NrccL1qHI=
+			hRqHtLI9CRYQhpOidk7ILaWNj5JqPCnvnMpXPxfA4lU=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			88rVIqGJtcnkbnZe7LQV918C+0Vjyb0idyr2ZW/9JRc=
+			ZE9Jc0FRenwp9ogwVwoCJpO6OUQ/4SK4pBaD5LcJFDY=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cC6gWtmOrp45/U5PV/Sl4jBJzmMV3zDHUwgcc5afyYw=
+			wD1Gg8O9cJCnSzgFZgtPXTa8CyxzkayMX7IgLT11auc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
