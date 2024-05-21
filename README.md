@@ -132,3 +132,13 @@ let configuration = FlyreelConfiguration(
         
 FlyreelSDK.shared.set(configuration: configuration)
 ```
+
+## Firewall whitelisting
+
+Here is a list of Flyreel's hosts in case you need to whitelist URLs.
+
+```
+api3.flyreel.co
+sandbox.api3.flyreel.co
+```
+
