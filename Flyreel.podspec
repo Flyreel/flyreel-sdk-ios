@@ -42,4 +42,6 @@ SOFTWARE.
 
   spec.pod_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
 
+  spec.dependency "FlyreelCamera", "~> 0.0.1"
+
 end
