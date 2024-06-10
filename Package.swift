@@ -9,14 +9,24 @@ let package = Package(
     products: [
         .library(
             name: "Flyreel",
-            targets: ["Flyreel"]
+            targets: ["FlyreelTargets"]
         ),
     ],
-    dependencies: [],
+    dependencies: [
+        .package(url: "https://github.com/Flyreel/flyreel-camera-ios", exact: "0.0.1")
+    ],
     targets: [
         .binaryTarget(
             name: "Flyreel",
             path: "Flyreel.xcframework"
+        ),
+        .target(
+            name: "FlyreelTargets",
+            dependencies: [
+                .target(name: "Flyreel"),
+                .product(name: "FlyreelCamera", package: "flyreel-camera-ios")
+            ],
+            path: "Sources"
         )
     ]
 )
