@@ -21,6 +21,11 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os.log
 import os
+public enum FlyreelError : Swift.Error {
+  case apiError(message: Swift.String, code: Swift.Int)
+  case networkError
+  case unknown
+}
 public enum FlyreelEnvironment {
   case sandbox
   case production
@@ -29,9 +34,6 @@ public enum FlyreelEnvironment {
   public var hashValue: Swift.Int {
     get
   }
-}
-public struct FlyreelConfiguration {
-  public init(settingsVersion: Swift.String, organizationId: Swift.String, environment: Flyreel.FlyreelEnvironment = .production)
 }
 @_hasMissingDesignatedInitializers final public class FlyreelSDK {
   final public var configuration: Flyreel.FlyreelConfiguration {
@@ -45,6 +47,10 @@ public struct FlyreelConfiguration {
 extension Flyreel.FlyreelSDK {
   final public func set(configuration: Flyreel.FlyreelConfiguration)
   final public func enableLogs()
+  final public func fetchFlyreelStatus(zipCode: Swift.String, accessCode: Swift.String, completion: @escaping (Swift.Result<Flyreel.FlyreelStatus, Flyreel.FlyreelError>) -> Swift.Void)
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func fetchFlyreelStatus(zipCode: Swift.String, accessCode: Swift.String) async throws -> Flyreel.FlyreelStatus
+  #endif
 }
 extension Flyreel.FlyreelSDK {
   final public func presentFlyreel(on rootViewController: UIKit.UIViewController, animated: Swift.Bool = true)
@@ -58,6 +64,14 @@ extension SwiftUI.View {
   
   public func presentFlyreel(isPresented: SwiftUI.Binding<Swift.Bool>, flyreel: Flyreel.FlyreelSDK = .shared, deepLinkURL: Foundation.URL, shouldSkipLoginPage: Swift.Bool = true) -> some SwiftUI.View
   
+}
+public struct FlyreelConfiguration {
+  public init(settingsVersion: Swift.String, organizationId: Swift.String, environment: Flyreel.FlyreelEnvironment = .production)
+}
+public struct FlyreelStatus {
+  public let status: Swift.String
+  public let expiration: Swift.String
+  public init(status: Swift.String, expiration: Swift.String)
 }
 extension Flyreel.FlyreelEnvironment : Swift.Equatable {}
 extension Flyreel.FlyreelEnvironment : Swift.Hashable {}
