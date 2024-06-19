@@ -119,6 +119,17 @@ Enable debug logging for troubleshooting purposes:
 FlyreelSDK.shared.enableLogs()
 ````
 
+## Flyreel status check
+You can manually check Flyreel status 
+```swift
+///This function makes a network request to retrieve the status of Flyreel for the specified zip code and access code
+func fetchFlyreelStatus(zipCode: String, accessCode: String, completion: @escaping (Result<FlyreelStatus, FlyreelError>) -> Void)
+
+// or async version 
+func fetchFlyreelStatus(zipCode: String, accessCode: String) async throws -> FlyreelStatus
+```
+
+
 ## Sandbox
 
 Verify your implementation in the sandbox mode. Switch the environment with the configuration:
