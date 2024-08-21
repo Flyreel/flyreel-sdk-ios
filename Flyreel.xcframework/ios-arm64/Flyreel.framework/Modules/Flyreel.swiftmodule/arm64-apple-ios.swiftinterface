@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Flyreel
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Flyreel
 import AVFoundation
 import AVKit
 import Combine
@@ -21,6 +20,10 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os.log
 import os
+public struct FlyreelCoordinate {
+  public let lat: Swift.Double
+  public let lng: Swift.Double
+}
 public enum FlyreelError : Swift.Error {
   case apiError(message: Swift.String, code: Swift.Int)
   case networkError
@@ -47,6 +50,7 @@ public enum FlyreelEnvironment {
 extension Flyreel.FlyreelSDK {
   final public func set(configuration: Flyreel.FlyreelConfiguration)
   final public func enableLogs()
+  final public func observeAnalyticEvents(_ handler: @escaping (Flyreel.FlyreelAnalyticEvent) -> Swift.Void)
   final public func fetchFlyreelStatus(zipCode: Swift.String, accessCode: Swift.String, completion: @escaping (Swift.Result<Flyreel.FlyreelStatus, Flyreel.FlyreelError>) -> Swift.Void)
   #if compiler(>=5.3) && $AsyncAwait
   final public func fetchFlyreelStatus(zipCode: Swift.String, accessCode: Swift.String) async throws -> Flyreel.FlyreelStatus
@@ -65,8 +69,39 @@ extension SwiftUI.View {
   public func presentFlyreel(isPresented: SwiftUI.Binding<Swift.Bool>, flyreel: Flyreel.FlyreelSDK = .shared, deepLinkURL: Foundation.URL, shouldSkipLoginPage: Swift.Bool = true) -> some SwiftUI.View
   
 }
+public struct FlyreelAnalyticEvent {
+  public let timestamp: Foundation.Date
+  public let trigger: Flyreel.FlyreelAnalyticEvent.Trigger
+  public var eventName: Swift.String {
+    get
+  }
+}
+extension Flyreel.FlyreelAnalyticEvent {
+  public enum Trigger {
+    case userLoggedIn(status: Swift.String, deviceData: Flyreel.FlyreelDeviceData, location: Flyreel.FlyreelCoordinate?)
+    case questionAsked(activeTime: Foundation.TimeInterval)
+    case questionAnswered(activeTime: Foundation.TimeInterval, location: Flyreel.FlyreelCoordinate?)
+    case flyreelCompleted(activeTime: Foundation.TimeInterval)
+  }
+}
+public struct FlyreelDeviceData {
+  public let phoneModel: Swift.String?
+  public let appVersion: Swift.String?
+  public let appName: Swift.String?
+}
+public struct FlyreelView : SwiftUI.View {
+  public init(flyreelSDK: Flyreel.FlyreelSDK = .shared)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s7Flyreel0A4ViewV4bodyQrvp", 0) __
+}
+
 public struct FlyreelConfiguration {
   public init(settingsVersion: Swift.String, organizationId: Swift.String, environment: Flyreel.FlyreelEnvironment = .production)
+}
+@_hasMissingDesignatedInitializers public class DefaultAnalyticsFeedService {
+  @objc deinit
 }
 public struct FlyreelStatus {
   public let status: Swift.String
