@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		K+ts9Vj+pVphqdwOVwzYroeXHhA=
+		8fnveXFJyUd9qGYzpk9Gc3NXkuk=
 		</data>
 		<key>Headers/Flyreel-Swift.h</key>
 		<data>
-		P8jRxOe02pnCJFsuhKopsJG1lRs=
+		9Q6CrSabJNb5VRtqjS9q2tDseiw=
 		</data>
 		<key>Headers/Flyreel.h</key>
 		<data>
@@ -18,47 +18,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Zt8t78njNXTUOU4+IIClm6S1ikU=
+		0M6cqTrWNSzKrIYUZLJtHU2YRv8=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		gbKQNjJQTbr0CF6i6Xe9lYMFAyo=
+		kCa9nZfcQdDxvJd5yvd/tRiwub0=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		7xeX6dfETRU1Lw9vObFflH/8EXE=
+		Fm5Oz2soKaHMUe0adsRI0zsWPjI=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		VYlgikiYWtxW9ZZEL5u8hG3Mx50=
+		BHdpSONc8ZLsSWR77gZBLvbfdck=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		7xeX6dfETRU1Lw9vObFflH/8EXE=
+		Fm5Oz2soKaHMUe0adsRI0zsWPjI=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vrTqx+qTisyeZuzITyvfa/+MC34=
+		A2ILClHN//GcpZ/RIiFa1+H5aeY=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		gbKQNjJQTbr0CF6i6Xe9lYMFAyo=
+		kCa9nZfcQdDxvJd5yvd/tRiwub0=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		xq0naC4Db8muIJdl11ORxQAV4BI=
+		qkkzuA/J8IC0N4Sz+cHk+vE4XZ4=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		R7CrR0Pngz4aLNQ6UDcCqMEzz3w=
+		jvolIJV5FSt8ZDdNSj8YpC8a2hg=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		xq0naC4Db8muIJdl11ORxQAV4BI=
+		qkkzuA/J8IC0N4Sz+cHk+vE4XZ4=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qjPQqgMqCG+Ugtdpr3/9DrpSuuo=
+		5yD1z6g6YKvfW5shNA++rgAlUU8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aMmKAikAcvFz7Cm3L/o0qZdJI94ny9QtA2cfShZvPac=
+			5UzE/Jdu+McWipRv1YH+FXNFU7/jw7c7yuPj9eBLG34=
 			</data>
 		</dict>
 		<key>Headers/Flyreel-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/JKxj4vr/imedku4MK9DuDw75w2VHY1tRAIVwa3Zy7Q=
+			6rBzHzAHvvgoiHs16a5VtDVNmpW4dfOEHMNCeHOLdOQ=
 			</data>
 		</dict>
 		<key>Headers/Flyreel.h</key>
@@ -92,70 +92,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WcD1yYvfNwaLreg8jVQupf0/Q2lZc+Wjxt4q9Bph9jk=
+			jrXf9RTbuusbDcCGA1fKAuLq6bysSZ/sIOBdGaBiZwY=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mpNKgYFSi2Qpodm0Ld2t0Pes+okAmrJDHXKNpdBG+mw=
+			3DItgyxDmLCmekDetbSus1x5aDx9FSGc8B1tsMO4TwY=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NQWdUa9aBtEqF4ABe+1xlcIAKPtyI3l6eWQBLksnyAA=
+			JI+Ob8YlLbEQBNBpL5th2IkMCLTVFcF9Kay/3dyUNYs=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mpNKgYFSi2Qpodm0Ld2t0Pes+okAmrJDHXKNpdBG+mw=
+			3DItgyxDmLCmekDetbSus1x5aDx9FSGc8B1tsMO4TwY=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gn+kKiV1zmyMNZY/1Vc3PH7Xq15f4DSv3Crpi2y5ul0=
+			dRMB0VxL8ejXW9yEpM+RSnGVQj0tdscst6fnCL0kH6U=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WcD1yYvfNwaLreg8jVQupf0/Q2lZc+Wjxt4q9Bph9jk=
+			jrXf9RTbuusbDcCGA1fKAuLq6bysSZ/sIOBdGaBiZwY=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			acPU/wFWPCW5rUBEcy77hsetrAVt1F823/ncArzZJB0=
+			PE388MlrOJ+gxAZOwHB1GFIwT+9VO8DuijvslDRVfsM=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qXcTufwt31bY48RDmz3JF1VzuOODHGL66d3/GniaBIw=
+			06I7oXi7zVnNzKExPmOMMUYw+BpOMnhRgd8Yj18Qsfo=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			acPU/wFWPCW5rUBEcy77hsetrAVt1F823/ncArzZJB0=
+			PE388MlrOJ+gxAZOwHB1GFIwT+9VO8DuijvslDRVfsM=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OVHeyAVPj3+/MsAp7jYwZ/HXqq20BAw5+6ADGhlkiig=
+			TdHFtpiKAIz6V2/PGuBmDexv+p4H69s0Pel5Qt+iFig=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
