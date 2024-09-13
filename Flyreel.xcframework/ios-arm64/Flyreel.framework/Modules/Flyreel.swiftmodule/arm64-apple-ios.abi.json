@@ -3113,7 +3113,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(flyreelSDK:)",
+            "printedName": "init(flyreelSDK:deepLinkURL:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3127,11 +3127,26 @@
                 "printedName": "Flyreel.FlyreelSDK",
                 "hasDefaultArg": true,
                 "usr": "s:7Flyreel0A3SDKC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7Flyreel0A4ViewV10flyreelSDKAcA0aD0C_tcfc",
-            "mangledName": "$s7Flyreel0A4ViewV10flyreelSDKAcA0aD0C_tcfc",
+            "usr": "s:7Flyreel0A4ViewV10flyreelSDK11deepLinkURLAcA0aD0C_10Foundation0G0VSgtcfc",
+            "mangledName": "$s7Flyreel0A4ViewV10flyreelSDK11deepLinkURLAcA0aD0C_10Foundation0G0VSgtcfc",
             "moduleName": "Flyreel",
             "declAttributes": [
               "AccessControl",
@@ -8225,14 +8240,14 @@
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/FlyreelView.swift",
       "kind": "StringLiteral",
-      "offset": 1822,
+      "offset": 2300,
       "length": 4,
       "value": "\"40\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/FlyreelView.swift",
       "kind": "StringLiteral",
-      "offset": 1852,
+      "offset": 2330,
       "length": 26,
       "value": "\"5d3633f9103a930011996475\""
     },

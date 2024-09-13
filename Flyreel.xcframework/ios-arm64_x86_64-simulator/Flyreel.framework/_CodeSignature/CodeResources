@@ -22,43 +22,43 @@
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		kCa9nZfcQdDxvJd5yvd/tRiwub0=
+		QjyAMcWdDdt3LNtpkZTIUw4s5nM=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Fm5Oz2soKaHMUe0adsRI0zsWPjI=
+		fq53xLFMVYtfujk3ba5APwbzM1g=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		BHdpSONc8ZLsSWR77gZBLvbfdck=
+		cGkq160w2gqcoo4nzBFvBEH9cqo=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Fm5Oz2soKaHMUe0adsRI0zsWPjI=
+		fq53xLFMVYtfujk3ba5APwbzM1g=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		g+8XfkFEnGXJxFm/LuQDB0QT6Ls=
+		Yz2pb072audAsmgz8bXBeRRnn0A=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		kCa9nZfcQdDxvJd5yvd/tRiwub0=
+		QjyAMcWdDdt3LNtpkZTIUw4s5nM=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		qkkzuA/J8IC0N4Sz+cHk+vE4XZ4=
+		2UCm/dcfN3Y8Bjtuyqt0OScAMn8=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		jvolIJV5FSt8ZDdNSj8YpC8a2hg=
+		RrF3lSQ3jd06cQQ52+MHV5Zpb4Y=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		qkkzuA/J8IC0N4Sz+cHk+vE4XZ4=
+		2UCm/dcfN3Y8Bjtuyqt0OScAMn8=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6BWU7reiAHjXn23q90tWMwUFeQ8=
+		jZO8q3Fp5z2lKX4ql7DXLoyeIU8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -92,70 +92,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jrXf9RTbuusbDcCGA1fKAuLq6bysSZ/sIOBdGaBiZwY=
+			EazPRkSYfaoetiImh+oxjnH4SbgGlOXw1qZGaKvdSpw=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3DItgyxDmLCmekDetbSus1x5aDx9FSGc8B1tsMO4TwY=
+			KRlsILjWcGr3Z6L0i+pzIB/Gayr23FOpHq2LdUYMDIk=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JI+Ob8YlLbEQBNBpL5th2IkMCLTVFcF9Kay/3dyUNYs=
+			+1Z8xBbW93vIt8jd4tzk3rWA0Tpdweg+kccI9UoJ5+I=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3DItgyxDmLCmekDetbSus1x5aDx9FSGc8B1tsMO4TwY=
+			KRlsILjWcGr3Z6L0i+pzIB/Gayr23FOpHq2LdUYMDIk=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0HcnHpLKb4p4eNSbfClDaTY4HnaqisQjW2gI/IFLBwg=
+			J93MmprtHspoEQ7xTx8eRG6Py6QkqTYiaXgORF8tkP8=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jrXf9RTbuusbDcCGA1fKAuLq6bysSZ/sIOBdGaBiZwY=
+			EazPRkSYfaoetiImh+oxjnH4SbgGlOXw1qZGaKvdSpw=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PE388MlrOJ+gxAZOwHB1GFIwT+9VO8DuijvslDRVfsM=
+			qbTXuxXBMICGIbJOlM7H1+PtCe3rxAQuI8osxC+HT/0=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			06I7oXi7zVnNzKExPmOMMUYw+BpOMnhRgd8Yj18Qsfo=
+			bUGYPeFmPDsDc0tUqL8whHAUtNmh8RZredAExVQNpF4=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PE388MlrOJ+gxAZOwHB1GFIwT+9VO8DuijvslDRVfsM=
+			qbTXuxXBMICGIbJOlM7H1+PtCe3rxAQuI8osxC+HT/0=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cdQxU1/yuYelO6o8Y4Cc7gvVwRpLNP0GoSRpziSAhwQ=
+			W9U5bwsl9gi/b5X1feU3vcw7nFEnO1PW8m3AHlkCSbg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

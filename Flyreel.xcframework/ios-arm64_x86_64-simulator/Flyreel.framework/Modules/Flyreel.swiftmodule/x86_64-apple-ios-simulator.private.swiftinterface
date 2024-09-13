@@ -98,7 +98,7 @@ public struct FlyreelDeviceData {
   public let appName: Swift.String?
 }
 public struct FlyreelView : SwiftUI.View {
-  public init(flyreelSDK: Flyreel.FlyreelSDK = .shared)
+  public init(flyreelSDK: Flyreel.FlyreelSDK = .shared, deepLinkURL: Foundation.URL? = nil)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
