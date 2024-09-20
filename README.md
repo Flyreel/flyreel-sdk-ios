@@ -129,6 +129,22 @@ func fetchFlyreelStatus(zipCode: String, accessCode: String, completion: @escapi
 func fetchFlyreelStatus(zipCode: String, accessCode: String) async throws -> FlyreelStatus
 ```
 
+## Analytics
+
+```swift
+/// Subscribes to a stream of analytic events and handles each event with a provided closure.
+///
+/// This function observes a feed of analytic events from the SDK. When an event
+/// is received, the provided handler closure is called with the event as its argument.
+///
+/// - Parameters:
+///   - handler: A closure that is called with the analytic event emitted by the SDK.
+///     The closure takes a single parameter:
+///       - event: A `FlyreelAnalyticEvent` type that contains event's data.
+FlyreelSDK.shared.observeAnalyticEvents() { event in
+    YourAnalyticProvider.send(event)
+}
+```
 
 ## Sandbox
 

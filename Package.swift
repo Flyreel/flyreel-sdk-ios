@@ -13,7 +13,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/Flyreel/flyreel-camera-ios", exact: "0.0.1")
+        .package(url: "https://github.com/Flyreel/flyreel-camera-ios", exact: "0.0.2")
     ],
     targets: [
         .binaryTarget(
