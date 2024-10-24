@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/wojciks0/Library/Developer/Xcode/DerivedData/Flyreel-frqbntavqajwpwdbazombwdyzgyx/Build/Intermediates.noindex/ArchiveIntermediates/Flyreel/InstallationBuildProductsLocation/Library/Frameworks/Flyreel.framework/Flyreel'
+binary-path:     '/Users/webbbr01/Library/Developer/Xcode/DerivedData/Flyreel-ckdphqmyniwunvgabwygwgsuounp/Build/Intermediates.noindex/ArchiveIntermediates/Flyreel/InstallationBuildProductsLocation/Library/Frameworks/Flyreel.framework/Flyreel'
 relocations:
   - { offset: 0x7B7B4, size: 0x8, addend: 0x0, symName: _FlyreelVersionString, symObjAddr: 0x0, symBinAddr: 0xF3D60, symSize: 0x0 }
   - { offset: 0x7B7E9, size: 0x8, addend: 0x0, symName: _FlyreelVersionNumber, symObjAddr: 0x28, symBinAddr: 0xF3D88, symSize: 0x0 }
@@ -483,7 +483,7 @@ relocations:
   - { offset: 0x8C020, size: 0x8, addend: 0x0, symName: '_$s7Flyreel27DefaultVideoThumbnailLoaderC05cacheD033_EF8DA531DAB6534DBAED6D027F685C94LL_0F3URLySo7UIImageC_10Foundation0N0VtF', symObjAddr: 0x4C, symBinAddr: 0x1FA50, symSize: 0x224 }
   - { offset: 0x8C0DF, size: 0x8, addend: 0x0, symName: '_$s7Flyreel27DefaultVideoThumbnailLoaderCfD', symObjAddr: 0x8, symBinAddr: 0x1FA0C, symSize: 0x24 }
   - { offset: 0x8C30F, size: 0x8, addend: 0x0, symName: '_$s10Foundation11JSONDecoderC7FlyreelE13simpleDecoder_WZ', symObjAddr: 0x0, symBinAddr: 0x1FC74, symSize: 0xEC }
-  - { offset: 0x8C333, size: 0x8, addend: 0x0, symName: '_$s10Foundation11JSONDecoderC7FlyreelE13simpleDecoderACvpZ', symObjAddr: 0x2958, symBinAddr: 0x14D298, symSize: 0x0 }
+  - { offset: 0x8C333, size: 0x8, addend: 0x0, symName: '_$s10Foundation11JSONDecoderC7FlyreelE13simpleDecoderACvpZ', symObjAddr: 0x2950, symBinAddr: 0x14D298, symSize: 0x0 }
   - { offset: 0x8C36F, size: 0x8, addend: 0x0, symName: '_$s10Foundation11JSONDecoderC7FlyreelE13simpleDecoder_WZ', symObjAddr: 0x0, symBinAddr: 0x1FC74, symSize: 0xEC }
   - { offset: 0x8C980, size: 0x8, addend: 0x0, symName: '_$s7Flyreel3DTOO014BotAnswerValueB0OWOb', symObjAddr: 0x145C, symBinAddr: 0x21168, symSize: 0x3C }
   - { offset: 0x8C994, size: 0x8, addend: 0x0, symName: '_$s7Flyreel3DTOO018BotFirestoreAnswerB0VMa', symObjAddr: 0x15E0, symBinAddr: 0x212EC, symSize: 0x3C }
@@ -654,7 +654,7 @@ relocations:
   - { offset: 0x8FCC9, size: 0x8, addend: 0x0, symName: '_$s7Flyreel42DefaultGetConversationStartingPointUseCaseC7execute7Combine12AnyPublisherVyAA0deF0Os5NeverOGyFALSbcfU_AISbcfU_', symObjAddr: 0x570, symBinAddr: 0x25C74, symSize: 0x14 }
   - { offset: 0x8FD17, size: 0x8, addend: 0x0, symName: '_$s7Flyreel42DefaultGetConversationStartingPointUseCaseCfD', symObjAddr: 0x584, symBinAddr: 0x25C88, symSize: 0x58 }
   - { offset: 0x8FEF7, size: 0x8, addend: 0x0, symName: '_$sSo15NSDateFormatterC7FlyreelE07backendB0_WZ', symObjAddr: 0x0, symBinAddr: 0x26164, symSize: 0x78 }
-  - { offset: 0x8FF1B, size: 0x8, addend: 0x0, symName: '_$sSo15NSDateFormatterC7FlyreelE07backendB0ABvpZ', symObjAddr: 0x2C20, symBinAddr: 0x14D2A0, symSize: 0x0 }
+  - { offset: 0x8FF1B, size: 0x8, addend: 0x0, symName: '_$sSo15NSDateFormatterC7FlyreelE07backendB0ABvpZ', symObjAddr: 0x2C18, symBinAddr: 0x14D2A0, symSize: 0x0 }
   - { offset: 0x8FF46, size: 0x8, addend: 0x0, symName: '_$sSo15NSDateFormatterC7FlyreelE07backendB0_WZ', symObjAddr: 0x0, symBinAddr: 0x26164, symSize: 0x78 }
   - { offset: 0x8FFB8, size: 0x8, addend: 0x0, symName: '_$sSo15NSDateFormatterC7FlyreelE09timestampB013configurationAbC0C15UIConfigurationV_tFZTf4nd_n', symObjAddr: 0x78, symBinAddr: 0x261DC, symSize: 0x174 }
   - { offset: 0x9056F, size: 0x8, addend: 0x0, symName: '_$s7Flyreel12URLImageViewC3url5cache6loaderAC10Foundation3URLV_AA10ImageCache_pAA0I6Loader_ptcfcfA1_', symObjAddr: 0x544, symBinAddr: 0x26894, symSize: 0x12C }
@@ -1271,12 +1271,12 @@ relocations:
   - { offset: 0x9DFD6, size: 0x8, addend: 0x0, symName: '_$sS2Ss7CVarArg10FoundationWl', symObjAddr: 0x9A4, symBinAddr: 0x52B1C, symSize: 0x44 }
   - { offset: 0x9DFEA, size: 0x8, addend: 0x0, symName: '_$sSo9OS_os_logCMa', symObjAddr: 0x9E8, symBinAddr: 0x52B60, symSize: 0x3C }
   - { offset: 0x9E31D, size: 0x8, addend: 0x0, symName: '_$s10Foundation11JSONEncoderC7FlyreelE14regularEncoder_WZ', symObjAddr: 0x0, symBinAddr: 0x52B9C, symSize: 0x3C }
-  - { offset: 0x9E341, size: 0x8, addend: 0x0, symName: '_$s10Foundation11JSONEncoderC7FlyreelE14regularEncoderACvpZ', symObjAddr: 0x29A8, symBinAddr: 0x14D2D0, symSize: 0x0 }
-  - { offset: 0x9E35B, size: 0x8, addend: 0x0, symName: '_$s10Foundation11JSONEncoderC7FlyreelE21richDateFormatEncoderACvpZ', symObjAddr: 0x29B0, symBinAddr: 0x14D2D8, symSize: 0x0 }
+  - { offset: 0x9E341, size: 0x8, addend: 0x0, symName: '_$s10Foundation11JSONEncoderC7FlyreelE14regularEncoderACvpZ', symObjAddr: 0x29A0, symBinAddr: 0x14D2D0, symSize: 0x0 }
+  - { offset: 0x9E35B, size: 0x8, addend: 0x0, symName: '_$s10Foundation11JSONEncoderC7FlyreelE21richDateFormatEncoderACvpZ', symObjAddr: 0x29A8, symBinAddr: 0x14D2D8, symSize: 0x0 }
   - { offset: 0x9E376, size: 0x8, addend: 0x0, symName: '_$s10Foundation11JSONEncoderC7FlyreelE14regularEncoder_WZ', symObjAddr: 0x0, symBinAddr: 0x52B9C, symSize: 0x3C }
   - { offset: 0x9E3D9, size: 0x8, addend: 0x0, symName: '_$s10Foundation11JSONEncoderC7FlyreelE21richDateFormatEncoder_WZ', symObjAddr: 0x3C, symBinAddr: 0x52BD8, symSize: 0xA8 }
   - { offset: 0x9E60B, size: 0x8, addend: 0x0, symName: '_$s7Flyreel0A6LoggerO8logError_4file8function4lineys0D0_p_S2SSutFZTf4nnnnd_n', symObjAddr: 0x0, symBinAddr: 0x52C80, symSize: 0x1C0 }
-  - { offset: 0x9E62F, size: 0x8, addend: 0x0, symName: '_$s7Flyreel0A6LoggerO9isEnabledSbvpZ', symObjAddr: 0x31C8, symBinAddr: 0x14D2E0, symSize: 0x0 }
+  - { offset: 0x9E62F, size: 0x8, addend: 0x0, symName: '_$s7Flyreel0A6LoggerO9isEnabledSbvpZ', symObjAddr: 0x31C6, symBinAddr: 0x14D2E0, symSize: 0x0 }
   - { offset: 0x9E700, size: 0x8, addend: 0x0, symName: '_$s7Flyreel0A6LoggerO8logError_4file8function4lineys0D0_p_S2SSutFZTf4nnnnd_n', symObjAddr: 0x0, symBinAddr: 0x52C80, symSize: 0x1C0 }
   - { offset: 0x9E965, size: 0x8, addend: 0x0, symName: '_$s7Flyreel0A10CoordinateV3latSdvg', symObjAddr: 0x0, symBinAddr: 0x52E40, symSize: 0x8 }
   - { offset: 0x9E9B1, size: 0x8, addend: 0x0, symName: '_$s7Flyreel0A10CoordinateVMa', symObjAddr: 0x68, symBinAddr: 0x52E50, symSize: 0x10 }
@@ -1827,7 +1827,7 @@ relocations:
   - { offset: 0xAFB50, size: 0x8, addend: 0x0, symName: '_$s7Flyreel9ToastViewC5frameACSo6CGRectV_tcfcTo', symObjAddr: 0x90C, symBinAddr: 0x6B620, symSize: 0x2C }
   - { offset: 0xAFBAF, size: 0x8, addend: 0x0, symName: '_$s7Flyreel9ToastViewC5coderACSgSo7NSCoderC_tcfcTf4dn_n', symObjAddr: 0xACC, symBinAddr: 0x6B78C, symSize: 0xDC }
   - { offset: 0xAFDCE, size: 0x8, addend: 0x0, symName: '_$s7Flyreel16MemoryImageCacheC6global_WZ', symObjAddr: 0x10, symBinAddr: 0x6B868, symSize: 0x64 }
-  - { offset: 0xAFDF2, size: 0x8, addend: 0x0, symName: '_$s7Flyreel16MemoryImageCacheC6globalAA0cD0_pvpZ', symObjAddr: 0x2DF8, symBinAddr: 0x14D328, symSize: 0x0 }
+  - { offset: 0xAFDF2, size: 0x8, addend: 0x0, symName: '_$s7Flyreel16MemoryImageCacheC6globalAA0cD0_pvpZ', symObjAddr: 0x2DF0, symBinAddr: 0x14D328, symSize: 0x0 }
   - { offset: 0xAFE65, size: 0x8, addend: 0x0, symName: '_$s7Flyreel16MemoryImageCacheC6global_WZ', symObjAddr: 0x10, symBinAddr: 0x6B868, symSize: 0x64 }
   - { offset: 0xAFECE, size: 0x8, addend: 0x0, symName: '_$s7Flyreel16MemoryImageCacheCMa', symObjAddr: 0x98, symBinAddr: 0x6B8CC, symSize: 0x20 }
   - { offset: 0xB010D, size: 0x8, addend: 0x0, symName: '_$s7Flyreel18OnboardingFlowViewC011pageControlD0So06UIPageF0Cvg', symObjAddr: 0x0, symBinAddr: 0x6B8EC, symSize: 0x64 }
@@ -2819,29 +2819,29 @@ relocations:
   - { offset: 0xCF4E8, size: 0x8, addend: 0x0, symName: '_$s7Flyreel3DTOO011AddressDataB0V07DetailsB0V4fromAGs7Decoder_p_tKcfCTf4nd_n', symObjAddr: 0x1100, symBinAddr: 0xA0DF4, symSize: 0x14C }
   - { offset: 0xCF50B, size: 0x8, addend: 0x0, symName: '_$s7Flyreel3DTOO011AddressDataB0V0c9ComponentB0V10CodingKeysO8rawValueAISgSS_tcfCTf4nd_n', symObjAddr: 0x1750, symBinAddr: 0xA130C, symSize: 0x5C }
   - { offset: 0xCF542, size: 0x8, addend: 0x0, symName: '_$s7Flyreel3DTOO011AddressDataB0V0c9ComponentB0V4fromAGs7Decoder_p_tKcfCTf4nd_n', symObjAddr: 0x17AC, symBinAddr: 0xA1368, symSize: 0x25C }
-  - { offset: 0xCF72E, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE18navigationBarColorABvpZ', symObjAddr: 0x4640, symBinAddr: 0x14D390, symSize: 0x0 }
-  - { offset: 0xCF748, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE23navigationBarTitleColorABvpZ', symObjAddr: 0x4648, symBinAddr: 0x14D398, symSize: 0x0 }
-  - { offset: 0xCF762, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE16background1ColorABvpZ', symObjAddr: 0x4650, symBinAddr: 0x14D3A0, symSize: 0x0 }
-  - { offset: 0xCF77C, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE16background2ColorABvpZ', symObjAddr: 0x4658, symBinAddr: 0x14D3A8, symSize: 0x0 }
-  - { offset: 0xCF796, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE16background3ColorABvpZ', symObjAddr: 0x4660, symBinAddr: 0x14D3B0, symSize: 0x0 }
-  - { offset: 0xCF7B0, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE16background4ColorABvpZ', symObjAddr: 0x4668, symBinAddr: 0x14D3B8, symSize: 0x0 }
-  - { offset: 0xCF7CA, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE16background5ColorABvpZ', symObjAddr: 0x4670, symBinAddr: 0x14D3C0, symSize: 0x0 }
-  - { offset: 0xCF7E4, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE10text1ColorABvpZ', symObjAddr: 0x4678, symBinAddr: 0x14D3C8, symSize: 0x0 }
-  - { offset: 0xCF7FE, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE10text2ColorABvpZ', symObjAddr: 0x4680, symBinAddr: 0x14D3D0, symSize: 0x0 }
-  - { offset: 0xCF818, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE10text3ColorABvpZ', symObjAddr: 0x4688, symBinAddr: 0x14D3D8, symSize: 0x0 }
-  - { offset: 0xCF832, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE14timestampColorABvpZ', symObjAddr: 0x4690, symBinAddr: 0x14D3E0, symSize: 0x0 }
-  - { offset: 0xCF84C, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE11shadowColorABvpZ', symObjAddr: 0x4698, symBinAddr: 0x14D3E8, symSize: 0x0 }
-  - { offset: 0xCF866, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE29disabledButtonBackgroundColorABvpZ', symObjAddr: 0x46A0, symBinAddr: 0x14D3F0, symSize: 0x0 }
-  - { offset: 0xCF880, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE23disabledButtonTintColorABvpZ', symObjAddr: 0x46A8, symBinAddr: 0x14D3F8, symSize: 0x0 }
-  - { offset: 0xCF89A, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE10errorColorABvpZ', symObjAddr: 0x46B0, symBinAddr: 0x14D400, symSize: 0x0 }
-  - { offset: 0xCF8B4, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE14errorTintColorABvpZ', symObjAddr: 0x46B8, symBinAddr: 0x14D408, symSize: 0x0 }
-  - { offset: 0xCF8CE, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE31confirmationPageBackgroundColorABvpZ', symObjAddr: 0x46C0, symBinAddr: 0x14D410, symSize: 0x0 }
-  - { offset: 0xCF8E8, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE22botChatBubbleTextColorABvpZ', symObjAddr: 0x46C8, symBinAddr: 0x14D418, symSize: 0x0 }
-  - { offset: 0xCF902, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE28botChatBubbleBackgroundColorABvpZ', symObjAddr: 0x46D0, symBinAddr: 0x14D420, symSize: 0x0 }
-  - { offset: 0xCF91C, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE24enabledActionButtonColorABvpZ', symObjAddr: 0x46D8, symBinAddr: 0x14D428, symSize: 0x0 }
-  - { offset: 0xCF936, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE28enabledActionTextButtonColorABvpZ', symObjAddr: 0x46E0, symBinAddr: 0x14D430, symSize: 0x0 }
-  - { offset: 0xCF950, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE18checkmarkIconColorABvpZ', symObjAddr: 0x46E8, symBinAddr: 0x14D438, symSize: 0x0 }
-  - { offset: 0xCF96A, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE9linkColorABvpZ', symObjAddr: 0x46F0, symBinAddr: 0x14D440, symSize: 0x0 }
+  - { offset: 0xCF72E, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE18navigationBarColorABvpZ', symObjAddr: 0x4630, symBinAddr: 0x14D390, symSize: 0x0 }
+  - { offset: 0xCF748, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE23navigationBarTitleColorABvpZ', symObjAddr: 0x4638, symBinAddr: 0x14D398, symSize: 0x0 }
+  - { offset: 0xCF762, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE16background1ColorABvpZ', symObjAddr: 0x4640, symBinAddr: 0x14D3A0, symSize: 0x0 }
+  - { offset: 0xCF77C, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE16background2ColorABvpZ', symObjAddr: 0x4648, symBinAddr: 0x14D3A8, symSize: 0x0 }
+  - { offset: 0xCF796, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE16background3ColorABvpZ', symObjAddr: 0x4650, symBinAddr: 0x14D3B0, symSize: 0x0 }
+  - { offset: 0xCF7B0, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE16background4ColorABvpZ', symObjAddr: 0x4658, symBinAddr: 0x14D3B8, symSize: 0x0 }
+  - { offset: 0xCF7CA, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE16background5ColorABvpZ', symObjAddr: 0x4660, symBinAddr: 0x14D3C0, symSize: 0x0 }
+  - { offset: 0xCF7E4, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE10text1ColorABvpZ', symObjAddr: 0x4668, symBinAddr: 0x14D3C8, symSize: 0x0 }
+  - { offset: 0xCF7FE, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE10text2ColorABvpZ', symObjAddr: 0x4670, symBinAddr: 0x14D3D0, symSize: 0x0 }
+  - { offset: 0xCF818, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE10text3ColorABvpZ', symObjAddr: 0x4678, symBinAddr: 0x14D3D8, symSize: 0x0 }
+  - { offset: 0xCF832, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE14timestampColorABvpZ', symObjAddr: 0x4680, symBinAddr: 0x14D3E0, symSize: 0x0 }
+  - { offset: 0xCF84C, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE11shadowColorABvpZ', symObjAddr: 0x4688, symBinAddr: 0x14D3E8, symSize: 0x0 }
+  - { offset: 0xCF866, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE29disabledButtonBackgroundColorABvpZ', symObjAddr: 0x4690, symBinAddr: 0x14D3F0, symSize: 0x0 }
+  - { offset: 0xCF880, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE23disabledButtonTintColorABvpZ', symObjAddr: 0x4698, symBinAddr: 0x14D3F8, symSize: 0x0 }
+  - { offset: 0xCF89A, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE10errorColorABvpZ', symObjAddr: 0x46A0, symBinAddr: 0x14D400, symSize: 0x0 }
+  - { offset: 0xCF8B4, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE14errorTintColorABvpZ', symObjAddr: 0x46A8, symBinAddr: 0x14D408, symSize: 0x0 }
+  - { offset: 0xCF8CE, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE31confirmationPageBackgroundColorABvpZ', symObjAddr: 0x46B0, symBinAddr: 0x14D410, symSize: 0x0 }
+  - { offset: 0xCF8E8, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE22botChatBubbleTextColorABvpZ', symObjAddr: 0x46B8, symBinAddr: 0x14D418, symSize: 0x0 }
+  - { offset: 0xCF902, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE28botChatBubbleBackgroundColorABvpZ', symObjAddr: 0x46C0, symBinAddr: 0x14D420, symSize: 0x0 }
+  - { offset: 0xCF91C, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE24enabledActionButtonColorABvpZ', symObjAddr: 0x46C8, symBinAddr: 0x14D428, symSize: 0x0 }
+  - { offset: 0xCF936, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE28enabledActionTextButtonColorABvpZ', symObjAddr: 0x46D0, symBinAddr: 0x14D430, symSize: 0x0 }
+  - { offset: 0xCF950, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE18checkmarkIconColorABvpZ', symObjAddr: 0x46D8, symBinAddr: 0x14D438, symSize: 0x0 }
+  - { offset: 0xCF96A, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE9linkColorABvpZ', symObjAddr: 0x46E0, symBinAddr: 0x14D440, symSize: 0x0 }
   - { offset: 0xCF9C6, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE16background3Color_WZ', symObjAddr: 0x30, symBinAddr: 0xA1888, symSize: 0x44 }
   - { offset: 0xCFA1E, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE16background4Color_WZ', symObjAddr: 0x74, symBinAddr: 0xA18CC, symSize: 0x44 }
   - { offset: 0xCFA76, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC7FlyreelE16background5Color_WZ', symObjAddr: 0xB8, symBinAddr: 0xA1910, symSize: 0x54 }
@@ -2952,7 +2952,7 @@ relocations:
   - { offset: 0xD329E, size: 0x8, addend: 0x0, symName: '_$s7Flyreel18MultipartParameterVwet', symObjAddr: 0xA2C, symBinAddr: 0xA65F0, symSize: 0xC }
   - { offset: 0xD32B2, size: 0x8, addend: 0x0, symName: '_$s7Flyreel18MultipartParameterVwst', symObjAddr: 0xAB4, symBinAddr: 0xA6678, symSize: 0xC }
   - { offset: 0xD32C6, size: 0x8, addend: 0x0, symName: '_$s7Flyreel18MultipartParameterVMr', symObjAddr: 0xB7C, symBinAddr: 0xA670C, symSize: 0x80 }
-  - { offset: 0xD34A3, size: 0x8, addend: 0x0, symName: '_$s7Flyreel10CustomFontO07currentC6FamilySSSgvpZ', symObjAddr: 0xEAB0, symBinAddr: 0x14D448, symSize: 0x0 }
+  - { offset: 0xD34A3, size: 0x8, addend: 0x0, symName: '_$s7Flyreel10CustomFontO07currentC6FamilySSSgvpZ', symObjAddr: 0xEAA8, symBinAddr: 0x14D448, symSize: 0x0 }
   - { offset: 0xD3556, size: 0x8, addend: 0x0, symName: '_$sSo6UIFontC7FlyreelE10withWeight33_89DBD36F6466C577BE5B1FEDEAFEEEC4LLyABSo0aD0aF', symObjAddr: 0x0, symBinAddr: 0xA678C, symSize: 0x520 }
   - { offset: 0xD37FC, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x5AC, symBinAddr: 0xA6D38, symSize: 0x64 }
   - { offset: 0xD3869, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlF7Flyreel12AddressInputO_Tg5', symObjAddr: 0x610, symBinAddr: 0xA6D9C, symSize: 0x58 }
@@ -3171,7 +3171,7 @@ relocations:
   - { offset: 0xD9453, size: 0x8, addend: 0x0, symName: '_$s7Flyreel21GroupingInputModifierVAA0cD0A2aDP6modify_08previousC0S2S_SStFTW', symObjAddr: 0x168, symBinAddr: 0xB1D30, symSize: 0xC }
   - { offset: 0xD94A7, size: 0x8, addend: 0x0, symName: '_$s7Flyreel21GroupingInputModifierV6modify_08previousC0S2S_SStFTf4ndn_n', symObjAddr: 0x214, symBinAddr: 0xB1D3C, symSize: 0x278 }
   - { offset: 0xD98D3, size: 0x8, addend: 0x0, symName: '_$sSo15NSListFormatterC7FlyreelE02usB0_WZ', symObjAddr: 0x0, symBinAddr: 0xB1FB8, symSize: 0xD4 }
-  - { offset: 0xD98F7, size: 0x8, addend: 0x0, symName: '_$sSo15NSListFormatterC7FlyreelE02usB0ABvpZ', symObjAddr: 0x27D0, symBinAddr: 0x14D478, symSize: 0x0 }
+  - { offset: 0xD98F7, size: 0x8, addend: 0x0, symName: '_$sSo15NSListFormatterC7FlyreelE02usB0ABvpZ', symObjAddr: 0x27C8, symBinAddr: 0x14D478, symSize: 0x0 }
   - { offset: 0xD9922, size: 0x8, addend: 0x0, symName: '_$sSo15NSListFormatterC7FlyreelE02usB0_WZ', symObjAddr: 0x0, symBinAddr: 0xB1FB8, symSize: 0xD4 }
   - { offset: 0xD9B8B, size: 0x8, addend: 0x0, symName: '_$sSo6UIViewC7FlyreelE17centerInSuperviewyyF', symObjAddr: 0x0, symBinAddr: 0xB208C, symSize: 0x178 }
   - { offset: 0xD9BA3, size: 0x8, addend: 0x0, symName: '_$sSo6UIViewC7FlyreelE17centerInSuperviewyyF', symObjAddr: 0x0, symBinAddr: 0xB208C, symSize: 0x178 }
