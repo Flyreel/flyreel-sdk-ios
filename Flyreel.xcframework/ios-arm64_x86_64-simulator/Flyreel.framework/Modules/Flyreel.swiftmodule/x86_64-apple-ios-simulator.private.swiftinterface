@@ -31,6 +31,7 @@ public enum FlyreelError : Swift.Error {
   case unknown
 }
 public enum FlyreelEnvironment {
+  @_spi(FlyreelInternal) case staging
   case sandbox
   case production
   public static func == (a: Flyreel.FlyreelEnvironment, b: Flyreel.FlyreelEnvironment) -> Swift.Bool
@@ -117,6 +118,14 @@ public struct FlyreelStatus {
   public init(status: Swift.String, expiration: Swift.String)
 }
 public struct FlyreelAnalyticUser {
+  public let flyreelID: Swift.String
+  public let name: Swift.String
+  public let email: Swift.String
+  public let botId: Swift.String
+  public let botName: Swift.String
+  public let organizationId: Swift.String
+  public let status: Swift.String
+  public let isStaging: Swift.Bool
 }
 extension Flyreel.FlyreelEnvironment : Swift.Equatable {}
 extension Flyreel.FlyreelEnvironment : Swift.Hashable {}
