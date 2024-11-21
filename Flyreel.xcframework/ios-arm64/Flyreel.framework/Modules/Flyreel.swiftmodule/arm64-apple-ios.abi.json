@@ -286,13 +286,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Flyreel"
-      },
-      {
-        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -885,6 +878,49 @@
         "name": "FlyreelEnvironment",
         "printedName": "FlyreelEnvironment",
         "children": [
+          {
+            "kind": "Var",
+            "name": "staging",
+            "printedName": "staging",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Flyreel.FlyreelEnvironment.Type) -> Flyreel.FlyreelEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlyreelEnvironment",
+                    "printedName": "Flyreel.FlyreelEnvironment",
+                    "usr": "s:7Flyreel0A11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Flyreel.FlyreelEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlyreelEnvironment",
+                        "printedName": "Flyreel.FlyreelEnvironment",
+                        "usr": "s:7Flyreel0A11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Flyreel0A11EnvironmentO7stagingyA2CmF",
+            "mangledName": "$s7Flyreel0A11EnvironmentO7stagingyA2CmF",
+            "moduleName": "Flyreel",
+            "declAttributes": [
+              "SPIAccessControl"
+            ],
+            "spi_group_names": [
+              "FlyreelInternal"
+            ]
+          },
           {
             "kind": "Var",
             "name": "sandbox",
@@ -1658,13 +1694,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Flyreel"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1786,20 +1815,6 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Flyreel"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Flyreel"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "Flyreel"
       },
@@ -2871,13 +2886,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Flyreel"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -3216,6 +3224,13 @@
         "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "Flyreel"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Flyreel"
       },
@@ -3828,13 +3843,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Flyreel"
-      },
-      {
-        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -4166,13 +4174,6 @@
       },
       {
         "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "Flyreel"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -4252,6 +4253,360 @@
         "kind": "TypeDecl",
         "name": "FlyreelAnalyticUser",
         "printedName": "FlyreelAnalyticUser",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "flyreelID",
+            "printedName": "flyreelID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Flyreel0A12AnalyticUserV9flyreelIDSSvp",
+            "mangledName": "$s7Flyreel0A12AnalyticUserV9flyreelIDSSvp",
+            "moduleName": "Flyreel",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Flyreel0A12AnalyticUserV9flyreelIDSSvg",
+                "mangledName": "$s7Flyreel0A12AnalyticUserV9flyreelIDSSvg",
+                "moduleName": "Flyreel",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Flyreel0A12AnalyticUserV4nameSSvp",
+            "mangledName": "$s7Flyreel0A12AnalyticUserV4nameSSvp",
+            "moduleName": "Flyreel",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Flyreel0A12AnalyticUserV4nameSSvg",
+                "mangledName": "$s7Flyreel0A12AnalyticUserV4nameSSvg",
+                "moduleName": "Flyreel",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Flyreel0A12AnalyticUserV5emailSSvp",
+            "mangledName": "$s7Flyreel0A12AnalyticUserV5emailSSvp",
+            "moduleName": "Flyreel",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Flyreel0A12AnalyticUserV5emailSSvg",
+                "mangledName": "$s7Flyreel0A12AnalyticUserV5emailSSvg",
+                "moduleName": "Flyreel",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "botId",
+            "printedName": "botId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Flyreel0A12AnalyticUserV5botIdSSvp",
+            "mangledName": "$s7Flyreel0A12AnalyticUserV5botIdSSvp",
+            "moduleName": "Flyreel",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Flyreel0A12AnalyticUserV5botIdSSvg",
+                "mangledName": "$s7Flyreel0A12AnalyticUserV5botIdSSvg",
+                "moduleName": "Flyreel",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "botName",
+            "printedName": "botName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Flyreel0A12AnalyticUserV7botNameSSvp",
+            "mangledName": "$s7Flyreel0A12AnalyticUserV7botNameSSvp",
+            "moduleName": "Flyreel",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Flyreel0A12AnalyticUserV7botNameSSvg",
+                "mangledName": "$s7Flyreel0A12AnalyticUserV7botNameSSvg",
+                "moduleName": "Flyreel",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "organizationId",
+            "printedName": "organizationId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Flyreel0A12AnalyticUserV14organizationIdSSvp",
+            "mangledName": "$s7Flyreel0A12AnalyticUserV14organizationIdSSvp",
+            "moduleName": "Flyreel",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Flyreel0A12AnalyticUserV14organizationIdSSvg",
+                "mangledName": "$s7Flyreel0A12AnalyticUserV14organizationIdSSvg",
+                "moduleName": "Flyreel",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Flyreel0A12AnalyticUserV6statusSSvp",
+            "mangledName": "$s7Flyreel0A12AnalyticUserV6statusSSvp",
+            "moduleName": "Flyreel",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Flyreel0A12AnalyticUserV6statusSSvg",
+                "mangledName": "$s7Flyreel0A12AnalyticUserV6statusSSvg",
+                "moduleName": "Flyreel",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isStaging",
+            "printedName": "isStaging",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Flyreel0A12AnalyticUserV9isStagingSbvp",
+            "mangledName": "$s7Flyreel0A12AnalyticUserV9isStagingSbvp",
+            "moduleName": "Flyreel",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Flyreel0A12AnalyticUserV9isStagingSbvg",
+                "mangledName": "$s7Flyreel0A12AnalyticUserV9isStagingSbvg",
+                "moduleName": "Flyreel",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
         "declKind": "Struct",
         "usr": "s:7Flyreel0A12AnalyticUserV",
         "mangledName": "$s7Flyreel0A12AnalyticUserV",
@@ -5894,6 +6249,13 @@
       "value": "\"yyyy-MM-dd HH:mm:ss\""
     },
     {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Utils\/DateFormatter+formatters.swift",
+      "kind": "StringLiteral",
+      "offset": 664,
+      "length": 28,
+      "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSSZ\""
+    },
+    {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/OnboardingTermsPage\/OnboardingTermsPageView.swift",
       "kind": "IntegerLiteral",
       "offset": 277,
@@ -6022,21 +6384,21 @@
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/DTO\/ConversationDTO.swift",
       "kind": "StringLiteral",
-      "offset": 8418,
+      "offset": 3249,
       "length": 12,
       "value": "\"select_one\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/DTO\/ConversationDTO.swift",
       "kind": "StringLiteral",
-      "offset": 8465,
+      "offset": 3296,
       "length": 22,
       "value": "\"select_single_module\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/DTO\/ConversationDTO.swift",
       "kind": "StringLiteral",
-      "offset": 8518,
+      "offset": 3367,
       "length": 17,
       "value": "\"select_multiple\""
     },
@@ -7000,6 +7362,13 @@
       "value": "\"validation message\""
     },
     {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Bot\/BotEngine.swift",
+      "kind": "Array",
+      "offset": 366,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Views\/ToastView.swift",
       "kind": "IntegerLiteral",
       "offset": 203,
@@ -7380,63 +7749,63 @@
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 2896,
+      "offset": 2707,
       "length": 26,
       "value": "\"Syncing process: success\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
       "kind": "IntegerLiteral",
-      "offset": 2956,
+      "offset": 2767,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 3089,
+      "offset": 2900,
       "length": 58,
       "value": "\"Syncing process: \""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 3129,
+      "offset": 2940,
       "length": 8,
       "value": "\" messages to sync\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
       "kind": "IntegerLiteral",
-      "offset": 3447,
+      "offset": 3258,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
       "kind": "IntegerLiteral",
-      "offset": 3475,
+      "offset": 3286,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 3659,
+      "offset": 3470,
       "length": 40,
       "value": "\"Syncing process: progress \""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
       "kind": "IntegerLiteral",
-      "offset": 3693,
+      "offset": 3504,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 3697,
+      "offset": 3508,
       "length": 1,
       "value": "\"%\""
     },
@@ -8255,14 +8624,14 @@
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/FlyreelView.swift",
       "kind": "StringLiteral",
-      "offset": 2300,
+      "offset": 2184,
       "length": 4,
       "value": "\"40\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/FlyreelView.swift",
       "kind": "StringLiteral",
-      "offset": 2330,
+      "offset": 2214,
       "length": 26,
       "value": "\"5d3633f9103a930011996475\""
     },
@@ -8542,28 +8911,28 @@
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2217,
+      "offset": 2236,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2251,
+      "offset": 2270,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2717,
+      "offset": 2755,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2758,
+      "offset": 2796,
       "length": 2,
       "value": "\"\""
     },
@@ -8965,6 +9334,13 @@
       "offset": 1277,
       "length": 1,
       "value": "1"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/DTO\/NativeBotDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 206,
+      "length": 5,
+      "value": "\"_id\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Utils\/String+attributed.swift",
