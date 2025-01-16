@@ -106,7 +106,7 @@ public struct FlyreelDeviceData {
 }
 
 public struct FlyreelConfiguration {
-  public init(settingsVersion: Swift.String, organizationId: Swift.String, environment: Flyreel.FlyreelEnvironment = .production, fontFamilyName: Swift.String? = nil)
+  public init(organizationId: Swift.String, environment: Flyreel.FlyreelEnvironment = .production, fontFamilyName: Swift.String? = nil)
 }
 @_hasMissingDesignatedInitializers public class DefaultAnalyticsFeedService {
   @objc deinit

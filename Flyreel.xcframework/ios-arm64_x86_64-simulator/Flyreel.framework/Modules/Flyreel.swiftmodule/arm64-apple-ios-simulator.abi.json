@@ -3734,19 +3734,13 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(settingsVersion:organizationId:environment:fontFamilyName:)",
+            "printedName": "init(organizationId:environment:fontFamilyName:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "FlyreelConfiguration",
                 "printedName": "Flyreel.FlyreelConfiguration",
                 "usr": "s:7Flyreel0A13ConfigurationV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -3778,8 +3772,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7Flyreel0A13ConfigurationV15settingsVersion14organizationId11environment14fontFamilyNameACSS_SSAA0A11EnvironmentOSSSgtcfc",
-            "mangledName": "$s7Flyreel0A13ConfigurationV15settingsVersion14organizationId11environment14fontFamilyNameACSS_SSAA0A11EnvironmentOSSSgtcfc",
+            "usr": "s:7Flyreel0A13ConfigurationV14organizationId11environment14fontFamilyNameACSS_AA0A11EnvironmentOSSSgtcfc",
+            "mangledName": "$s7Flyreel0A13ConfigurationV14organizationId11environment14fontFamilyNameACSS_AA0A11EnvironmentOSSSgtcfc",
             "moduleName": "Flyreel",
             "declAttributes": [
               "AccessControl",
@@ -7364,7 +7358,7 @@
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Bot\/BotEngine.swift",
       "kind": "Array",
-      "offset": 366,
+      "offset": 380,
       "length": 2,
       "value": "[]"
     },
@@ -8624,14 +8618,7 @@
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/FlyreelView.swift",
       "kind": "StringLiteral",
-      "offset": 2184,
-      "length": 4,
-      "value": "\"40\""
-    },
-    {
-      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/FlyreelView.swift",
-      "kind": "StringLiteral",
-      "offset": 2214,
+      "offset": 2183,
       "length": 26,
       "value": "\"5d3633f9103a930011996475\""
     },
@@ -8935,6 +8922,13 @@
       "offset": 2796,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3164,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/DTO\/LocationDTO.swift",
