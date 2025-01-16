@@ -18,27 +18,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EEGWKgQQJdjtGvLHnK0ieWHoLZ8=
+		ZdbuGl2nbFaoD5P36vUu2iZxqng=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ETkcc4dVrQoLPDIR5zHZJmnuMEk=
+		ntEfI+r/+Ot70+62UWAgAuf8aqY=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		1+Ikf2zJm9Tmg+PCB+xs5mxZJio=
+		/hBvQ5GUxDhk6FRosp+YjLS4N6M=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		aqzy0LIyUVkgUtosCCyh5lrivvM=
+		NSPf6Abx4ePX7RPH2YRE2zaniwA=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		c/E3XKbBMV11skpM3K5bk7QBSbM=
+		8G0iy/nGdRAfQFLcDQUwjYMUNhU=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		GuNSC1uJUcND3BybF5X4OxMH5d8=
+		Ed6iKOYfXweS1Q3xborSfRuoZuo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,35 +72,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g0tfRfDv+BtdU0IWFFBSlB0pm0vwfRqILbfh2lw/D1s=
+			RcyVYGqKUCQJ76UWkXDQA7bObZyHW+wNcYwMH4UYmqg=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rrMOA+l4Rxc87tF+vaUO1+Bym0rrg9lg4kjp8Td9Ca0=
+			3WrGEtJvzL/vj4KwkONmlbbB6HMLJYklwREGx0BCOFo=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P9LMHT0vGHyGTefr2rxen+kY9PH6tWdSgYXisVcUVS8=
+			XILsadrpERBUqsCN766fV+4gMcni22foWTOpQx85A7E=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HnYY7zmw2e5wJ95EaHGNe4U1YHftZQ6DpnkvMjbA+Nw=
+			LtDnd35XSbEOy5fK0dI+FDhd29faIMLhPmRDEtI2xRA=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h0kwLN9Unhx8CKp6sRj6WalIv0nUpKR+VghmbvfqaDw=
+			GnnxkiyLZU0QFcPzxr9neGxPLNdfkG863SKnLnvN/9w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
