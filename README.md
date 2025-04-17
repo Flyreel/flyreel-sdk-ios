@@ -111,6 +111,19 @@ func presentFlyreel(
 )
 ```
 
+### SDK Callbacks
+Flyreel SDK supports registering callbacks to perform custom actions when the Flyreel UI is dismissed. This is done via the new registerOnClose function.
+
+For example, you can use it to perform cleanup or update your app’s state when the SDK flow is closed:
+
+```
+FlyreelSDK.shared.registerOnClose {
+    // Your cleanup code here, e.g., update state or analytics tracking
+    print("Flyreel SDK flow has been dismissed!")
+}
+```
+Note: Ensure you register the callback before presenting the Flyreel flow so that your handler is invoked upon the UI dismissal.
+
 ## Debug Logs
 
 Enable debug logging for troubleshooting purposes:
