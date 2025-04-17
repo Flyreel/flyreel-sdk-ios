@@ -293,6 +293,27 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Flyreel"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Flyreel"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "Flyreel"
+      },
+      {
+        "kind": "Import",
         "name": "CoreLocation",
         "printedName": "CoreLocation",
         "declKind": "Import",
@@ -1326,6 +1347,45 @@
             "moduleName": "Flyreel",
             "declAttributes": [
               "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerOnClose",
+            "printedName": "registerOnClose(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Flyreel0A3SDKC15registerOnCloseyyyycF",
+            "mangledName": "$s7Flyreel0A3SDKC15registerOnCloseyyyycF",
+            "moduleName": "Flyreel",
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -3173,6 +3233,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Flyreel"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3727,6 +3794,13 @@
         "moduleName": "Flyreel"
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Flyreel"
+      },
+      {
         "kind": "TypeDecl",
         "name": "FlyreelConfiguration",
         "printedName": "FlyreelConfiguration",
@@ -4128,6 +4202,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -5853,282 +5934,282 @@
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7762,
+      "offset": 8661,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7935,
+      "offset": 8834,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8147,
+      "offset": 9046,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8383,
+      "offset": 9282,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8430,
+      "offset": 9329,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8576,
+      "offset": 9475,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8617,
+      "offset": 9516,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8748,
+      "offset": 9647,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8758,
+      "offset": 9657,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8770,
+      "offset": 9669,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8781,
+      "offset": 9680,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8853,
+      "offset": 9752,
       "length": 2,
       "value": "38"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8868,
+      "offset": 9767,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "StringLiteral",
-      "offset": 9224,
+      "offset": 10123,
       "length": 19,
       "value": "\"sent_message_icon\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9308,
+      "offset": 10207,
       "length": 2,
       "value": "23"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9601,
+      "offset": 10500,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9738,
+      "offset": 10637,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "StringLiteral",
-      "offset": 9893,
+      "offset": 10792,
       "length": 29,
       "value": "\"exclamationmark.circle.fill\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10002,
+      "offset": 10901,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10025,
+      "offset": 10924,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10189,
+      "offset": 11088,
       "length": 2,
       "value": "23"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10390,
+      "offset": 11289,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 12316,
+      "offset": 13215,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12238,
+      "offset": 13137,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12436,
+      "offset": 13335,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12585,
+      "offset": 13484,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12799,
+      "offset": 13698,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13125,
+      "offset": 14024,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 13162,
+      "offset": 14061,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 13218,
+      "offset": 14117,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13283,
+      "offset": 14182,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13339,
+      "offset": 14238,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13345,
+      "offset": 14244,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/UserTextMessageTableViewCell.swift",
-      "kind": "StringLiteral",
-      "offset": 583,
-      "length": 52,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/UserTextMessageTableViewCell.swift",
-      "kind": "StringLiteral",
-      "offset": 618,
-      "length": 1,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/UserTextMessageTableViewCell.swift",
-      "kind": "StringLiteral",
-      "offset": 634,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/UserTextMessageTableViewCell.swift",
-      "kind": "StringLiteral",
-      "offset": 690,
-      "length": 52,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/UserTextMessageTableViewCell.swift",
-      "kind": "StringLiteral",
-      "offset": 725,
-      "length": 1,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/UserTextMessageTableViewCell.swift",
-      "kind": "StringLiteral",
-      "offset": 741,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/UserTextMessageTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 858,
+      "offset": 533,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/UserTextMessageTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 641,
+      "length": 52,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/UserTextMessageTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 676,
+      "length": 1,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/UserTextMessageTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 692,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/UserTextMessageTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 748,
+      "length": 52,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/UserTextMessageTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 783,
+      "length": 1,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/UserTextMessageTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 799,
+      "length": 1,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/UserTextMessageTableViewCell.swift",
@@ -6234,6 +6315,69 @@
       "offset": 411,
       "length": 8,
       "value": "\"Pushed\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 1447,
+      "length": 57,
+      "value": "\"There are no offline messages to sync, syncing finished\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesUseCase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1538,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 1671,
+      "length": 58,
+      "value": "\"Syncing process: \""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 1711,
+      "length": 8,
+      "value": "\" messages to sync\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesUseCase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2029,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesUseCase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2057,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 2241,
+      "length": 40,
+      "value": "\"Syncing process: progress \""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesUseCase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2275,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 2279,
+      "length": 1,
+      "value": "\"%\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Utils\/DateFormatter+formatters.swift",
@@ -6397,6 +6541,13 @@
       "value": "\"select_multiple\""
     },
     {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewController.swift",
+      "kind": "Dictionary",
+      "offset": 621,
+      "length": 3,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/MultipleSelectionMessageTableViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 637,
@@ -6413,98 +6564,126 @@
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/MultipleSelectionMessageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3235,
+      "offset": 3321,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/MultipleSelectionMessageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3432,
+      "offset": 3518,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/MultipleSelectionMessageTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 3546,
+      "offset": 3560,
+      "length": 53,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/MultipleSelectionMessageTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 3600,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/MultipleSelectionMessageTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3610,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/MultipleSelectionMessageTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 3612,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/MultipleSelectionMessageTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 3649,
       "length": 17,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/MultipleSelectionMessageTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 3561,
+      "offset": 3664,
       "length": 17,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/MultipleSelectionMessageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 5379,
+      "offset": 5529,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/MultipleSelectionMessageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 5649,
+      "offset": 5799,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/MultipleSelectionMessageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 5700,
+      "offset": 5850,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/MultipleSelectionMessageTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 5712,
+      "offset": 5862,
       "length": 78,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/MultipleSelectionMessageTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 5744,
+      "offset": 5894,
       "length": 1,
       "value": "\" 1 \""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/MultipleSelectionMessageTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 5789,
+      "offset": 5939,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/MultipleSelectionMessageTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 5801,
+      "offset": 5951,
       "length": 91,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/MultipleSelectionMessageTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 5833,
+      "offset": 5983,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/MultipleSelectionMessageTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 5847,
+      "offset": 5997,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/MultipleSelectionMessageTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 5891,
+      "offset": 6041,
       "length": 1,
       "value": "\"\""
     },
@@ -6770,168 +6949,175 @@
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Flyreel.swift",
       "kind": "BooleanLiteral",
-      "offset": 8046,
+      "offset": 8628,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Flyreel.swift",
       "kind": "BooleanLiteral",
-      "offset": 8387,
+      "offset": 8969,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Flyreel.swift",
       "kind": "BooleanLiteral",
-      "offset": 8418,
+      "offset": 9000,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Flyreel.swift",
       "kind": "BooleanLiteral",
-      "offset": 8819,
+      "offset": 9401,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Flyreel.swift",
       "kind": "BooleanLiteral",
-      "offset": 8850,
+      "offset": 9432,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Flyreel.swift",
       "kind": "BooleanLiteral",
-      "offset": 10150,
+      "offset": 10761,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Flyreel.swift",
       "kind": "BooleanLiteral",
-      "offset": 10930,
+      "offset": 11541,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/BotTextMessageTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 478,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/BotTextMessageTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 528,
-      "length": 52,
+      "offset": 586,
+      "length": 54,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/BotTextMessageTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 563,
+      "offset": 623,
       "length": 1,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/BotTextMessageTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 579,
+      "offset": 639,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/BotTextMessageTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 635,
-      "length": 52,
+      "offset": 695,
+      "length": 54,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/BotTextMessageTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 670,
+      "offset": 732,
       "length": 1,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/BotTextMessageTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 686,
+      "offset": 748,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/BotTextMessageTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 932,
+      "offset": 994,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/BotTextMessageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 995,
+      "offset": 1057,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/BotTextMessageTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1277,
+      "offset": 1339,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/BotTextMessageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1343,
+      "offset": 1405,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/BotTextMessageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1366,
+      "offset": 1428,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/BotTextMessageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1404,
+      "offset": 1466,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/BotTextMessageTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1442,
+      "offset": 1504,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/BotTextMessageTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1484,
+      "offset": 1546,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/BotTextMessageTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3341,
+      "offset": 3403,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/BotTextMessageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3377,
+      "offset": 3439,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/BotTextMessageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3420,
+      "offset": 3482,
       "length": 2,
       "value": "16"
     },
@@ -7226,139 +7412,146 @@
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
       "offset": 2560,
-      "length": 17,
-      "value": "\"singleSelection\""
+      "length": 23,
+      "value": "\"singleSelectionOption\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 2611,
-      "length": 16,
-      "value": "\"multiSelection\""
+      "offset": 2617,
+      "length": 22,
+      "value": "\"multiSelectionOption\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 2667,
+      "offset": 2679,
       "length": 22,
       "value": "\"submitMultiSelection\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 2721,
+      "offset": 2733,
       "length": 11,
       "value": "\"textField\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 2765,
+      "offset": 2777,
       "length": 12,
       "value": "\"sendButton\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 2806,
+      "offset": 2818,
       "length": 8,
       "value": "\"answer\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 2884,
+      "offset": 2857,
+      "length": 10,
+      "value": "\"question\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
+      "kind": "StringLiteral",
+      "offset": 2937,
       "length": 12,
       "value": "\"accessCode\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 2938,
+      "offset": 2991,
       "length": 12,
       "value": "\"postalCode\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 2987,
+      "offset": 3040,
       "length": 16,
       "value": "\"startNowButton\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 3062,
+      "offset": 3115,
       "length": 18,
       "value": "\"returnHomeButton\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 3155,
+      "offset": 3209,
       "length": 38,
       "value": "\"terms of use, double tap to activate\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 3247,
+      "offset": 3301,
       "length": 37,
       "value": "\"activate to change acceptance state\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 3328,
+      "offset": 3382,
       "length": 26,
       "value": "\"first line address input\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 3399,
+      "offset": 3453,
       "length": 27,
       "value": "\"second line address input\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 3458,
+      "offset": 3512,
       "length": 12,
       "value": "\"city input\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 3503,
+      "offset": 3557,
       "length": 13,
       "value": "\"state input\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 3554,
+      "offset": 3608,
       "length": 19,
       "value": "\"postal code input\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 3603,
+      "offset": 3657,
       "length": 19,
       "value": "\"loading indicator\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 3662,
+      "offset": 3716,
       "length": 20,
       "value": "\"validation message\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/Bot\/BotEngine.swift",
       "kind": "Array",
-      "offset": 380,
+      "offset": 398,
       "length": 2,
       "value": "[]"
     },
@@ -7442,98 +7635,105 @@
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/SingleSelectionMessageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 658,
+      "offset": 681,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/SingleSelectionMessageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 711,
+      "offset": 734,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/SingleSelectionMessageTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 855,
+      "offset": 878,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/SingleSelectionMessageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3364,
+      "offset": 3442,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/SingleSelectionMessageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3410,
+      "offset": 3488,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/SingleSelectionMessageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3689,
+      "offset": 3794,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/SingleSelectionMessageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3830,
+      "offset": 3935,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/SingleSelectionMessageTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 3872,
-      "length": 57,
+      "offset": 3977,
+      "length": 52,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/SingleSelectionMessageTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 3913,
+      "offset": 4018,
       "length": 1,
-      "value": "\"-\""
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/SingleSelectionMessageTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4026,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/SingleSelectionMessageTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 3928,
+      "offset": 4028,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/SingleSelectionMessageTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 4119,
+      "offset": 4313,
       "length": 23,
       "value": "\"checkmark.circle.fill\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/SingleSelectionMessageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 4165,
+      "offset": 4359,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/SingleSelectionMessageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 4188,
+      "offset": 4382,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/Cells\/SingleSelectionMessageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 4396,
+      "offset": 4590,
       "length": 1,
       "value": "4"
     },
@@ -7739,69 +7939,6 @@
       "offset": 1235,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
-      "kind": "StringLiteral",
-      "offset": 2707,
-      "length": 26,
-      "value": "\"Syncing process: success\""
-    },
-    {
-      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2767,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
-      "kind": "StringLiteral",
-      "offset": 2900,
-      "length": 58,
-      "value": "\"Syncing process: \""
-    },
-    {
-      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
-      "kind": "StringLiteral",
-      "offset": 2940,
-      "length": 8,
-      "value": "\" messages to sync\""
-    },
-    {
-      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3258,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3286,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
-      "kind": "StringLiteral",
-      "offset": 3470,
-      "length": 40,
-      "value": "\"Syncing process: progress \""
-    },
-    {
-      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3504,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/UseCases\/TryToSyncCachedMessagesAndSubmitConversationUseCase.swift",
-      "kind": "StringLiteral",
-      "offset": 3508,
-      "length": 1,
-      "value": "\"%\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/DTO\/AddressDataDTO.swift",
@@ -8891,44 +9028,58 @@
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "Array",
-      "offset": 1289,
+      "offset": 1389,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2236,
+      "offset": 2442,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2270,
+      "offset": 2476,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2755,
+      "offset": 2961,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2796,
+      "offset": 3002,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3164,
+      "offset": 3336,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3434,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Chat\/ChatViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21147,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/DTO\/LocationDTO.swift",
@@ -8943,6 +9094,20 @@
       "offset": 74,
       "length": 38,
       "value": "\"3766d0f0-55c2-4af0-bf72-8c97151886b9\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/HandlebarParser.swift",
+      "kind": "StringLiteral",
+      "offset": 273,
+      "length": 27,
+      "value": "\"\\{\\{\\{?(.*?)\\}\\}\\}?\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Services\/HandlebarParser.swift",
+      "kind": "Array",
+      "offset": 311,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Scenes\/Address\/AddressView.swift",
@@ -9164,7 +9329,7 @@
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Messages\/InfoMessage.swift",
       "kind": "BooleanLiteral",
-      "offset": 116,
+      "offset": 155,
       "length": 5,
       "value": "false"
     },

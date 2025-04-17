@@ -52,6 +52,7 @@ public enum FlyreelEnvironment {
 extension Flyreel.FlyreelSDK {
   final public func set(configuration: Flyreel.FlyreelConfiguration)
   final public func enableLogs()
+  final public func registerOnClose(_ callback: @escaping () -> Swift.Void)
   final public func observeAnalyticEvents(_ handler: @escaping (Flyreel.FlyreelAnalyticEvent) -> Swift.Void)
   final public func fetchFlyreelStatus(zipCode: Swift.String, accessCode: Swift.String, completion: @escaping (Swift.Result<Flyreel.FlyreelStatus, Flyreel.FlyreelError>) -> Swift.Void)
   final public func fetchFlyreelStatus(zipCode: Swift.String, accessCode: Swift.String) async throws -> Flyreel.FlyreelStatus
@@ -112,7 +113,7 @@ public struct FlyreelConfiguration {
 @_hasMissingDesignatedInitializers public class DefaultAnalyticsFeedService {
   @objc deinit
 }
-public struct FlyreelStatus {
+public struct FlyreelStatus : Swift.Sendable {
   public let status: Swift.String
   public let expiration: Swift.String
   public init(status: Swift.String, expiration: Swift.String)
