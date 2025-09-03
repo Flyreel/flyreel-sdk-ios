@@ -9,6 +9,8 @@ import CoreLocation
 import DeveloperToolsSupport
 @_exported import Flyreel
 import FlyreelCamera
+import FlyreelFNOL
+import FlyreelPanorama
 import Foundation
 import Swift
 import SwiftUI
