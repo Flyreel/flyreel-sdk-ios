@@ -32,8 +32,8 @@ SOFTWARE.
   
   spec.author       = "LexisNexis"
   spec.platform     = :ios, "13.0"
-  spec.swift_version = "5.7"
-  spec.cocoapods_version = '>= 1.14.3'
+  spec.swift_version = "6.0"
+  spec.cocoapods_version = '>= 1.16.0'
 
   spec.source       = { :git => "https://github.com/Flyreel/flyreel-sdk-ios", :tag => spec.version }
   spec.vendored_frameworks = 'Flyreel.xcframework'
