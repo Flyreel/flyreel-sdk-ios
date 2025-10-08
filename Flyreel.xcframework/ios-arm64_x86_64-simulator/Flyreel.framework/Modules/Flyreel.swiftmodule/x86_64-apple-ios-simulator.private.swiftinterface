@@ -10,8 +10,8 @@ import DeveloperToolsSupport
 @_exported import Flyreel
 import FlyreelCamera
 import FlyreelFNOL
-import FlyreelPanorama
 import Foundation
+import ImageIO
 import Swift
 import SwiftUI
 import UIKit
