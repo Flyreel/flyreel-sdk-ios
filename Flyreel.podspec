@@ -44,6 +44,5 @@ SOFTWARE.
 
   spec.dependency "FlyreelCamera", "0.0.2"
   spec.dependency "FlyreelFNOL", "0.0.2"
-  spec.dependency "FlyreelPanorama", "0.0.6"
 
 end
