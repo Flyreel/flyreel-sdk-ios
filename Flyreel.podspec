@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Flyreel"
-  spec.version      = "1.1.6-hotfix.1"
+  spec.version      = "1.1.7"
   spec.summary      = "Flyreel SDK."
   spec.homepage     = "https://risk.lexisnexis.com/products/flyreel"
 
