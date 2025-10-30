@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VZjCKK6paX1p7SJI8Rj3fBK5uUc=
+		kLaNMVCA1MPBrv5+ZjExdAXo6RY=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		BFrptlG5HblylLnjeNQKm4pqkVc=
+		5GAAXv+wdoQ2Q09wQemREMWkNSg=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		k1TSe8PoTZe005RtU19OkRXpEyQ=
+		2+i+5Gb4NA4iC/3pck5EESH7X/I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,7 +72,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OR6fH20/kc+FgFPcFl2wb6szKcOnDl3yTbkrbehuUzI=
+			gg3f7mXZurQfxYR/72tSxKuzkZ1wg7K/k8k74iQg6XQ=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wnJ0XyStdpim3UOQB9vs40aXwRHRkMH1uXAsUOrsQtQ=
+			PDwuCEUjGLSBT0bByyFv2boaxS/jbBC4+G6mbSAbk4I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
