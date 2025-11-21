@@ -7764,70 +7764,84 @@
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 3199,
+      "offset": 3200,
       "length": 18,
       "value": "\"returnHomeButton\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 3293,
+      "offset": 3289,
+      "length": 19,
+      "value": "\"connectivityError\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
+      "kind": "StringLiteral",
+      "offset": 3359,
+      "length": 13,
+      "value": "\"retryButton\""
+    },
+    {
+      "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
+      "kind": "StringLiteral",
+      "offset": 3447,
       "length": 38,
       "value": "\"terms of use, double tap to activate\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 3385,
+      "offset": 3539,
       "length": 37,
       "value": "\"activate to change acceptance state\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 3466,
+      "offset": 3620,
       "length": 26,
       "value": "\"first line address input\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 3537,
+      "offset": 3691,
       "length": 27,
       "value": "\"second line address input\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 3596,
+      "offset": 3750,
       "length": 12,
       "value": "\"city input\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 3641,
+      "offset": 3795,
       "length": 13,
       "value": "\"state input\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 3692,
+      "offset": 3846,
       "length": 19,
       "value": "\"postal code input\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 3741,
+      "offset": 3895,
       "length": 19,
       "value": "\"loading indicator\""
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/Core\/Models\/Business\/Accessibility.swift",
       "kind": "StringLiteral",
-      "offset": 3800,
+      "offset": 3954,
       "length": 20,
       "value": "\"validation message\""
     },
@@ -7862,14 +7876,14 @@
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Views\/ToastView.swift",
       "kind": "IntegerLiteral",
-      "offset": 614,
+      "offset": 701,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/webbbr01\/Workspace\/flyreel-core-ios\/Flyreel\/Flyreel\/UI\/Views\/ToastView.swift",
       "kind": "IntegerLiteral",
-      "offset": 648,
+      "offset": 735,
       "length": 1,
       "value": "1"
     },
