@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Flyreel
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import AVFoundation
 import AVKit
 import Combine
@@ -10,6 +10,8 @@ import DeveloperToolsSupport
 @_exported import Flyreel
 import FlyreelCamera
 import FlyreelFNOL
+import FlyreelMeshScan
+import FlyreelPanorama
 import Foundation
 import ImageIO
 import Swift
@@ -56,7 +58,9 @@ extension Flyreel.FlyreelSDK {
   final public func enableLogs()
   final public func registerOnClose(_ callback: @escaping () -> Swift.Void)
   final public func observeAnalyticEvents(_ handler: @escaping (Flyreel.FlyreelAnalyticEvent) -> Swift.Void)
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func fetchFlyreelStatus(zipCode: Swift.String, accessCode: Swift.String, completion: @escaping (Swift.Result<Flyreel.FlyreelStatus, Flyreel.FlyreelError>) -> Swift.Void)
+  #endif
   final public func fetchFlyreelStatus(zipCode: Swift.String, accessCode: Swift.String) async throws -> Flyreel.FlyreelStatus
 }
 extension Flyreel.FlyreelSDK {
@@ -101,7 +105,9 @@ public struct FlyreelDeviceData {
   public let appName: Swift.String?
 }
 @_Concurrency.MainActor @preconcurrency public struct FlyreelView : SwiftUICore.View {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(flyreelSDK: Flyreel.FlyreelSDK = .shared, deepLinkURL: Foundation.URL? = nil)
+  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -109,7 +115,9 @@ public struct FlyreelDeviceData {
 }
 
 public struct FlyreelConfiguration {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(organizationId: Swift.String, environment: Flyreel.FlyreelEnvironment = .production, fontFamilyName: Swift.String? = nil)
+  #endif
 }
 @_hasMissingDesignatedInitializers public class DefaultAnalyticsFeedService {
   @objc deinit

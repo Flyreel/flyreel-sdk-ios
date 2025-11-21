@@ -69,6 +69,20 @@
       },
       {
         "kind": "Import",
+        "name": "FlyreelPanorama",
+        "printedName": "FlyreelPanorama",
+        "declKind": "Import",
+        "moduleName": "Flyreel"
+      },
+      {
+        "kind": "Import",
+        "name": "FlyreelMeshScan",
+        "printedName": "FlyreelMeshScan",
+        "declKind": "Import",
+        "moduleName": "Flyreel"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -873,6 +887,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -4275,6 +4296,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -5031,6 +5059,7 @@
         "declAttributes": [
           "Preconcurrency",
           "TypeEraser",
+          "TypeEraser",
           "OriginallyDefinedIn",
           "OriginallyDefinedIn",
           "OriginallyDefinedIn",
@@ -5067,21 +5096,14 @@
         "usr": "s:Sq",
         "mangledName": "$sSq",
         "moduleName": "Swift",
-        "genericSig": "<τ_0_0 where τ_0_0 : ~Copyable>",
-        "sugared_genericSig": "<Wrapped where Wrapped : ~Copyable>",
+        "genericSig": "<τ_0_0 where τ_0_0 : ~Copyable, τ_0_0 : ~Escapable>",
+        "sugared_genericSig": "<Wrapped where Wrapped : ~Copyable, Wrapped : ~Escapable>",
         "declAttributes": [
           "Frozen"
         ],
         "isExternal": true,
         "isEnumExhaustive": true,
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Encodable",
@@ -5105,10 +5127,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -5116,6 +5138,20 @@
             "printedName": "BitwiseCopyable",
             "usr": "s:s15BitwiseCopyableP",
             "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -5214,6 +5250,47 @@
             ],
             "usr": "s:10Foundation26DecodableWithConfigurationP",
             "mangledName": "$s10Foundation26DecodableWithConfigurationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AttributedTextFormattingDefinition",
+            "printedName": "AttributedTextFormattingDefinition",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUICore.AttributedTextFormattingDefinition<Wrapped.Scope>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AttributedTextFormattingDefinition",
+                        "printedName": "SwiftUICore.AttributedTextFormattingDefinition",
+                        "usr": "s:7SwiftUI34AttributedTextFormattingDefinitionP"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Scope",
+                "printedName": "Scope",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Scope"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI34AttributedTextFormattingDefinitionP",
+            "mangledName": "$s7SwiftUI34AttributedTextFormattingDefinitionP"
           },
           {
             "kind": "Conformance",
@@ -5414,6 +5491,55 @@
           },
           {
             "kind": "Conformance",
+            "name": "SliderTickContent",
+            "printedName": "SliderTickContent",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Value",
+                "printedName": "Value",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Value"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SwiftUI.SliderTick<τ_0_0.Value>]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SliderTick",
+                        "printedName": "SwiftUI.SliderTick<τ_0_0.Value>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DependentMember",
+                            "printedName": "τ_0_0.Value"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI10SliderTickV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI17SliderTickContentP",
+            "mangledName": "$s7SwiftUI17SliderTickContentP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Commands",
             "printedName": "Commands",
             "children": [
@@ -5462,6 +5588,27 @@
             "printedName": "CustomizableToolbarContent",
             "usr": "s:7SwiftUI26CustomizableToolbarContentP",
             "mangledName": "$s7SwiftUI26CustomizableToolbarContentP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AtomicRepresentable",
+            "printedName": "AtomicRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AtomicRepresentation",
+                "printedName": "AtomicRepresentation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.AtomicOptionalRepresentation"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:15Synchronization19AtomicRepresentableP",
+            "mangledName": "$s15Synchronization19AtomicRepresentableP"
           }
         ]
       },
