@@ -13,8 +13,10 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/Flyreel/flyreel-camera-ios", exact: "0.0.2"),
+        .package(url: "https://github.com/Flyreel/flyreel-camera-ios", exact: "0.0.7"),
         .package(url: "https://github.com/Flyreel/flyreel-fnol-ios", exact: "0.0.2"),
+        .package(url: "https://github.com/Flyreel/flyreel-meshscan-ios", exact: "0.0.1"),
+        .package(url: "https://github.com/Flyreel/flyreel-panorama-ios", exact: "0.0.6"),
     ],
     targets: [
         .binaryTarget(
@@ -27,6 +29,8 @@ let package = Package(
                 .target(name: "Flyreel"),
                 .product(name: "FlyreelCamera", package: "flyreel-camera-ios"),
                 .product(name: "FlyreelFNOL", package: "flyreel-fnol-ios"),
+                .product(name: "FlyreelMeshScan", package: "flyreel-meshscan-ios"),
+                .product(name: "FlyreelPanorama", package: "flyreel-pan
             ],
             path: "Sources"
         ),
