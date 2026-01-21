@@ -1,0 +1,88 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FlyreelMeshScan
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+import ARKit
+import AVFoundation
+import AVKit
+import Combine
+import CoreMotion
+import DeveloperToolsSupport
+@_exported import FlyreelMeshScan
+import Foundation
+import GLKit
+import GameKit
+import Metal
+import MetalKit
+import SceneKit
+import Swift
+import SwiftUI
+import UIKit
+import VideoToolbox
+import _AVKit_SwiftUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import simd
+
+
+
+
+
+extension simd.simd_float4x4 {
+  public func get4x4Floats() -> [Swift.Float]
+  public func get3x3Floats() -> [Swift.Float]
+}
+extension simd.simd_float3x3 {
+  public func get3x3Floats() -> [Swift.Float]
+}
+extension SceneKit.SCNVector3 {
+  public func negate() -> SceneKit.SCNVector3
+  public mutating func negated() -> SceneKit.SCNVector3
+  public func length() -> Swift.Float
+  public func normalized() -> SceneKit.SCNVector3
+  public mutating func normalize() -> SceneKit.SCNVector3
+  public func distance(vector: SceneKit.SCNVector3) -> Swift.Float
+  public func dot(vector: SceneKit.SCNVector3) -> Swift.Float
+  public func cross(vector: SceneKit.SCNVector3) -> SceneKit.SCNVector3
+}
+public func + (left: SceneKit.SCNVector3, right: SceneKit.SCNVector3) -> SceneKit.SCNVector3
+public func += (left: inout SceneKit.SCNVector3, right: SceneKit.SCNVector3)
+public func - (left: SceneKit.SCNVector3, right: SceneKit.SCNVector3) -> SceneKit.SCNVector3
+public func -= (left: inout SceneKit.SCNVector3, right: SceneKit.SCNVector3)
+public func * (left: SceneKit.SCNVector3, right: SceneKit.SCNVector3) -> SceneKit.SCNVector3
+public func *= (left: inout SceneKit.SCNVector3, right: SceneKit.SCNVector3)
+public func * (vector: SceneKit.SCNVector3, scalar: Swift.Float) -> SceneKit.SCNVector3
+public func *= (vector: inout SceneKit.SCNVector3, scalar: Swift.Float)
+public func / (left: SceneKit.SCNVector3, right: SceneKit.SCNVector3) -> SceneKit.SCNVector3
+public func /= (left: inout SceneKit.SCNVector3, right: SceneKit.SCNVector3)
+public func / (vector: SceneKit.SCNVector3, scalar: Swift.Float) -> SceneKit.SCNVector3
+public func /= (vector: inout SceneKit.SCNVector3, scalar: Swift.Float)
+public func SCNVector3Negate(vector: SceneKit.SCNVector3) -> SceneKit.SCNVector3
+public func SCNVector3Length(vector: SceneKit.SCNVector3) -> Swift.Float
+public func SCNVector3Distance(vectorStart: SceneKit.SCNVector3, vectorEnd: SceneKit.SCNVector3) -> Swift.Float
+public func SCNVector3Normalize(vector: SceneKit.SCNVector3) -> SceneKit.SCNVector3
+public func SCNVector3DotProduct(left: SceneKit.SCNVector3, right: SceneKit.SCNVector3) -> Swift.Float
+public func SCNVector3CrossProduct(left: SceneKit.SCNVector3, right: SceneKit.SCNVector3) -> SceneKit.SCNVector3
+public func SCNVector3Lerp(vectorStart: SceneKit.SCNVector3, vectorEnd: SceneKit.SCNVector3, t: Swift.Float) -> SceneKit.SCNVector3
+public func SCNVector3Project(vectorToProject: SceneKit.SCNVector3, projectionVector: SceneKit.SCNVector3) -> SceneKit.SCNVector3
+
+
+
+
+
+
+
+public enum MeshScan {
+  public static func push(navigation: SwiftUICore.Binding<Swift.Bool>, clientID: Swift.String, onCompletion: @escaping ([Foundation.URL]?) -> Swift.Void) -> some SwiftUICore.View
+  
+  public static func push(from navigationController: UIKit.UINavigationController, clientID: Swift.String, onCompletion: @escaping ([Foundation.URL]?) -> Swift.Void)
+}
+
+
+
+
+
+
+
+
