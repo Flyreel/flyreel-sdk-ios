@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Flyreel
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import AVFoundation
 import AVKit
 import Combine
@@ -10,6 +10,8 @@ import DeveloperToolsSupport
 @_exported import Flyreel
 import FlyreelCamera
 import FlyreelFNOL
+import FlyreelMeshScan
+import FlyreelPanorama
 import Foundation
 import ImageIO
 import Swift
@@ -54,9 +56,10 @@ public enum FlyreelEnvironment {
 extension Flyreel.FlyreelSDK {
   final public func set(configuration: Flyreel.FlyreelConfiguration)
   final public func enableLogs()
-  final public func registerOnClose(_ callback: @escaping () -> Swift.Void)
-  final public func observeAnalyticEvents(_ handler: @escaping (Flyreel.FlyreelAnalyticEvent) -> Swift.Void)
+  final public func observeFlyreelEvents(_ handler: @escaping (Flyreel.FlyreelEvent) -> Swift.Void)
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func fetchFlyreelStatus(zipCode: Swift.String, accessCode: Swift.String, completion: @escaping (Swift.Result<Flyreel.FlyreelStatus, Flyreel.FlyreelError>) -> Swift.Void)
+  #endif
   final public func fetchFlyreelStatus(zipCode: Swift.String, accessCode: Swift.String) async throws -> Flyreel.FlyreelStatus
 }
 extension Flyreel.FlyreelSDK {
@@ -72,23 +75,24 @@ extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func presentFlyreel(isPresented: SwiftUICore.Binding<Swift.Bool>, flyreel: Flyreel.FlyreelSDK = .shared, deepLinkURL: Foundation.URL, shouldSkipLoginPage: Swift.Bool = true) -> some SwiftUICore.View
   
 }
-public struct FlyreelAnalyticEvent {
+public struct FlyreelEvent {
   public let timestamp: Foundation.Date
-  public let trigger: Flyreel.FlyreelAnalyticEvent.Trigger
+  public let trigger: Flyreel.FlyreelEvent.Trigger
   public let user: Flyreel.FlyreelAnalyticUser?
-  public var eventName: Swift.String {
+  public var name: Swift.String {
     get
   }
 }
-extension Flyreel.FlyreelAnalyticEvent {
+extension Flyreel.FlyreelEvent {
   public enum Trigger {
     case userLoggedIn(status: Swift.String, deviceData: Flyreel.FlyreelDeviceData, location: Flyreel.FlyreelCoordinate?, isDeeplink: Swift.Bool)
-    case questionAsked(activeTime: Foundation.TimeInterval, message: Flyreel.AnalyticMessageDetails)
-    case questionAnswered(activeTime: Foundation.TimeInterval, location: Flyreel.FlyreelCoordinate?, message: Flyreel.AnalyticMessageDetails)
+    case questionAsked(activeTime: Foundation.TimeInterval, message: Flyreel.EventMessageDetails)
+    case questionAnswered(activeTime: Foundation.TimeInterval, location: Flyreel.FlyreelCoordinate?, message: Flyreel.EventMessageDetails)
+    case sdkClosed(activeTime: Foundation.TimeInterval)
     case flyreelCompleted(activeTime: Foundation.TimeInterval)
   }
 }
-public struct AnalyticMessageDetails {
+public struct EventMessageDetails {
   public let message: Swift.String
   public let messageType: Swift.String
   public let moduleKey: Swift.String
@@ -101,24 +105,15 @@ public struct FlyreelDeviceData {
   public let appName: Swift.String?
 }
 @_Concurrency.MainActor @preconcurrency public struct FlyreelView : SwiftUICore.View {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(flyreelSDK: Flyreel.FlyreelSDK = .shared, deepLinkURL: Foundation.URL? = nil)
+  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s7Flyreel0A4ViewV4bodyQrvp", 0) __
 }
 
-public struct FlyreelConfiguration {
-  public init(organizationId: Swift.String, environment: Flyreel.FlyreelEnvironment = .production, fontFamilyName: Swift.String? = nil)
-}
-@_hasMissingDesignatedInitializers public class DefaultAnalyticsFeedService {
-  @objc deinit
-}
-public struct FlyreelStatus : Swift.Sendable {
-  public let status: Swift.String
-  public let expiration: Swift.String
-  public init(status: Swift.String, expiration: Swift.String)
-}
 public struct FlyreelAnalyticUser {
   public let flyreelID: Swift.String
   public let name: Swift.String
@@ -128,6 +123,19 @@ public struct FlyreelAnalyticUser {
   public let organizationId: Swift.String
   public let status: Swift.String
   public let isStaging: Swift.Bool
+}
+public struct FlyreelConfiguration {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(organizationId: Swift.String, environment: Flyreel.FlyreelEnvironment = .production, fontFamilyName: Swift.String? = nil)
+  #endif
+}
+@_hasMissingDesignatedInitializers public class DefaultEventFeedService {
+  @objc deinit
+}
+public struct FlyreelStatus : Swift.Sendable {
+  public let status: Swift.String
+  public let expiration: Swift.String
+  public init(status: Swift.String, expiration: Swift.String)
 }
 extension Flyreel.FlyreelEnvironment : Swift.Equatable {}
 extension Flyreel.FlyreelEnvironment : Swift.Hashable {}
