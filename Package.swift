@@ -30,7 +30,7 @@ let package = Package(
                 .product(name: "FlyreelCamera", package: "flyreel-camera-ios"),
                 .product(name: "FlyreelFNOL", package: "flyreel-fnol-ios"),
                 .product(name: "FlyreelMeshScan", package: "flyreel-meshscan-ios"),
-                .product(name: "FlyreelPanorama", package: "flyreel-pan
+                .product(name: "FlyreelPanorama", package: "flyreel-panorama-ios"),
             ],
             path: "Sources"
         ),
