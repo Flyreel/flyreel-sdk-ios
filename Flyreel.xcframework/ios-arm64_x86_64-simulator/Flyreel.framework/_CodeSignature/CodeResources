@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nuJ2NQCukVxWEhiKdXdTT8wq7ms=
+		7di/ybEJ9DRuUTdS0Eb/7l+frgc=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pNzY6D3TG5JXMBV1z0uHpSV+Bds=
+		wVdtgRRIt/V1kyREi/ynV+uuRk4=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MfRKXULE2rxjU2yL4aqg/kst1E8=
+		becX93dywrJKkTXR/cLkDHGcgCo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -129,7 +129,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9NEzq/PkvVqShqV7vlEf01uI0uaZYUGBLFxllg4wYnw=
+			CgxAtAU2re9zg6hW8N4qo1XGgm1wBRk5DVWlblu7jt0=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -164,7 +164,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SZa7/YGizIiJ/R6FWNjN0XjsBSizgpqQHCjNniTFeMg=
+			3hx/CXod8RhQ1tvyc1a//qB27ClEDZqu72KfZKGSx+o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
