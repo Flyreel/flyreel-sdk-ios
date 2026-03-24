@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Flyreel"
-  spec.version      = "1.1.10"
+  spec.version      = "1.1.10-hotfix.1"
   spec.summary      = "Flyreel SDK."
   spec.homepage     = "https://risk.lexisnexis.com/products/flyreel"
 
@@ -44,7 +44,7 @@ SOFTWARE.
 
   spec.dependency "FlyreelCamera", "0.0.7"
   spec.dependency "FlyreelFNOL", "0.0.2"
-  spec.dependency "FlyreelMeshScan", "0.0.1"
+  spec.dependency "FlyreelMeshScan", "0.0.3"
   spec.dependency "FlyreelPanorama", "0.0.6"
 
 end
