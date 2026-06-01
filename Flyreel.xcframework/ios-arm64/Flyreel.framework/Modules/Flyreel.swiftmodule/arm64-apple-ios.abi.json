@@ -902,17 +902,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
             "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1229,17 +1229,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -5146,108 +5146,24 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BitwiseCopyable",
-            "printedName": "BitwiseCopyable",
-            "usr": "s:s15BitwiseCopyableP",
-            "mangledName": "$ss15BitwiseCopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ExpressibleByNilLiteral",
-            "printedName": "ExpressibleByNilLiteral",
-            "usr": "s:s23ExpressibleByNilLiteralP",
-            "mangledName": "$ss23ExpressibleByNilLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ObjectiveCBridgeable",
-            "printedName": "_ObjectiveCBridgeable",
+            "name": "DecodableWithConfiguration",
+            "printedName": "DecodableWithConfiguration",
             "children": [
               {
                 "kind": "TypeWitness",
-                "name": "_ObjectiveCType",
-                "printedName": "_ObjectiveCType",
+                "name": "DecodingConfiguration",
+                "printedName": "DecodingConfiguration",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "AnyObject"
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.DecodingConfiguration"
                   }
                 ]
               }
             ],
-            "usr": "s:s21_ObjectiveCBridgeableP",
-            "mangledName": "$ss21_ObjectiveCBridgeableP"
+            "usr": "s:10Foundation26DecodableWithConfigurationP",
+            "mangledName": "$s10Foundation26DecodableWithConfigurationP"
           },
           {
             "kind": "Conformance",
@@ -5272,29 +5188,113 @@
           },
           {
             "kind": "Conformance",
-            "name": "DecodableWithConfiguration",
-            "printedName": "DecodableWithConfiguration",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByNilLiteral",
+            "printedName": "ExpressibleByNilLiteral",
+            "usr": "s:s23ExpressibleByNilLiteralP",
+            "mangledName": "$ss23ExpressibleByNilLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
             "children": [
               {
                 "kind": "TypeWitness",
-                "name": "DecodingConfiguration",
-                "printedName": "DecodingConfiguration",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "DependentMember",
-                    "printedName": "τ_0_0.DecodingConfiguration"
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
                   }
                 ]
               }
             ],
-            "usr": "s:10Foundation26DecodableWithConfigurationP",
-            "mangledName": "$s10Foundation26DecodableWithConfigurationP"
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
           },
           {
             "kind": "Conformance",
-            "name": "AttributedTextFormattingDefinition",
-            "printedName": "AttributedTextFormattingDefinition",
+            "name": "Commands",
+            "printedName": "Commands",
             "children": [
               {
                 "kind": "TypeWitness",
@@ -5303,34 +5303,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUICore.AttributedTextFormattingDefinition<Wrapped.Scope>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AttributedTextFormattingDefinition",
-                        "printedName": "SwiftUICore.AttributedTextFormattingDefinition",
-                        "usr": "s:7SwiftUI34AttributedTextFormattingDefinitionP"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Scope",
-                "printedName": "Scope",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DependentMember",
-                    "printedName": "τ_0_0.Scope"
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
                   }
                 ]
               }
             ],
-            "usr": "s:7SwiftUI34AttributedTextFormattingDefinitionP",
-            "mangledName": "$s7SwiftUI34AttributedTextFormattingDefinitionP"
+            "usr": "s:7SwiftUI8CommandsP",
+            "mangledName": "$s7SwiftUI8CommandsP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomizableToolbarContent",
+            "printedName": "CustomizableToolbarContent",
+            "usr": "s:7SwiftUI26CustomizableToolbarContentP",
+            "mangledName": "$s7SwiftUI26CustomizableToolbarContentP"
           },
           {
             "kind": "Conformance",
@@ -5368,9 +5356,21 @@
           },
           {
             "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
+            "name": "SliderTickContent",
+            "printedName": "SliderTickContent",
             "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Value",
+                "printedName": "Value",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Value"
+                  }
+                ]
+              },
               {
                 "kind": "TypeWitness",
                 "name": "Body",
@@ -5378,61 +5378,30 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Never",
-                    "printedName": "Swift.Never",
-                    "usr": "s:s5NeverO"
+                    "name": "Array",
+                    "printedName": "[SwiftUI.SliderTick<τ_0_0.Value>]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SliderTick",
+                        "printedName": "SwiftUI.SliderTick<τ_0_0.Value>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DependentMember",
+                            "printedName": "τ_0_0.Value"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI10SliderTickV"
+                      }
+                    ],
+                    "usr": "s:Sa"
                   }
                 ]
               }
             ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "TableColumnContent",
-            "printedName": "TableColumnContent",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "TableRowValue",
-                "printedName": "TableRowValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DependentMember",
-                    "printedName": "τ_0_0.TableRowValue"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "TableColumnSortComparator",
-                "printedName": "TableColumnSortComparator",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DependentMember",
-                    "printedName": "τ_0_0.TableColumnSortComparator"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "TableColumnBody",
-                "printedName": "TableColumnBody",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Never",
-                    "printedName": "Swift.Never",
-                    "usr": "s:s5NeverO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI18TableColumnContentP",
-            "mangledName": "$s7SwiftUI18TableColumnContentP"
+            "usr": "s:7SwiftUI17SliderTickContentP",
+            "mangledName": "$s7SwiftUI17SliderTickContentP"
           },
           {
             "kind": "Conformance",
@@ -5497,6 +5466,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "TableColumnContent",
+            "printedName": "TableColumnContent",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "TableRowValue",
+                "printedName": "TableRowValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.TableRowValue"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "TableColumnSortComparator",
+                "printedName": "TableColumnSortComparator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.TableColumnSortComparator"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "TableColumnBody",
+                "printedName": "TableColumnBody",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18TableColumnContentP",
+            "mangledName": "$s7SwiftUI18TableColumnContentP"
+          },
+          {
+            "kind": "Conformance",
             "name": "TableRowContent",
             "printedName": "TableRowContent",
             "children": [
@@ -5531,77 +5546,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "SliderTickContent",
-            "printedName": "SliderTickContent",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Value",
-                "printedName": "Value",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DependentMember",
-                    "printedName": "τ_0_0.Value"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[SwiftUI.SliderTick<τ_0_0.Value>]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SliderTick",
-                        "printedName": "SwiftUI.SliderTick<τ_0_0.Value>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "DependentMember",
-                            "printedName": "τ_0_0.Value"
-                          }
-                        ],
-                        "usr": "s:7SwiftUI10SliderTickV"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI17SliderTickContentP",
-            "mangledName": "$s7SwiftUI17SliderTickContentP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Commands",
-            "printedName": "Commands",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Never",
-                    "printedName": "Swift.Never",
-                    "usr": "s:s5NeverO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI8CommandsP",
-            "mangledName": "$s7SwiftUI8CommandsP"
-          },
-          {
-            "kind": "Conformance",
             "name": "ToolbarContent",
             "printedName": "ToolbarContent",
             "children": [
@@ -5624,10 +5568,66 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomizableToolbarContent",
-            "printedName": "CustomizableToolbarContent",
-            "usr": "s:7SwiftUI26CustomizableToolbarContentP",
-            "mangledName": "$s7SwiftUI26CustomizableToolbarContentP"
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AttributedTextFormattingDefinition",
+            "printedName": "AttributedTextFormattingDefinition",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUICore.AttributedTextFormattingDefinition<τ_0_0.Scope>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AttributedTextFormattingDefinition",
+                        "printedName": "SwiftUICore.AttributedTextFormattingDefinition",
+                        "usr": "s:7SwiftUI34AttributedTextFormattingDefinitionP"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Scope",
+                "printedName": "Scope",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Scope"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI34AttributedTextFormattingDefinitionP",
+            "mangledName": "$s7SwiftUI34AttributedTextFormattingDefinitionP"
           },
           {
             "kind": "Conformance",
@@ -5676,38 +5676,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -5718,10 +5690,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -5732,10 +5718,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       }

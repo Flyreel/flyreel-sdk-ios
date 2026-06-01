@@ -7,5 +7,4 @@ framework module Flyreel {
 
 module Flyreel.Swift {
   header "Flyreel-Swift.h"
-  requires objc
 }
