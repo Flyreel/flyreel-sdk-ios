@@ -502,8 +502,8 @@ relocations:
   - { offset: 0xC7CB6, size: 0x8, addend: 0x0, symName: '_$s7Flyreel37DefaultTryToSyncCachedMessagesUseCaseC7execute7Combine12AnyPublisherVySfAA9RESTErrorOGyFAJSayAA9BotAnswerVGcfU0_S2f_yttcfU0_', symObjAddr: 0x2398, symBinAddr: 0x2115C, symSize: 0x14 }
   - { offset: 0xC7CD0, size: 0x8, addend: 0x0, symName: '_$s7Flyreel37DefaultTryToSyncCachedMessagesUseCaseC7execute7Combine12AnyPublisherVySfAA9RESTErrorOGyFAJSayAA9BotAnswerVGcfU0_ySfcfU2_', symObjAddr: 0x23AC, symBinAddr: 0x21170, symSize: 0x1C0 }
   - { offset: 0xC8154, size: 0x8, addend: 0x0, symName: '_$s7Flyreel37DefaultTryToSyncCachedMessagesUseCaseCfD', symObjAddr: 0x256C, symBinAddr: 0x21330, symSize: 0x70 }
-  - { offset: 0xC8407, size: 0x8, addend: 0x0, symName: '_$s10Foundation11JSONDecoderC7FlyreelE13simpleDecoderACvpZ', symObjAddr: 0x2540, symBinAddr: 0x1793E0, symSize: 0x0 }
-  - { offset: 0xC8421, size: 0x8, addend: 0x0, symName: '_$s10Foundation11JSONDecoderC7FlyreelE15richDateDecoderACvpZ', symObjAddr: 0x2548, symBinAddr: 0x1793E8, symSize: 0x0 }
+  - { offset: 0xC8407, size: 0x8, addend: 0x0, symName: '_$s10Foundation11JSONDecoderC7FlyreelE13simpleDecoderACvpZ', symObjAddr: 0x2548, symBinAddr: 0x1793E0, symSize: 0x0 }
+  - { offset: 0xC8421, size: 0x8, addend: 0x0, symName: '_$s10Foundation11JSONDecoderC7FlyreelE15richDateDecoderACvpZ', symObjAddr: 0x2550, symBinAddr: 0x1793E8, symSize: 0x0 }
   - { offset: 0xC85E4, size: 0x8, addend: 0x0, symName: '_$s7Flyreel0A17ObjectRESTRequestO8endpointSSvg', symObjAddr: 0x0, symBinAddr: 0x232C8, symSize: 0x154 }
   - { offset: 0xC864B, size: 0x8, addend: 0x0, symName: '_$s7Flyreel0A17ObjectRESTRequestOWOy', symObjAddr: 0x180, symBinAddr: 0x2341C, symSize: 0x50 }
   - { offset: 0xC865F, size: 0x8, addend: 0x0, symName: '_$s7Flyreel0A17ObjectRESTRequestOwxx', symObjAddr: 0x1D0, symBinAddr: 0x2346C, symSize: 0x14 }
@@ -1148,7 +1148,7 @@ relocations:
   - { offset: 0xDD605, size: 0x8, addend: 0x0, symName: '_$s7Flyreel3DTOO011MediaBundleB0V10CodingKeys33_A94DCDA6D06E21D174470F26832A1110LLOs0E3KeyAAsAIP11stringValuexSgSS_tcfCTW', symObjAddr: 0xCB0, symBinAddr: 0x4DCB0, symSize: 0xDC }
   - { offset: 0xDD67A, size: 0x8, addend: 0x0, symName: '_$s7Flyreel3DTOO011MediaBundleB0VSeAASe4fromxs7Decoder_p_tKcfCTW', symObjAddr: 0xDF4, symBinAddr: 0x4DDDC, symSize: 0x14 }
   - { offset: 0xDD68E, size: 0x8, addend: 0x0, symName: '_$s7Flyreel3DTOO011MediaBundleB0VSEAASE6encode2toys7Encoder_p_tKFTW', symObjAddr: 0xE08, symBinAddr: 0x4DDF0, symSize: 0x14 }
-  - { offset: 0xDD869, size: 0x8, addend: 0x0, symName: '_$s7Flyreel0A6LoggerO9isEnabledSbvpZ', symObjAddr: 0x228D, symBinAddr: 0x179458, symSize: 0x0 }
+  - { offset: 0xDD869, size: 0x8, addend: 0x0, symName: '_$s7Flyreel0A6LoggerO9isEnabledSbvpZ', symObjAddr: 0x228E, symBinAddr: 0x179458, symSize: 0x0 }
   - { offset: 0xDDA22, size: 0x8, addend: 0x0, symName: '_$s7Flyreel0A10CoordinateV3latSdvg', symObjAddr: 0x0, symBinAddr: 0x4DFE0, symSize: 0x8 }
   - { offset: 0xDDA6E, size: 0x8, addend: 0x0, symName: '_$s7Flyreel0A10CoordinateVMa', symObjAddr: 0x68, symBinAddr: 0x4DFF0, symSize: 0x10 }
   - { offset: 0xDDA83, size: 0x8, addend: 0x0, symName: '_$s7Flyreel0A10CoordinateV3latSdvg', symObjAddr: 0x0, symBinAddr: 0x4DFE0, symSize: 0x8 }

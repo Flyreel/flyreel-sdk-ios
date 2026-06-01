@@ -15,7 +15,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/Flyreel/flyreel-camera-ios", exact: "0.0.7"),
         .package(url: "https://github.com/Flyreel/flyreel-fnol-ios", exact: "0.0.2"),
-        .package(url: "https://github.com/Flyreel/flyreel-meshscan-ios", exact: "0.0.1"),
+        .package(url: "https://github.com/Flyreel/flyreel-meshscan-ios", exact: "0.0.3"),
         .package(url: "https://github.com/Flyreel/flyreel-panorama-ios", exact: "0.0.6"),
     ],
     targets: [

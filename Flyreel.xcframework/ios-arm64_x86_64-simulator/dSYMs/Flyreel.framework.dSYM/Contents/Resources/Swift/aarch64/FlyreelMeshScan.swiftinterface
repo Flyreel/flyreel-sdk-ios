@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FlyreelMeshScan
-// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import ARKit
 import AVFoundation
 import AVKit
@@ -24,6 +24,10 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import simd
+
+
+
+
 
 
 
@@ -66,18 +70,18 @@ public func SCNVector3DotProduct(left: SceneKit.SCNVector3, right: SceneKit.SCNV
 public func SCNVector3CrossProduct(left: SceneKit.SCNVector3, right: SceneKit.SCNVector3) -> SceneKit.SCNVector3
 public func SCNVector3Lerp(vectorStart: SceneKit.SCNVector3, vectorEnd: SceneKit.SCNVector3, t: Swift.Float) -> SceneKit.SCNVector3
 public func SCNVector3Project(vectorToProject: SceneKit.SCNVector3, projectionVector: SceneKit.SCNVector3) -> SceneKit.SCNVector3
-
-
-
-
-
-
-
 public enum MeshScan {
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func push(navigation: SwiftUICore.Binding<Swift.Bool>, clientID: Swift.String, onCompletion: @escaping ([Foundation.URL]?) -> Swift.Void) -> some SwiftUICore.View
   
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func push(from navigationController: UIKit.UINavigationController, clientID: Swift.String, onCompletion: @escaping ([Foundation.URL]?) -> Swift.Void)
+  #endif
 }
+
+
+
 
 
 
