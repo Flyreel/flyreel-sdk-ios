@@ -14,6 +14,7 @@ import FlyreelMeshScan
 import FlyreelPanorama
 import Foundation
 import ImageIO
+import Network
 import Swift
 import SwiftUI
 import UIKit
@@ -71,6 +72,13 @@ extension Flyreel.FlyreelSDK {
   final public func fetchFlyreelStatus(zipCode: Swift.String, accessCode: Swift.String, completion: @escaping (Swift.Result<Flyreel.FlyreelStatus, Flyreel.FlyreelError>) -> Swift.Void)
   final public func fetchFlyreelStatus(zipCode: Swift.String, accessCode: Swift.String) async throws -> Flyreel.FlyreelStatus
 }
+@_spi(FlyreelInternal) extension Flyreel.FlyreelSDK {
+  @_spi(FlyreelInternal) final public var diagnosticsLogURL: Foundation.URL {
+    @_spi(FlyreelInternal) get
+  }
+  @_spi(FlyreelInternal) @discardableResult
+  final public func shareLogs() -> Swift.Bool
+}
 extension Flyreel.FlyreelSDK {
   final public func presentFlyreel(on rootViewController: UIKit.UIViewController, animated: Swift.Bool = true)
   final public func presentFlyreel(on rootViewController: UIKit.UIViewController, zipCode: Swift.String, accessCode: Swift.String, shouldSkipLoginPage: Swift.Bool = true, animated: Swift.Bool = true)
@@ -118,6 +126,7 @@ public struct FlyreelDeviceData {
 
 
 
+
 @_Concurrency.MainActor @preconcurrency public struct FlyreelView : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(flyreelSDK: Flyreel.FlyreelSDK = .shared, deepLinkURL: Foundation.URL? = nil)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
@@ -137,6 +146,7 @@ public struct FlyreelAnalyticUser {
 }
 public struct FlyreelConfiguration {
   public init(organizationId: Swift.String, environment: Flyreel.FlyreelEnvironment = .production, fontFamilyName: Swift.String? = nil)
+  @_spi(FlyreelInternal) public init(organizationId: Swift.String, environment: Flyreel.FlyreelEnvironment = .production, fontFamilyName: Swift.String? = nil, currentTimeOffset: Foundation.TimeInterval, devModeEnabled: Swift.Bool = false)
 }
 @_hasMissingDesignatedInitializers public class DefaultEventFeedService {
   @objc deinit
