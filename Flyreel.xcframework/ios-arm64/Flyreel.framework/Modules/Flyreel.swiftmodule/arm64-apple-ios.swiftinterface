@@ -14,6 +14,7 @@ import FlyreelMeshScan
 import FlyreelPanorama
 import Foundation
 import ImageIO
+import Network
 import Swift
 import SwiftUI
 import UIKit
@@ -114,6 +115,7 @@ public struct FlyreelDeviceData {
   public let appVersion: Swift.String?
   public let appName: Swift.String?
 }
+
 
 
 

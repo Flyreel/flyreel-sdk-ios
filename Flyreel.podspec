@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Flyreel"
-  spec.version      = "1.2.0"
+  spec.version      = "1.2.1"
   spec.summary      = "Flyreel SDK."
   spec.homepage     = "https://risk.lexisnexis.com/products/flyreel"
 
@@ -42,7 +42,7 @@ SOFTWARE.
 
   spec.pod_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
 
-  spec.dependency "FlyreelCamera", "0.0.8"
+  spec.dependency "FlyreelCamera", "0.0.9"
   spec.dependency "FlyreelFNOL", "0.0.3"
   spec.dependency "FlyreelMeshScan", "0.0.3"
   spec.dependency "FlyreelPanorama", "0.0.6"

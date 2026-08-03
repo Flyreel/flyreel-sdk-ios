@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.2
 import AVFoundation
 import Combine
+import CoreMotion
 import DeveloperToolsSupport
 import Foundation
 import Swift
