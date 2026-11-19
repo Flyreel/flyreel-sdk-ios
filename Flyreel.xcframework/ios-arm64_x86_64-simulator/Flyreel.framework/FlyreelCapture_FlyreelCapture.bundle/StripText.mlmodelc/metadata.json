@@ -1,0 +1,73 @@
+[
+  {
+    "metadataOutputVersion" : "3.0",
+    "shortDescription" : "striptext 1D character detector — input 512×64 greyscale strip, output (128, 39) per-column predictions",
+    "outputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32)",
+        "shortDescription" : "Per-column predictions, shape (1, 128, 39). Channels 0-36: class logits (softmax; class 36 = background). Channel 37: d_left normalised by strip width. Channel 38: d_right normalised by strip width.",
+        "shape" : "[]",
+        "name" : "Identity",
+        "type" : "MultiArray"
+      }
+    ],
+    "storagePrecision" : "Float16",
+    "modelParameters" : [
+
+    ],
+    "specificationVersion" : 4,
+    "computePrecision" : "Float16",
+    "isUpdatable" : "0",
+    "stateSchema" : [
+
+    ],
+    "availability" : {
+      "macOS" : "10.15",
+      "tvOS" : "13.0",
+      "visionOS" : "1.0",
+      "watchOS" : "6.0",
+      "iOS" : "13.0",
+      "macCatalyst" : "13.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_neuralNetwork"
+    },
+    "inputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 64 × 512 × 1)",
+        "shortDescription" : "Greyscale strip image, float32, shape (1, 64, 512, 1), pixel values in [0, 1].",
+        "shape" : "[1, 64, 512, 1]",
+        "name" : "strip",
+        "type" : "MultiArray"
+      }
+    ],
+    "userDefinedMetadata" : {
+      "com.github.apple.coremltools.version" : "9.0",
+      "com.github.apple.coremltools.conversion_date" : "2026-08-11",
+      "com.github.apple.coremltools.source" : "tensorflow==2.19.1"
+    },
+    "generatedClassName" : "StripText",
+    "neuralNetworkLayerTypeHistogram" : {
+      "ActivationSoftplus" : 1,
+      "AddBroadcastable" : 1,
+      "Convolution" : 19,
+      "PoolingINVALID" : 6,
+      "Transpose" : 6,
+      "ReshapeStatic" : 1,
+      "LoadConstantND" : 2,
+      "MultiplyBroadcastable" : 1,
+      "Squeeze" : 4,
+      "Add" : 7,
+      "ExpandDims" : 3,
+      "ConcatND" : 1,
+      "ActivationReLU" : 14
+    },
+    "method" : "predict"
+  }
+]

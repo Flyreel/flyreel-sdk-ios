@@ -1,0 +1,4522 @@
+{
+  "storage" : "model.espresso.weights",
+  "analyses" : {
+
+  },
+  "properties" : {
+
+  },
+  "format_version" : 200,
+  "metadata_in_weights" : [
+
+  ],
+  "layers" : [
+    {
+      "axis_h" : 2,
+      "axis_w" : 1,
+      "bottom" : "strip",
+      "axis_k" : 0,
+      "axis_n" : 3,
+      "axis_seq" : 4,
+      "weights" : {
+
+      },
+      "debug_info" : "transpose_100",
+      "top" : "transpose_1",
+      "type" : "transpose",
+      "name" : "transpose_100"
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "odometer_1d_attn_1\/batch_normalization_1_1\/batchnorm\/add_1",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "odometer_1d_attn_1\/activation_1\/Relu",
+      "K" : 1,
+      "blob_biases" : 1,
+      "name" : "odometer_1d_attn_1\/batch_normalization_1_1\/batchnorm\/add_1",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 32,
+      "bottom" : "transpose_1",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1,
+      "blob_weights_f16" : 3
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "odometer_1d_attn_1\/batch_normalization_3\/batchnorm\/add_1",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "odometer_1d_attn_1\/batch_normalization_3\/batchnorm\/add_1",
+      "K" : 1,
+      "blob_biases" : 5,
+      "name" : "odometer_1d_attn_1\/batch_normalization_3\/batchnorm\/add_1",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 32,
+      "bottom" : "transpose_1",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1,
+      "blob_weights_f16" : 7
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "odometer_1d_attn_1\/batch_normalization_2_1\/batchnorm\/add_1",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "odometer_1d_attn_1\/batch_normalization_2_1\/batchnorm\/add_1",
+      "K" : 32,
+      "blob_biases" : 9,
+      "name" : "odometer_1d_attn_1\/batch_normalization_2_1\/batchnorm\/add_1",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 32,
+      "bottom" : "odometer_1d_attn_1\/activation_1\/Relu",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1,
+      "blob_weights_f16" : 11
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/batch_normalization_2_1\/batchnorm\/add_1,odometer_1d_attn_1\/batch_normalization_3\/batchnorm\/add_1",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/add_1\/Add",
+      "top" : "odometer_1d_attn_1\/add_1\/Add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/add_1\/Add",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/add_1\/Add",
+      "weights" : {
+
+      },
+      "mode" : 0,
+      "debug_info" : "odometer_1d_attn_1\/activation_1_2\/Relu",
+      "top" : "odometer_1d_attn_1\/activation_1_2\/Relu",
+      "type" : "activation",
+      "name" : "odometer_1d_attn_1\/activation_1_2\/Relu"
+    },
+    {
+      "pad_r" : 0,
+      "debug_info" : "max_pool_0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "size_x" : 2,
+      "top" : "max_pool_0",
+      "top_shape_style" : 0,
+      "stride_x" : 2,
+      "avg_or_max" : 1,
+      "average_count_exclude_padding" : 1,
+      "type" : "pool",
+      "name" : "max_pool_0",
+      "pad_t" : 0,
+      "stride_y" : 2,
+      "bottom" : "odometer_1d_attn_1\/activation_1_2\/Relu",
+      "weights" : {
+
+      },
+      "pad_mode" : 2,
+      "size_y" : 2,
+      "pad_value" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "odometer_1d_attn_1\/batch_normalization_4_1\/batchnorm\/add_1",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "odometer_1d_attn_1\/activation_2_1\/Relu",
+      "K" : 32,
+      "blob_biases" : 13,
+      "name" : "odometer_1d_attn_1\/batch_normalization_4_1\/batchnorm\/add_1",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 64,
+      "bottom" : "max_pool_0",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1,
+      "blob_weights_f16" : 15
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "odometer_1d_attn_1\/batch_normalization_3_2\/batchnorm\/add_1",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "odometer_1d_attn_1\/batch_normalization_3_2\/batchnorm\/add_1",
+      "K" : 32,
+      "blob_biases" : 17,
+      "name" : "odometer_1d_attn_1\/batch_normalization_3_2\/batchnorm\/add_1",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 64,
+      "bottom" : "max_pool_0",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1,
+      "blob_weights_f16" : 19
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "odometer_1d_attn_1\/batch_normalization_5_1\/batchnorm\/add_1",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "odometer_1d_attn_1\/batch_normalization_5_1\/batchnorm\/add_1",
+      "K" : 64,
+      "blob_biases" : 21,
+      "name" : "odometer_1d_attn_1\/batch_normalization_5_1\/batchnorm\/add_1",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 64,
+      "bottom" : "odometer_1d_attn_1\/activation_2_1\/Relu",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1,
+      "blob_weights_f16" : 23
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/batch_normalization_5_1\/batchnorm\/add_1,odometer_1d_attn_1\/batch_normalization_3_2\/batchnorm\/add_1",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/add_1_2\/Add",
+      "top" : "odometer_1d_attn_1\/add_1_2\/Add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/add_1_2\/Add",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/add_1_2\/Add",
+      "weights" : {
+
+      },
+      "mode" : 0,
+      "debug_info" : "odometer_1d_attn_1\/activation_3_1\/Relu",
+      "top" : "odometer_1d_attn_1\/activation_3_1\/Relu",
+      "type" : "activation",
+      "name" : "odometer_1d_attn_1\/activation_3_1\/Relu"
+    },
+    {
+      "pad_r" : 0,
+      "debug_info" : "max_pool_1",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "size_x" : 2,
+      "top" : "max_pool_1",
+      "top_shape_style" : 0,
+      "stride_x" : 2,
+      "avg_or_max" : 1,
+      "average_count_exclude_padding" : 1,
+      "type" : "pool",
+      "name" : "max_pool_1",
+      "pad_t" : 0,
+      "stride_y" : 2,
+      "bottom" : "odometer_1d_attn_1\/activation_3_1\/Relu",
+      "weights" : {
+
+      },
+      "pad_mode" : 2,
+      "size_y" : 2,
+      "pad_value" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "odometer_1d_attn_1\/batch_normalization_7_1\/batchnorm\/add_1",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "odometer_1d_attn_1\/activation_4_1\/Relu",
+      "K" : 64,
+      "blob_biases" : 25,
+      "name" : "odometer_1d_attn_1\/batch_normalization_7_1\/batchnorm\/add_1",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 128,
+      "bottom" : "max_pool_1",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1,
+      "blob_weights_f16" : 27
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "odometer_1d_attn_1\/batch_normalization_6_1\/batchnorm\/add_1",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "odometer_1d_attn_1\/batch_normalization_6_1\/batchnorm\/add_1",
+      "K" : 64,
+      "blob_biases" : 29,
+      "name" : "odometer_1d_attn_1\/batch_normalization_6_1\/batchnorm\/add_1",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 128,
+      "bottom" : "max_pool_1",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1,
+      "blob_weights_f16" : 31
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "odometer_1d_attn_1\/batch_normalization_8_1\/batchnorm\/add_1",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "odometer_1d_attn_1\/batch_normalization_8_1\/batchnorm\/add_1",
+      "K" : 128,
+      "blob_biases" : 33,
+      "name" : "odometer_1d_attn_1\/batch_normalization_8_1\/batchnorm\/add_1",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 128,
+      "bottom" : "odometer_1d_attn_1\/activation_4_1\/Relu",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1,
+      "blob_weights_f16" : 35
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/batch_normalization_8_1\/batchnorm\/add_1,odometer_1d_attn_1\/batch_normalization_6_1\/batchnorm\/add_1",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/add_2_1\/Add",
+      "top" : "odometer_1d_attn_1\/add_2_1\/Add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/add_2_1\/Add",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/add_2_1\/Add",
+      "weights" : {
+
+      },
+      "mode" : 0,
+      "debug_info" : "odometer_1d_attn_1\/activation_5_1\/Relu",
+      "top" : "odometer_1d_attn_1\/activation_5_1\/Relu",
+      "type" : "activation",
+      "name" : "odometer_1d_attn_1\/activation_5_1\/Relu"
+    },
+    {
+      "pad_r" : 0,
+      "debug_info" : "max_pool_2",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "size_x" : 1,
+      "top" : "max_pool_2",
+      "top_shape_style" : 0,
+      "stride_x" : 1,
+      "avg_or_max" : 1,
+      "average_count_exclude_padding" : 1,
+      "type" : "pool",
+      "name" : "max_pool_2",
+      "pad_t" : 0,
+      "stride_y" : 2,
+      "bottom" : "odometer_1d_attn_1\/activation_5_1\/Relu",
+      "weights" : {
+
+      },
+      "pad_mode" : 2,
+      "size_y" : 2,
+      "pad_value" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "odometer_1d_attn_1\/batch_normalization_9_1\/batchnorm\/add_1",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "odometer_1d_attn_1\/activation_6_1\/Relu",
+      "K" : 128,
+      "blob_biases" : 37,
+      "name" : "odometer_1d_attn_1\/batch_normalization_9_1\/batchnorm\/add_1",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 128,
+      "bottom" : "max_pool_2",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1,
+      "blob_weights_f16" : 39
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "odometer_1d_attn_1\/batch_normalization_10_1\/batchnorm\/add_1",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "odometer_1d_attn_1\/batch_normalization_10_1\/batchnorm\/add_1",
+      "K" : 128,
+      "blob_biases" : 41,
+      "name" : "odometer_1d_attn_1\/batch_normalization_10_1\/batchnorm\/add_1",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 128,
+      "bottom" : "odometer_1d_attn_1\/activation_6_1\/Relu",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1,
+      "blob_weights_f16" : 43
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/batch_normalization_10_1\/batchnorm\/add_1,max_pool_2",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/add_3_1\/Add",
+      "top" : "odometer_1d_attn_1\/add_3_1\/Add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/add_3_1\/Add",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/add_3_1\/Add",
+      "weights" : {
+
+      },
+      "mode" : 0,
+      "debug_info" : "odometer_1d_attn_1\/activation_7_1\/Relu",
+      "top" : "odometer_1d_attn_1\/activation_7_1\/Relu",
+      "type" : "activation",
+      "name" : "odometer_1d_attn_1\/activation_7_1\/Relu"
+    },
+    {
+      "pad_r" : 0,
+      "debug_info" : "max_pool_3",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "size_x" : 1,
+      "top" : "max_pool_3",
+      "top_shape_style" : 0,
+      "stride_x" : 1,
+      "avg_or_max" : 1,
+      "average_count_exclude_padding" : 1,
+      "type" : "pool",
+      "name" : "max_pool_3",
+      "pad_t" : 0,
+      "stride_y" : 2,
+      "bottom" : "odometer_1d_attn_1\/activation_7_1\/Relu",
+      "weights" : {
+
+      },
+      "pad_mode" : 2,
+      "size_y" : 2,
+      "pad_value" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "odometer_1d_attn_1\/batch_normalization_11_1\/batchnorm\/add_1",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "odometer_1d_attn_1\/activation_8_1\/Relu",
+      "K" : 128,
+      "blob_biases" : 45,
+      "name" : "odometer_1d_attn_1\/batch_normalization_11_1\/batchnorm\/add_1",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 128,
+      "bottom" : "max_pool_3",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1,
+      "blob_weights_f16" : 47
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "odometer_1d_attn_1\/batch_normalization_12_1\/batchnorm\/add_1",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "odometer_1d_attn_1\/batch_normalization_12_1\/batchnorm\/add_1",
+      "K" : 128,
+      "blob_biases" : 49,
+      "name" : "odometer_1d_attn_1\/batch_normalization_12_1\/batchnorm\/add_1",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 128,
+      "bottom" : "odometer_1d_attn_1\/activation_8_1\/Relu",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1,
+      "blob_weights_f16" : 51
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/batch_normalization_12_1\/batchnorm\/add_1,max_pool_3",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/add_4_1\/Add",
+      "top" : "odometer_1d_attn_1\/add_4_1\/Add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/add_4_1\/Add",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/add_4_1\/Add",
+      "weights" : {
+
+      },
+      "mode" : 0,
+      "debug_info" : "odometer_1d_attn_1\/activation_9_1\/Relu",
+      "top" : "odometer_1d_attn_1\/activation_9_1\/Relu",
+      "type" : "activation",
+      "name" : "odometer_1d_attn_1\/activation_9_1\/Relu"
+    },
+    {
+      "pad_r" : 0,
+      "debug_info" : "max_pool_4",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "size_x" : 1,
+      "top" : "max_pool_4",
+      "top_shape_style" : 0,
+      "stride_x" : 1,
+      "avg_or_max" : 1,
+      "average_count_exclude_padding" : 1,
+      "type" : "pool",
+      "name" : "max_pool_4",
+      "pad_t" : 0,
+      "stride_y" : 2,
+      "bottom" : "odometer_1d_attn_1\/activation_9_1\/Relu",
+      "weights" : {
+
+      },
+      "pad_mode" : 2,
+      "size_y" : 2,
+      "pad_value" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "odometer_1d_attn_1\/batch_normalization_13_1\/batchnorm\/add_1",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "odometer_1d_attn_1\/activation_10_1\/Relu",
+      "K" : 128,
+      "blob_biases" : 53,
+      "name" : "odometer_1d_attn_1\/batch_normalization_13_1\/batchnorm\/add_1",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 128,
+      "bottom" : "max_pool_4",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1,
+      "blob_weights_f16" : 55
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "odometer_1d_attn_1\/batch_normalization_14_1\/batchnorm\/add_1",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "odometer_1d_attn_1\/batch_normalization_14_1\/batchnorm\/add_1",
+      "K" : 128,
+      "blob_biases" : 57,
+      "name" : "odometer_1d_attn_1\/batch_normalization_14_1\/batchnorm\/add_1",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 128,
+      "bottom" : "odometer_1d_attn_1\/activation_10_1\/Relu",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1,
+      "blob_weights_f16" : 59
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/batch_normalization_14_1\/batchnorm\/add_1,max_pool_4",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/add_5_1\/Add",
+      "top" : "odometer_1d_attn_1\/add_5_1\/Add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/add_5_1\/Add",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/add_5_1\/Add",
+      "weights" : {
+
+      },
+      "mode" : 0,
+      "debug_info" : "odometer_1d_attn_1\/activation_11_1\/Relu",
+      "top" : "odometer_1d_attn_1\/activation_11_1\/Relu",
+      "type" : "activation",
+      "name" : "odometer_1d_attn_1\/activation_11_1\/Relu"
+    },
+    {
+      "pad_r" : 0,
+      "debug_info" : "max_pool_5",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "size_x" : 1,
+      "top" : "max_pool_5",
+      "top_shape_style" : 0,
+      "stride_x" : 1,
+      "avg_or_max" : 1,
+      "average_count_exclude_padding" : 1,
+      "type" : "pool",
+      "name" : "max_pool_5",
+      "pad_t" : 0,
+      "stride_y" : 2,
+      "bottom" : "odometer_1d_attn_1\/activation_11_1\/Relu",
+      "weights" : {
+
+      },
+      "pad_mode" : 2,
+      "size_y" : 2,
+      "pad_value" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "odometer_1d_attn_1\/batch_normalization_15_1\/batchnorm\/add_1",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "odometer_1d_attn_1\/activation_12_1\/Relu",
+      "K" : 128,
+      "blob_biases" : 61,
+      "name" : "odometer_1d_attn_1\/batch_normalization_15_1\/batchnorm\/add_1",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 128,
+      "bottom" : "max_pool_5",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1,
+      "blob_weights_f16" : 63
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "odometer_1d_attn_1\/batch_normalization_16_1\/batchnorm\/add_1",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "odometer_1d_attn_1\/batch_normalization_16_1\/batchnorm\/add_1",
+      "K" : 128,
+      "blob_biases" : 65,
+      "name" : "odometer_1d_attn_1\/batch_normalization_16_1\/batchnorm\/add_1",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 128,
+      "bottom" : "odometer_1d_attn_1\/activation_12_1\/Relu",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1,
+      "blob_weights_f16" : 67
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/batch_normalization_16_1\/batchnorm\/add_1,max_pool_5",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/add_6_1\/Add",
+      "top" : "odometer_1d_attn_1\/add_6_1\/Add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/add_6_1\/Add",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/add_6_1\/Add",
+      "weights" : {
+
+      },
+      "mode" : 0,
+      "debug_info" : "odometer_1d_attn_1\/activation_13_1\/Relu",
+      "top" : "odometer_1d_attn_1\/activation_13_1\/Relu",
+      "type" : "activation",
+      "name" : "odometer_1d_attn_1\/activation_13_1\/Relu"
+    },
+    {
+      "pad_r" : 0,
+      "debug_info" : "max_pool_6",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "size_x" : 1,
+      "top" : "max_pool_6",
+      "top_shape_style" : 0,
+      "stride_x" : 1,
+      "avg_or_max" : 1,
+      "average_count_exclude_padding" : 1,
+      "type" : "pool",
+      "name" : "max_pool_6",
+      "pad_t" : 0,
+      "stride_y" : 2,
+      "bottom" : "odometer_1d_attn_1\/activation_13_1\/Relu",
+      "weights" : {
+
+      },
+      "pad_mode" : 2,
+      "size_y" : 2,
+      "pad_value" : 0
+    },
+    {
+      "axis_h" : 0,
+      "axis_w" : 2,
+      "bottom" : "max_pool_6",
+      "axis_k" : 1,
+      "axis_n" : 3,
+      "axis_seq" : 4,
+      "weights" : {
+
+      },
+      "debug_info" : "transpose_99",
+      "top" : "odometer_1d_attn_1\/max_pooling2d_6_1\/MaxPool2d",
+      "type" : "transpose",
+      "name" : "transpose_99"
+    },
+    {
+      "name" : "odometer_1d_attn_1\/reshape_1\/Reshape",
+      "weights" : {
+
+      },
+      "dst_w" : 128,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 3,
+      "type" : "reshape",
+      "dst_h" : 96,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "odometer_1d_attn_1\/max_pooling2d_6_1\/MaxPool2d",
+      "debug_info" : "odometer_1d_attn_1\/reshape_1\/Reshape",
+      "dst_seq" : 1,
+      "dst_k" : 1,
+      "top" : "odometer_1d_attn_1\/reshape_1\/Reshape"
+    },
+    {
+      "axis_h" : 0,
+      "axis_w" : 1,
+      "bottom" : "odometer_1d_attn_1\/reshape_1\/Reshape",
+      "axis_k" : 2,
+      "axis_n" : 3,
+      "axis_seq" : 4,
+      "weights" : {
+
+      },
+      "debug_info" : "transpose_98",
+      "top" : "transpose_42",
+      "type" : "transpose",
+      "name" : "transpose_98"
+    },
+    {
+      "size_of_axes" : 1,
+      "bottom" : "transpose_42",
+      "axes_0" : -2,
+      "weights" : {
+
+      },
+      "nd_axis" : 0,
+      "debug_info" : "expand_dims_0",
+      "top" : "expand_dims_0",
+      "type" : "expand_dims",
+      "name" : "expand_dims_0"
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "conv_1",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "conv_1",
+      "K" : 128,
+      "blob_biases" : 69,
+      "name" : "conv_1",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 128,
+      "bottom" : "expand_dims_0",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 0,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1,
+      "blob_weights_f16" : 71
+    },
+    {
+      "size_of_axes" : 1,
+      "bottom" : "conv_1",
+      "axes_0" : -2,
+      "weights" : {
+
+      },
+      "nd_axis" : 0,
+      "debug_info" : "conv_0",
+      "version" : 1,
+      "top" : "conv_0",
+      "type" : "squeeze",
+      "name" : "conv_0"
+    },
+    {
+      "axis_h" : 0,
+      "axis_w" : 1,
+      "bottom" : "conv_0",
+      "axis_k" : 2,
+      "axis_n" : 3,
+      "axis_seq" : 4,
+      "weights" : {
+
+      },
+      "debug_info" : "transpose_97",
+      "top" : "odometer_1d_attn_1\/conv1d_1\/BiasAdd",
+      "type" : "transpose",
+      "name" : "transpose_97"
+    },
+    {
+      "top" : "odometer_1d_attn_1\/Add_7\/y",
+      "w" : 128,
+      "h" : 96,
+      "name" : "odometer_1d_attn_1\/Add_7\/y",
+      "nd_rank" : 2,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/Add_7\/y",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 73
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/Add_7\/y,odometer_1d_attn_1\/conv1d_1\/BiasAdd",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/Add_7",
+      "top" : "odometer_1d_attn_1\/Add_7",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/Add_7",
+      "beta" : 0
+    },
+    {
+      "axis_h" : 0,
+      "axis_w" : 1,
+      "bottom" : "odometer_1d_attn_1\/Add_7",
+      "axis_k" : 2,
+      "axis_n" : 3,
+      "axis_seq" : 4,
+      "weights" : {
+
+      },
+      "debug_info" : "transpose_96",
+      "top" : "transpose_44",
+      "type" : "transpose",
+      "name" : "transpose_96"
+    },
+    {
+      "size_of_axes" : 1,
+      "bottom" : "transpose_44",
+      "axes_0" : -2,
+      "weights" : {
+
+      },
+      "nd_axis" : 0,
+      "debug_info" : "expand_dims_2",
+      "top" : "expand_dims_2",
+      "type" : "expand_dims",
+      "name" : "expand_dims_2"
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "conv_2",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "conv_2",
+      "K" : 128,
+      "blob_biases" : 75,
+      "name" : "conv_2",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 128,
+      "bottom" : "expand_dims_2",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1,
+      "blob_weights_f16" : 77
+    },
+    {
+      "size_of_axes" : 1,
+      "bottom" : "conv_2",
+      "axes_0" : -2,
+      "weights" : {
+
+      },
+      "nd_axis" : 0,
+      "debug_info" : "odometer_1d_attn_1\/batch_normalization_17_1\/batchnorm\/add_1",
+      "version" : 1,
+      "top" : "odometer_1d_attn_1\/batch_normalization_17_1\/batchnorm\/add_1",
+      "type" : "squeeze",
+      "name" : "odometer_1d_attn_1\/batch_normalization_17_1\/batchnorm\/add_1"
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/batch_normalization_17_1\/batchnorm\/add_1",
+      "weights" : {
+
+      },
+      "mode" : 0,
+      "debug_info" : "odometer_1d_attn_1\/activation_14_1\/Relu",
+      "top" : "odometer_1d_attn_1\/activation_14_1\/Relu",
+      "type" : "activation",
+      "name" : "odometer_1d_attn_1\/activation_14_1\/Relu"
+    },
+    {
+      "size_of_axes" : 1,
+      "bottom" : "odometer_1d_attn_1\/activation_14_1\/Relu",
+      "axes_0" : -2,
+      "weights" : {
+
+      },
+      "nd_axis" : 0,
+      "debug_info" : "expand_dims_4",
+      "top" : "expand_dims_4",
+      "type" : "expand_dims",
+      "name" : "expand_dims_4"
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "conv_3",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "conv_3",
+      "K" : 128,
+      "name" : "conv_3",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 0,
+      "C" : 128,
+      "bottom" : "expand_dims_4",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1,
+      "blob_weights_f16" : 79
+    },
+    {
+      "size_of_axes" : 1,
+      "bottom" : "conv_3",
+      "axes_0" : -2,
+      "weights" : {
+
+      },
+      "nd_axis" : 0,
+      "debug_info" : "odometer_1d_attn_1\/conv1d_2_1\/convolutionx",
+      "version" : 1,
+      "top" : "odometer_1d_attn_1\/conv1d_2_1\/convolutionx",
+      "type" : "squeeze",
+      "name" : "odometer_1d_attn_1\/conv1d_2_1\/convolutionx"
+    },
+    {
+      "axis_h" : 0,
+      "axis_w" : 1,
+      "bottom" : "odometer_1d_attn_1\/conv1d_2_1\/convolutionx",
+      "axis_k" : 2,
+      "axis_n" : 3,
+      "axis_seq" : 4,
+      "weights" : {
+
+      },
+      "debug_info" : "transpose_95",
+      "top" : "odometer_1d_attn_1\/conv1d_2_1\/convolution\/Squeeze",
+      "type" : "transpose",
+      "name" : "transpose_95"
+    },
+    {
+      "top" : "odometer_1d_attn_1\/batch_normalization_18_1\/batchnorm\/mul",
+      "w" : 128,
+      "h" : 1,
+      "name" : "odometer_1d_attn_1\/batch_normalization_18_1\/batchnorm\/mul",
+      "nd_rank" : 1,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/batch_normalization_18_1\/batchnorm\/mul",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 81
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/conv1d_2_1\/convolution\/Squeeze,odometer_1d_attn_1\/batch_normalization_18_1\/batchnorm\/mul",
+      "alpha" : 1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/batch_normalization_18_1\/batchnorm\/mul_1",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/batch_normalization_18_1\/batchnorm\/mul_1",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/batch_normalization_18_1\/batchnorm\/mul_1",
+      "beta" : 0
+    },
+    {
+      "top" : "odometer_1d_attn_1\/batch_normalization_18_1\/batchnorm\/sub",
+      "w" : 128,
+      "h" : 1,
+      "name" : "odometer_1d_attn_1\/batch_normalization_18_1\/batchnorm\/sub",
+      "nd_rank" : 1,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/batch_normalization_18_1\/batchnorm\/sub",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 83
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/batch_normalization_18_1\/batchnorm\/mul_1,odometer_1d_attn_1\/batch_normalization_18_1\/batchnorm\/sub",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/batch_normalization_18_1\/batchnorm\/add_1",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/batch_normalization_18_1\/batchnorm\/add_1",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/batch_normalization_18_1\/batchnorm\/add_1",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/batch_normalization_18_1\/batchnorm\/add_1,odometer_1d_attn_1\/Add_7",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/add_8_1\/Add",
+      "top" : "odometer_1d_attn_1\/add_8_1\/Add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/add_8_1\/Add",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/add_8_1\/Add",
+      "weights" : {
+
+      },
+      "mode" : 0,
+      "debug_info" : "odometer_1d_attn_1\/activation_15_1\/Relu",
+      "top" : "odometer_1d_attn_1\/activation_15_1\/Relu",
+      "type" : "activation",
+      "name" : "odometer_1d_attn_1\/activation_15_1\/Relu"
+    },
+    {
+      "axis_mode" : 1,
+      "bottom" : "odometer_1d_attn_1\/activation_15_1\/Relu",
+      "weights" : {
+
+      },
+      "mode" : 1,
+      "nd_mode" : true,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1\/moments\/mean",
+      "use_version" : 1,
+      "top" : "odometer_1d_attn_1\/layer_normalization_1\/moments\/mean",
+      "type" : "reduce",
+      "name" : "odometer_1d_attn_1\/layer_normalization_1\/moments\/mean"
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_1\/moments\/mean",
+      "alpha" : -1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1\/Neg",
+      "top" : "odometer_1d_attn_1\/layer_normalization_1\/Neg",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_1\/Neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/activation_15_1\/Relu,odometer_1d_attn_1\/layer_normalization_1\/moments\/mean",
+      "alpha" : 1,
+      "operation" : 33,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1\/moments\/SquaredDifference_sub",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_1\/moments\/SquaredDifference_sub",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_1\/moments\/SquaredDifference_sub",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_1\/moments\/SquaredDifference_sub",
+      "alpha" : 2,
+      "operation" : 13,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1\/moments\/SquaredDifference",
+      "top" : "odometer_1d_attn_1\/layer_normalization_1\/moments\/SquaredDifference",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_1\/moments\/SquaredDifference",
+      "beta" : 0
+    },
+    {
+      "axis_mode" : 1,
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_1\/moments\/SquaredDifference",
+      "weights" : {
+
+      },
+      "mode" : 1,
+      "nd_mode" : true,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1\/moments\/variance",
+      "use_version" : 1,
+      "top" : "odometer_1d_attn_1\/layer_normalization_1\/moments\/variance",
+      "type" : "reduce",
+      "name" : "odometer_1d_attn_1\/layer_normalization_1\/moments\/variance"
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_1\/moments\/variance",
+      "alpha" : 0.0010000000474974513,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1\/add",
+      "top" : "odometer_1d_attn_1\/layer_normalization_1\/add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_1\/add",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_1\/add",
+      "alpha" : 1,
+      "operation" : 12,
+      "eps" : 9.999999960041972e-13,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1\/Rsqrt",
+      "top" : "odometer_1d_attn_1\/layer_normalization_1\/Rsqrt",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_1\/Rsqrt",
+      "beta" : 0
+    },
+    {
+      "top" : "odometer_1d_attn_1\/layer_normalization_1\/Reshape",
+      "w" : 128,
+      "h" : 1,
+      "name" : "odometer_1d_attn_1\/layer_normalization_1\/Reshape",
+      "nd_rank" : 3,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1\/Reshape",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 85
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_1\/Rsqrt,odometer_1d_attn_1\/layer_normalization_1\/Reshape",
+      "alpha" : 1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1\/mul",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_1\/mul",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_1\/mul",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/activation_15_1\/Relu,odometer_1d_attn_1\/layer_normalization_1\/mul",
+      "alpha" : 1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1\/mul_2",
+      "top" : "odometer_1d_attn_1\/layer_normalization_1\/mul_2",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_1\/mul_2",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_1\/Neg,odometer_1d_attn_1\/layer_normalization_1\/mul",
+      "alpha" : 1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1\/mul_1",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_1\/mul_1",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_1\/mul_1",
+      "beta" : 0
+    },
+    {
+      "top" : "odometer_1d_attn_1\/layer_normalization_1\/Reshape_1",
+      "w" : 128,
+      "h" : 1,
+      "name" : "odometer_1d_attn_1\/layer_normalization_1\/Reshape_1",
+      "nd_rank" : 3,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1\/Reshape_1",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 87
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_1\/mul_1,odometer_1d_attn_1\/layer_normalization_1\/Reshape_1",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1\/add_1",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_1\/add_1",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_1\/add_1",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_1\/mul_2,odometer_1d_attn_1\/layer_normalization_1\/add_1",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1\/add_2",
+      "top" : "odometer_1d_attn_1\/layer_normalization_1\/add_2",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_1\/add_2",
+      "beta" : 0
+    },
+    {
+      "nB" : 128,
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1\/query_1\/MatMul",
+      "has_biases" : 0,
+      "blob_weights_f16" : 89,
+      "nC" : 128,
+      "weights" : {
+
+      },
+      "type" : "inner_product",
+      "has_relu" : 0,
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_1\/add_2",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1\/query_1\/MatMul",
+      "has_tanh" : 0,
+      "nd_mode" : true,
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1\/query_1\/MatMul",
+      "has_prelu" : 0
+    },
+    {
+      "nB" : 128,
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1\/key_1\/MatMul",
+      "has_biases" : 0,
+      "blob_weights_f16" : 91,
+      "nC" : 128,
+      "weights" : {
+
+      },
+      "type" : "inner_product",
+      "has_relu" : 0,
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_1\/add_2",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1\/key_1\/MatMul",
+      "has_tanh" : 0,
+      "nd_mode" : true,
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1\/key_1\/MatMul",
+      "has_prelu" : 0
+    },
+    {
+      "nB" : 128,
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1\/value_1\/MatMul",
+      "has_biases" : 0,
+      "blob_weights_f16" : 93,
+      "nC" : 128,
+      "weights" : {
+
+      },
+      "type" : "inner_product",
+      "has_relu" : 0,
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_1\/add_2",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1\/value_1\/MatMul",
+      "has_tanh" : 0,
+      "nd_mode" : true,
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1\/value_1\/MatMul",
+      "has_prelu" : 0
+    },
+    {
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1\/query_1\/Reshape_1",
+      "weights" : {
+
+      },
+      "dst_w" : 32,
+      "version" : 1,
+      "dst_n" : -1,
+      "dst_nd_rank" : 4,
+      "type" : "reshape",
+      "dst_h" : 4,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1\/query_1\/MatMul",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1\/query_1\/Reshape_1",
+      "dst_seq" : 1,
+      "dst_k" : 96,
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1\/query_1\/Reshape_1"
+    },
+    {
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1\/key_1\/Reshape_1",
+      "weights" : {
+
+      },
+      "dst_w" : 32,
+      "version" : 1,
+      "dst_n" : -1,
+      "dst_nd_rank" : 4,
+      "type" : "reshape",
+      "dst_h" : 4,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1\/key_1\/MatMul",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1\/key_1\/Reshape_1",
+      "dst_seq" : 1,
+      "dst_k" : 96,
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1\/key_1\/Reshape_1"
+    },
+    {
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1\/value_1\/Reshape_1",
+      "weights" : {
+
+      },
+      "dst_w" : 32,
+      "version" : 1,
+      "dst_n" : -1,
+      "dst_nd_rank" : 4,
+      "type" : "reshape",
+      "dst_h" : 4,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1\/value_1\/MatMul",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1\/value_1\/Reshape_1",
+      "dst_seq" : 1,
+      "dst_k" : 96,
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1\/value_1\/Reshape_1"
+    },
+    {
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1\/query_1\/Add\/ReadVariableOp",
+      "w" : 32,
+      "h" : 4,
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1\/query_1\/Add\/ReadVariableOp",
+      "nd_rank" : 2,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1\/query_1\/Add\/ReadVariableOp",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 95
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1\/query_1\/Reshape_1,odometer_1d_attn_1\/multi_head_attention_1\/query_1\/Add\/ReadVariableOp",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1\/query_1\/Add",
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1\/query_1\/Add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1\/query_1\/Add",
+      "beta" : 0
+    },
+    {
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1\/key_1\/Add\/ReadVariableOp",
+      "w" : 32,
+      "h" : 4,
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1\/key_1\/Add\/ReadVariableOp",
+      "nd_rank" : 2,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1\/key_1\/Add\/ReadVariableOp",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 97
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1\/key_1\/Reshape_1,odometer_1d_attn_1\/multi_head_attention_1\/key_1\/Add\/ReadVariableOp",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1\/key_1\/Add",
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1\/key_1\/Add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1\/key_1\/Add",
+      "beta" : 0
+    },
+    {
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1\/value_1\/Add\/ReadVariableOp",
+      "w" : 32,
+      "h" : 4,
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1\/value_1\/Add\/ReadVariableOp",
+      "nd_rank" : 2,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1\/value_1\/Add\/ReadVariableOp",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 99
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1\/value_1\/Reshape_1,odometer_1d_attn_1\/multi_head_attention_1\/value_1\/Add\/ReadVariableOp",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1\/value_1\/Add",
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1\/value_1\/Add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1\/value_1\/Add",
+      "beta" : 0
+    },
+    {
+      "axis_h" : 2,
+      "axis_w" : 0,
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1\/key_1\/Add",
+      "axis_k" : 1,
+      "axis_n" : 3,
+      "axis_seq" : 4,
+      "weights" : {
+
+      },
+      "debug_info" : "transpose_93",
+      "top" : "transpose_76",
+      "type" : "transpose",
+      "name" : "transpose_93"
+    },
+    {
+      "axis_h" : 2,
+      "axis_w" : 0,
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1\/query_1\/Add",
+      "axis_k" : 1,
+      "axis_n" : 3,
+      "axis_seq" : 4,
+      "weights" : {
+
+      },
+      "debug_info" : "transpose_94",
+      "top" : "transpose_75",
+      "type" : "transpose",
+      "name" : "transpose_94"
+    },
+    {
+      "bottom" : "transpose_75,transpose_76",
+      "weights" : {
+
+      },
+      "transpose_y" : true,
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1\/einsum\/Einsum",
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1\/einsum\/Einsum",
+      "type" : "batch_matmul",
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1\/einsum\/Einsum",
+      "channel_mode" : false
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1\/einsum\/Einsum",
+      "alpha" : 0.1767766922712326,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1\/Mul",
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1\/Mul",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1\/Mul",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1\/Mul",
+      "weights" : {
+
+      },
+      "nd_axis" : -1,
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1\/Softmax",
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1\/Softmax",
+      "type" : "softmax_nd",
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1\/Softmax"
+    },
+    {
+      "axis_h" : 2,
+      "axis_w" : 0,
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1\/value_1\/Add",
+      "axis_k" : 1,
+      "axis_n" : 3,
+      "axis_seq" : 4,
+      "weights" : {
+
+      },
+      "debug_info" : "transpose_92",
+      "top" : "transpose_49",
+      "type" : "transpose",
+      "name" : "transpose_92"
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1\/Softmax,transpose_49",
+      "weights" : {
+
+      },
+      "debug_info" : "matmul_0",
+      "top" : "matmul_0",
+      "type" : "batch_matmul",
+      "name" : "matmul_0",
+      "channel_mode" : false
+    },
+    {
+      "axis_h" : 2,
+      "axis_w" : 0,
+      "bottom" : "matmul_0",
+      "axis_k" : 1,
+      "axis_n" : 3,
+      "axis_seq" : 4,
+      "weights" : {
+
+      },
+      "debug_info" : "transpose_91",
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1\/einsum_1\/Einsum",
+      "type" : "transpose",
+      "name" : "transpose_91"
+    },
+    {
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1\/attention_output_1\/Reshape",
+      "weights" : {
+
+      },
+      "dst_w" : 128,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 3,
+      "type" : "reshape",
+      "dst_h" : 96,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1\/einsum_1\/Einsum",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1\/attention_output_1\/Reshape",
+      "dst_seq" : 1,
+      "dst_k" : -1,
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1\/attention_output_1\/Reshape"
+    },
+    {
+      "nB" : 128,
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1\/attention_output_1\/BiasAdd",
+      "has_biases" : 1,
+      "blob_weights_f16" : 103,
+      "nC" : 128,
+      "weights" : {
+
+      },
+      "type" : "inner_product",
+      "has_relu" : 0,
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1\/attention_output_1\/Reshape",
+      "blob_biases" : 101,
+      "has_tanh" : 0,
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1\/attention_output_1\/BiasAdd",
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1\/attention_output_1\/BiasAdd",
+      "has_prelu" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/activation_15_1\/Relu,odometer_1d_attn_1\/multi_head_attention_1\/attention_output_1\/BiasAdd",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/add_9_1\/Add",
+      "top" : "odometer_1d_attn_1\/add_9_1\/Add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/add_9_1\/Add",
+      "beta" : 0
+    },
+    {
+      "axis_mode" : 1,
+      "bottom" : "odometer_1d_attn_1\/add_9_1\/Add",
+      "weights" : {
+
+      },
+      "mode" : 1,
+      "nd_mode" : true,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1_2\/moments\/mean",
+      "use_version" : 1,
+      "top" : "odometer_1d_attn_1\/layer_normalization_1_2\/moments\/mean",
+      "type" : "reduce",
+      "name" : "odometer_1d_attn_1\/layer_normalization_1_2\/moments\/mean"
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_1_2\/moments\/mean",
+      "alpha" : -1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1_2\/Neg",
+      "top" : "odometer_1d_attn_1\/layer_normalization_1_2\/Neg",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_1_2\/Neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/add_9_1\/Add,odometer_1d_attn_1\/layer_normalization_1_2\/moments\/mean",
+      "alpha" : 1,
+      "operation" : 33,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1_2\/moments\/SquaredDifference_sub",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_1_2\/moments\/SquaredDifference_sub",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_1_2\/moments\/SquaredDifference_sub",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_1_2\/moments\/SquaredDifference_sub",
+      "alpha" : 2,
+      "operation" : 13,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1_2\/moments\/SquaredDifference",
+      "top" : "odometer_1d_attn_1\/layer_normalization_1_2\/moments\/SquaredDifference",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_1_2\/moments\/SquaredDifference",
+      "beta" : 0
+    },
+    {
+      "axis_mode" : 1,
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_1_2\/moments\/SquaredDifference",
+      "weights" : {
+
+      },
+      "mode" : 1,
+      "nd_mode" : true,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1_2\/moments\/variance",
+      "use_version" : 1,
+      "top" : "odometer_1d_attn_1\/layer_normalization_1_2\/moments\/variance",
+      "type" : "reduce",
+      "name" : "odometer_1d_attn_1\/layer_normalization_1_2\/moments\/variance"
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_1_2\/moments\/variance",
+      "alpha" : 0.0010000000474974513,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1_2\/add",
+      "top" : "odometer_1d_attn_1\/layer_normalization_1_2\/add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_1_2\/add",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_1_2\/add",
+      "alpha" : 1,
+      "operation" : 12,
+      "eps" : 9.999999960041972e-13,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1_2\/Rsqrt",
+      "top" : "odometer_1d_attn_1\/layer_normalization_1_2\/Rsqrt",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_1_2\/Rsqrt",
+      "beta" : 0
+    },
+    {
+      "top" : "odometer_1d_attn_1\/layer_normalization_1_2\/Reshape",
+      "w" : 128,
+      "h" : 1,
+      "name" : "odometer_1d_attn_1\/layer_normalization_1_2\/Reshape",
+      "nd_rank" : 3,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1_2\/Reshape",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 105
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_1_2\/Rsqrt,odometer_1d_attn_1\/layer_normalization_1_2\/Reshape",
+      "alpha" : 1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1_2\/mul",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_1_2\/mul",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_1_2\/mul",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/add_9_1\/Add,odometer_1d_attn_1\/layer_normalization_1_2\/mul",
+      "alpha" : 1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1_2\/mul_2",
+      "top" : "odometer_1d_attn_1\/layer_normalization_1_2\/mul_2",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_1_2\/mul_2",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_1_2\/Neg,odometer_1d_attn_1\/layer_normalization_1_2\/mul",
+      "alpha" : 1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1_2\/mul_1",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_1_2\/mul_1",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_1_2\/mul_1",
+      "beta" : 0
+    },
+    {
+      "top" : "odometer_1d_attn_1\/layer_normalization_1_2\/Reshape_1",
+      "w" : 128,
+      "h" : 1,
+      "name" : "odometer_1d_attn_1\/layer_normalization_1_2\/Reshape_1",
+      "nd_rank" : 3,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1_2\/Reshape_1",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 107
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_1_2\/mul_1,odometer_1d_attn_1\/layer_normalization_1_2\/Reshape_1",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1_2\/add_1",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_1_2\/add_1",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_1_2\/add_1",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_1_2\/mul_2,odometer_1d_attn_1\/layer_normalization_1_2\/add_1",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_1_2\/add_2",
+      "top" : "odometer_1d_attn_1\/layer_normalization_1_2\/add_2",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_1_2\/add_2",
+      "beta" : 0
+    },
+    {
+      "name" : "odometer_1d_attn_1\/dense_1\/Tensordot\/Reshape",
+      "weights" : {
+
+      },
+      "dst_w" : 128,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 2,
+      "type" : "reshape",
+      "dst_h" : 96,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_1_2\/add_2",
+      "debug_info" : "odometer_1d_attn_1\/dense_1\/Tensordot\/Reshape",
+      "dst_seq" : 1,
+      "dst_k" : 1,
+      "top" : "odometer_1d_attn_1\/dense_1\/Tensordot\/Reshape"
+    },
+    {
+      "nB" : 128,
+      "top" : "odometer_1d_attn_1\/dense_1\/Tensordot\/MatMul",
+      "has_biases" : 0,
+      "blob_weights_f16" : 109,
+      "nC" : 256,
+      "weights" : {
+
+      },
+      "type" : "inner_product",
+      "has_relu" : 0,
+      "bottom" : "odometer_1d_attn_1\/dense_1\/Tensordot\/Reshape",
+      "debug_info" : "odometer_1d_attn_1\/dense_1\/Tensordot\/MatMul",
+      "has_tanh" : 0,
+      "nd_mode" : true,
+      "name" : "odometer_1d_attn_1\/dense_1\/Tensordot\/MatMul",
+      "has_prelu" : 0
+    },
+    {
+      "name" : "odometer_1d_attn_1\/dense_1\/Tensordot",
+      "weights" : {
+
+      },
+      "dst_w" : 256,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 3,
+      "type" : "reshape",
+      "dst_h" : 96,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "odometer_1d_attn_1\/dense_1\/Tensordot\/MatMul",
+      "debug_info" : "odometer_1d_attn_1\/dense_1\/Tensordot",
+      "dst_seq" : 1,
+      "dst_k" : 1,
+      "top" : "odometer_1d_attn_1\/dense_1\/Tensordot"
+    },
+    {
+      "top" : "odometer_1d_attn_1\/dense_1\/BiasAdd\/ReadVariableOp",
+      "w" : 256,
+      "h" : 1,
+      "name" : "odometer_1d_attn_1\/dense_1\/BiasAdd\/ReadVariableOp",
+      "nd_rank" : 1,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/dense_1\/BiasAdd\/ReadVariableOp",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 111
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/dense_1\/Tensordot,odometer_1d_attn_1\/dense_1\/BiasAdd\/ReadVariableOp",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/dense_1\/BiasAdd",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/dense_1\/BiasAdd",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/dense_1\/BiasAdd",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/dense_1\/BiasAdd",
+      "weights" : {
+
+      },
+      "mode" : 0,
+      "debug_info" : "odometer_1d_attn_1\/dense_1\/Relu",
+      "top" : "odometer_1d_attn_1\/dense_1\/Relu",
+      "type" : "activation",
+      "name" : "odometer_1d_attn_1\/dense_1\/Relu"
+    },
+    {
+      "name" : "odometer_1d_attn_1\/dense_1_2\/Tensordot\/Reshape",
+      "weights" : {
+
+      },
+      "dst_w" : 256,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 2,
+      "type" : "reshape",
+      "dst_h" : 96,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "odometer_1d_attn_1\/dense_1\/Relu",
+      "debug_info" : "odometer_1d_attn_1\/dense_1_2\/Tensordot\/Reshape",
+      "dst_seq" : 1,
+      "dst_k" : 1,
+      "top" : "odometer_1d_attn_1\/dense_1_2\/Tensordot\/Reshape"
+    },
+    {
+      "nB" : 256,
+      "top" : "odometer_1d_attn_1\/dense_1_2\/Tensordot\/MatMul",
+      "has_biases" : 0,
+      "blob_weights_f16" : 113,
+      "nC" : 128,
+      "weights" : {
+
+      },
+      "type" : "inner_product",
+      "has_relu" : 0,
+      "bottom" : "odometer_1d_attn_1\/dense_1_2\/Tensordot\/Reshape",
+      "debug_info" : "odometer_1d_attn_1\/dense_1_2\/Tensordot\/MatMul",
+      "has_tanh" : 0,
+      "nd_mode" : true,
+      "name" : "odometer_1d_attn_1\/dense_1_2\/Tensordot\/MatMul",
+      "has_prelu" : 0
+    },
+    {
+      "name" : "odometer_1d_attn_1\/dense_1_2\/Tensordot",
+      "weights" : {
+
+      },
+      "dst_w" : 128,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 3,
+      "type" : "reshape",
+      "dst_h" : 96,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "odometer_1d_attn_1\/dense_1_2\/Tensordot\/MatMul",
+      "debug_info" : "odometer_1d_attn_1\/dense_1_2\/Tensordot",
+      "dst_seq" : 1,
+      "dst_k" : 1,
+      "top" : "odometer_1d_attn_1\/dense_1_2\/Tensordot"
+    },
+    {
+      "top" : "odometer_1d_attn_1\/dense_1_2\/BiasAdd\/ReadVariableOp",
+      "w" : 128,
+      "h" : 1,
+      "name" : "odometer_1d_attn_1\/dense_1_2\/BiasAdd\/ReadVariableOp",
+      "nd_rank" : 1,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/dense_1_2\/BiasAdd\/ReadVariableOp",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 115
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/dense_1_2\/Tensordot,odometer_1d_attn_1\/dense_1_2\/BiasAdd\/ReadVariableOp",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/dense_1_2\/BiasAdd",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/dense_1_2\/BiasAdd",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/dense_1_2\/BiasAdd",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/add_9_1\/Add,odometer_1d_attn_1\/dense_1_2\/BiasAdd",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/add_10_1\/Add",
+      "top" : "odometer_1d_attn_1\/add_10_1\/Add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/add_10_1\/Add",
+      "beta" : 0
+    },
+    {
+      "axis_mode" : 1,
+      "bottom" : "odometer_1d_attn_1\/add_10_1\/Add",
+      "weights" : {
+
+      },
+      "mode" : 1,
+      "nd_mode" : true,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_2_1\/moments\/mean",
+      "use_version" : 1,
+      "top" : "odometer_1d_attn_1\/layer_normalization_2_1\/moments\/mean",
+      "type" : "reduce",
+      "name" : "odometer_1d_attn_1\/layer_normalization_2_1\/moments\/mean"
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_2_1\/moments\/mean",
+      "alpha" : -1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_2_1\/Neg",
+      "top" : "odometer_1d_attn_1\/layer_normalization_2_1\/Neg",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_2_1\/Neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/add_10_1\/Add,odometer_1d_attn_1\/layer_normalization_2_1\/moments\/mean",
+      "alpha" : 1,
+      "operation" : 33,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_2_1\/moments\/SquaredDifference_sub",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_2_1\/moments\/SquaredDifference_sub",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_2_1\/moments\/SquaredDifference_sub",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_2_1\/moments\/SquaredDifference_sub",
+      "alpha" : 2,
+      "operation" : 13,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_2_1\/moments\/SquaredDifference",
+      "top" : "odometer_1d_attn_1\/layer_normalization_2_1\/moments\/SquaredDifference",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_2_1\/moments\/SquaredDifference",
+      "beta" : 0
+    },
+    {
+      "axis_mode" : 1,
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_2_1\/moments\/SquaredDifference",
+      "weights" : {
+
+      },
+      "mode" : 1,
+      "nd_mode" : true,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_2_1\/moments\/variance",
+      "use_version" : 1,
+      "top" : "odometer_1d_attn_1\/layer_normalization_2_1\/moments\/variance",
+      "type" : "reduce",
+      "name" : "odometer_1d_attn_1\/layer_normalization_2_1\/moments\/variance"
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_2_1\/moments\/variance",
+      "alpha" : 0.0010000000474974513,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_2_1\/add",
+      "top" : "odometer_1d_attn_1\/layer_normalization_2_1\/add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_2_1\/add",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_2_1\/add",
+      "alpha" : 1,
+      "operation" : 12,
+      "eps" : 9.999999960041972e-13,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_2_1\/Rsqrt",
+      "top" : "odometer_1d_attn_1\/layer_normalization_2_1\/Rsqrt",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_2_1\/Rsqrt",
+      "beta" : 0
+    },
+    {
+      "top" : "odometer_1d_attn_1\/layer_normalization_2_1\/Reshape",
+      "w" : 128,
+      "h" : 1,
+      "name" : "odometer_1d_attn_1\/layer_normalization_2_1\/Reshape",
+      "nd_rank" : 3,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_2_1\/Reshape",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 117
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_2_1\/Rsqrt,odometer_1d_attn_1\/layer_normalization_2_1\/Reshape",
+      "alpha" : 1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_2_1\/mul",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_2_1\/mul",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_2_1\/mul",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/add_10_1\/Add,odometer_1d_attn_1\/layer_normalization_2_1\/mul",
+      "alpha" : 1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_2_1\/mul_2",
+      "top" : "odometer_1d_attn_1\/layer_normalization_2_1\/mul_2",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_2_1\/mul_2",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_2_1\/Neg,odometer_1d_attn_1\/layer_normalization_2_1\/mul",
+      "alpha" : 1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_2_1\/mul_1",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_2_1\/mul_1",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_2_1\/mul_1",
+      "beta" : 0
+    },
+    {
+      "top" : "odometer_1d_attn_1\/layer_normalization_2_1\/Reshape_1",
+      "w" : 128,
+      "h" : 1,
+      "name" : "odometer_1d_attn_1\/layer_normalization_2_1\/Reshape_1",
+      "nd_rank" : 3,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_2_1\/Reshape_1",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 119
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_2_1\/mul_1,odometer_1d_attn_1\/layer_normalization_2_1\/Reshape_1",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_2_1\/add_1",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_2_1\/add_1",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_2_1\/add_1",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_2_1\/mul_2,odometer_1d_attn_1\/layer_normalization_2_1\/add_1",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_2_1\/add_2",
+      "top" : "odometer_1d_attn_1\/layer_normalization_2_1\/add_2",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_2_1\/add_2",
+      "beta" : 0
+    },
+    {
+      "nB" : 128,
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1_2\/query_1\/MatMul",
+      "has_biases" : 0,
+      "blob_weights_f16" : 121,
+      "nC" : 128,
+      "weights" : {
+
+      },
+      "type" : "inner_product",
+      "has_relu" : 0,
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_2_1\/add_2",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1_2\/query_1\/MatMul",
+      "has_tanh" : 0,
+      "nd_mode" : true,
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1_2\/query_1\/MatMul",
+      "has_prelu" : 0
+    },
+    {
+      "nB" : 128,
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1_2\/key_1\/MatMul",
+      "has_biases" : 0,
+      "blob_weights_f16" : 123,
+      "nC" : 128,
+      "weights" : {
+
+      },
+      "type" : "inner_product",
+      "has_relu" : 0,
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_2_1\/add_2",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1_2\/key_1\/MatMul",
+      "has_tanh" : 0,
+      "nd_mode" : true,
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1_2\/key_1\/MatMul",
+      "has_prelu" : 0
+    },
+    {
+      "nB" : 128,
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1_2\/value_1\/MatMul",
+      "has_biases" : 0,
+      "blob_weights_f16" : 125,
+      "nC" : 128,
+      "weights" : {
+
+      },
+      "type" : "inner_product",
+      "has_relu" : 0,
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_2_1\/add_2",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1_2\/value_1\/MatMul",
+      "has_tanh" : 0,
+      "nd_mode" : true,
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1_2\/value_1\/MatMul",
+      "has_prelu" : 0
+    },
+    {
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1_2\/query_1\/Reshape_1",
+      "weights" : {
+
+      },
+      "dst_w" : 32,
+      "version" : 1,
+      "dst_n" : -1,
+      "dst_nd_rank" : 4,
+      "type" : "reshape",
+      "dst_h" : 4,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1_2\/query_1\/MatMul",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1_2\/query_1\/Reshape_1",
+      "dst_seq" : 1,
+      "dst_k" : 96,
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1_2\/query_1\/Reshape_1"
+    },
+    {
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1_2\/key_1\/Reshape_1",
+      "weights" : {
+
+      },
+      "dst_w" : 32,
+      "version" : 1,
+      "dst_n" : -1,
+      "dst_nd_rank" : 4,
+      "type" : "reshape",
+      "dst_h" : 4,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1_2\/key_1\/MatMul",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1_2\/key_1\/Reshape_1",
+      "dst_seq" : 1,
+      "dst_k" : 96,
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1_2\/key_1\/Reshape_1"
+    },
+    {
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1_2\/value_1\/Reshape_1",
+      "weights" : {
+
+      },
+      "dst_w" : 32,
+      "version" : 1,
+      "dst_n" : -1,
+      "dst_nd_rank" : 4,
+      "type" : "reshape",
+      "dst_h" : 4,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1_2\/value_1\/MatMul",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1_2\/value_1\/Reshape_1",
+      "dst_seq" : 1,
+      "dst_k" : 96,
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1_2\/value_1\/Reshape_1"
+    },
+    {
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1_2\/query_1\/Add\/ReadVariableOp",
+      "w" : 32,
+      "h" : 4,
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1_2\/query_1\/Add\/ReadVariableOp",
+      "nd_rank" : 2,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1_2\/query_1\/Add\/ReadVariableOp",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 127
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1_2\/query_1\/Reshape_1,odometer_1d_attn_1\/multi_head_attention_1_2\/query_1\/Add\/ReadVariableOp",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1_2\/query_1\/Add",
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1_2\/query_1\/Add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1_2\/query_1\/Add",
+      "beta" : 0
+    },
+    {
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1_2\/key_1\/Add\/ReadVariableOp",
+      "w" : 32,
+      "h" : 4,
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1_2\/key_1\/Add\/ReadVariableOp",
+      "nd_rank" : 2,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1_2\/key_1\/Add\/ReadVariableOp",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 129
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1_2\/key_1\/Reshape_1,odometer_1d_attn_1\/multi_head_attention_1_2\/key_1\/Add\/ReadVariableOp",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1_2\/key_1\/Add",
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1_2\/key_1\/Add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1_2\/key_1\/Add",
+      "beta" : 0
+    },
+    {
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1_2\/value_1\/Add\/ReadVariableOp",
+      "w" : 32,
+      "h" : 4,
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1_2\/value_1\/Add\/ReadVariableOp",
+      "nd_rank" : 2,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1_2\/value_1\/Add\/ReadVariableOp",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 131
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1_2\/value_1\/Reshape_1,odometer_1d_attn_1\/multi_head_attention_1_2\/value_1\/Add\/ReadVariableOp",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1_2\/value_1\/Add",
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1_2\/value_1\/Add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1_2\/value_1\/Add",
+      "beta" : 0
+    },
+    {
+      "axis_h" : 2,
+      "axis_w" : 0,
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1_2\/key_1\/Add",
+      "axis_k" : 1,
+      "axis_n" : 3,
+      "axis_seq" : 4,
+      "weights" : {
+
+      },
+      "debug_info" : "transpose_89",
+      "top" : "transpose_78",
+      "type" : "transpose",
+      "name" : "transpose_89"
+    },
+    {
+      "axis_h" : 2,
+      "axis_w" : 0,
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1_2\/query_1\/Add",
+      "axis_k" : 1,
+      "axis_n" : 3,
+      "axis_seq" : 4,
+      "weights" : {
+
+      },
+      "debug_info" : "transpose_90",
+      "top" : "transpose_77",
+      "type" : "transpose",
+      "name" : "transpose_90"
+    },
+    {
+      "bottom" : "transpose_77,transpose_78",
+      "weights" : {
+
+      },
+      "transpose_y" : true,
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1_2\/einsum\/Einsum",
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1_2\/einsum\/Einsum",
+      "type" : "batch_matmul",
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1_2\/einsum\/Einsum",
+      "channel_mode" : false
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1_2\/einsum\/Einsum",
+      "alpha" : 0.1767766922712326,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1_2\/Mul",
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1_2\/Mul",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1_2\/Mul",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1_2\/Mul",
+      "weights" : {
+
+      },
+      "nd_axis" : -1,
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1_2\/Softmax",
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1_2\/Softmax",
+      "type" : "softmax_nd",
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1_2\/Softmax"
+    },
+    {
+      "axis_h" : 2,
+      "axis_w" : 0,
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1_2\/value_1\/Add",
+      "axis_k" : 1,
+      "axis_n" : 3,
+      "axis_seq" : 4,
+      "weights" : {
+
+      },
+      "debug_info" : "transpose_88",
+      "top" : "transpose_52",
+      "type" : "transpose",
+      "name" : "transpose_88"
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1_2\/Softmax,transpose_52",
+      "weights" : {
+
+      },
+      "debug_info" : "matmul_1",
+      "top" : "matmul_1",
+      "type" : "batch_matmul",
+      "name" : "matmul_1",
+      "channel_mode" : false
+    },
+    {
+      "axis_h" : 2,
+      "axis_w" : 0,
+      "bottom" : "matmul_1",
+      "axis_k" : 1,
+      "axis_n" : 3,
+      "axis_seq" : 4,
+      "weights" : {
+
+      },
+      "debug_info" : "transpose_87",
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1_2\/einsum_1\/Einsum",
+      "type" : "transpose",
+      "name" : "transpose_87"
+    },
+    {
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1_2\/attention_output_1\/Reshape",
+      "weights" : {
+
+      },
+      "dst_w" : 128,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 3,
+      "type" : "reshape",
+      "dst_h" : 96,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1_2\/einsum_1\/Einsum",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1_2\/attention_output_1\/Reshape",
+      "dst_seq" : 1,
+      "dst_k" : -1,
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1_2\/attention_output_1\/Reshape"
+    },
+    {
+      "nB" : 128,
+      "top" : "odometer_1d_attn_1\/multi_head_attention_1_2\/attention_output_1\/BiasAdd",
+      "has_biases" : 1,
+      "blob_weights_f16" : 135,
+      "nC" : 128,
+      "weights" : {
+
+      },
+      "type" : "inner_product",
+      "has_relu" : 0,
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_1_2\/attention_output_1\/Reshape",
+      "blob_biases" : 133,
+      "has_tanh" : 0,
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_1_2\/attention_output_1\/BiasAdd",
+      "name" : "odometer_1d_attn_1\/multi_head_attention_1_2\/attention_output_1\/BiasAdd",
+      "has_prelu" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/add_10_1\/Add,odometer_1d_attn_1\/multi_head_attention_1_2\/attention_output_1\/BiasAdd",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/add_11_1\/Add",
+      "top" : "odometer_1d_attn_1\/add_11_1\/Add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/add_11_1\/Add",
+      "beta" : 0
+    },
+    {
+      "axis_mode" : 1,
+      "bottom" : "odometer_1d_attn_1\/add_11_1\/Add",
+      "weights" : {
+
+      },
+      "mode" : 1,
+      "nd_mode" : true,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_3_1\/moments\/mean",
+      "use_version" : 1,
+      "top" : "odometer_1d_attn_1\/layer_normalization_3_1\/moments\/mean",
+      "type" : "reduce",
+      "name" : "odometer_1d_attn_1\/layer_normalization_3_1\/moments\/mean"
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_3_1\/moments\/mean",
+      "alpha" : -1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_3_1\/Neg",
+      "top" : "odometer_1d_attn_1\/layer_normalization_3_1\/Neg",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_3_1\/Neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/add_11_1\/Add,odometer_1d_attn_1\/layer_normalization_3_1\/moments\/mean",
+      "alpha" : 1,
+      "operation" : 33,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_3_1\/moments\/SquaredDifference_sub",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_3_1\/moments\/SquaredDifference_sub",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_3_1\/moments\/SquaredDifference_sub",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_3_1\/moments\/SquaredDifference_sub",
+      "alpha" : 2,
+      "operation" : 13,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_3_1\/moments\/SquaredDifference",
+      "top" : "odometer_1d_attn_1\/layer_normalization_3_1\/moments\/SquaredDifference",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_3_1\/moments\/SquaredDifference",
+      "beta" : 0
+    },
+    {
+      "axis_mode" : 1,
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_3_1\/moments\/SquaredDifference",
+      "weights" : {
+
+      },
+      "mode" : 1,
+      "nd_mode" : true,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_3_1\/moments\/variance",
+      "use_version" : 1,
+      "top" : "odometer_1d_attn_1\/layer_normalization_3_1\/moments\/variance",
+      "type" : "reduce",
+      "name" : "odometer_1d_attn_1\/layer_normalization_3_1\/moments\/variance"
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_3_1\/moments\/variance",
+      "alpha" : 0.0010000000474974513,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_3_1\/add",
+      "top" : "odometer_1d_attn_1\/layer_normalization_3_1\/add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_3_1\/add",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_3_1\/add",
+      "alpha" : 1,
+      "operation" : 12,
+      "eps" : 9.999999960041972e-13,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_3_1\/Rsqrt",
+      "top" : "odometer_1d_attn_1\/layer_normalization_3_1\/Rsqrt",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_3_1\/Rsqrt",
+      "beta" : 0
+    },
+    {
+      "top" : "odometer_1d_attn_1\/layer_normalization_3_1\/Reshape",
+      "w" : 128,
+      "h" : 1,
+      "name" : "odometer_1d_attn_1\/layer_normalization_3_1\/Reshape",
+      "nd_rank" : 3,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_3_1\/Reshape",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 137
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_3_1\/Rsqrt,odometer_1d_attn_1\/layer_normalization_3_1\/Reshape",
+      "alpha" : 1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_3_1\/mul",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_3_1\/mul",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_3_1\/mul",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/add_11_1\/Add,odometer_1d_attn_1\/layer_normalization_3_1\/mul",
+      "alpha" : 1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_3_1\/mul_2",
+      "top" : "odometer_1d_attn_1\/layer_normalization_3_1\/mul_2",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_3_1\/mul_2",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_3_1\/Neg,odometer_1d_attn_1\/layer_normalization_3_1\/mul",
+      "alpha" : 1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_3_1\/mul_1",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_3_1\/mul_1",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_3_1\/mul_1",
+      "beta" : 0
+    },
+    {
+      "top" : "odometer_1d_attn_1\/layer_normalization_3_1\/Reshape_1",
+      "w" : 128,
+      "h" : 1,
+      "name" : "odometer_1d_attn_1\/layer_normalization_3_1\/Reshape_1",
+      "nd_rank" : 3,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_3_1\/Reshape_1",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 139
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_3_1\/mul_1,odometer_1d_attn_1\/layer_normalization_3_1\/Reshape_1",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_3_1\/add_1",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_3_1\/add_1",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_3_1\/add_1",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_3_1\/mul_2,odometer_1d_attn_1\/layer_normalization_3_1\/add_1",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_3_1\/add_2",
+      "top" : "odometer_1d_attn_1\/layer_normalization_3_1\/add_2",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_3_1\/add_2",
+      "beta" : 0
+    },
+    {
+      "name" : "odometer_1d_attn_1\/dense_2_1\/Tensordot\/Reshape",
+      "weights" : {
+
+      },
+      "dst_w" : 128,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 2,
+      "type" : "reshape",
+      "dst_h" : 96,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_3_1\/add_2",
+      "debug_info" : "odometer_1d_attn_1\/dense_2_1\/Tensordot\/Reshape",
+      "dst_seq" : 1,
+      "dst_k" : 1,
+      "top" : "odometer_1d_attn_1\/dense_2_1\/Tensordot\/Reshape"
+    },
+    {
+      "nB" : 128,
+      "top" : "odometer_1d_attn_1\/dense_2_1\/Tensordot\/MatMul",
+      "has_biases" : 0,
+      "blob_weights_f16" : 141,
+      "nC" : 256,
+      "weights" : {
+
+      },
+      "type" : "inner_product",
+      "has_relu" : 0,
+      "bottom" : "odometer_1d_attn_1\/dense_2_1\/Tensordot\/Reshape",
+      "debug_info" : "odometer_1d_attn_1\/dense_2_1\/Tensordot\/MatMul",
+      "has_tanh" : 0,
+      "nd_mode" : true,
+      "name" : "odometer_1d_attn_1\/dense_2_1\/Tensordot\/MatMul",
+      "has_prelu" : 0
+    },
+    {
+      "name" : "odometer_1d_attn_1\/dense_2_1\/Tensordot",
+      "weights" : {
+
+      },
+      "dst_w" : 256,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 3,
+      "type" : "reshape",
+      "dst_h" : 96,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "odometer_1d_attn_1\/dense_2_1\/Tensordot\/MatMul",
+      "debug_info" : "odometer_1d_attn_1\/dense_2_1\/Tensordot",
+      "dst_seq" : 1,
+      "dst_k" : 1,
+      "top" : "odometer_1d_attn_1\/dense_2_1\/Tensordot"
+    },
+    {
+      "top" : "odometer_1d_attn_1\/dense_2_1\/BiasAdd\/ReadVariableOp",
+      "w" : 256,
+      "h" : 1,
+      "name" : "odometer_1d_attn_1\/dense_2_1\/BiasAdd\/ReadVariableOp",
+      "nd_rank" : 1,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/dense_2_1\/BiasAdd\/ReadVariableOp",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 143
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/dense_2_1\/Tensordot,odometer_1d_attn_1\/dense_2_1\/BiasAdd\/ReadVariableOp",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/dense_2_1\/BiasAdd",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/dense_2_1\/BiasAdd",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/dense_2_1\/BiasAdd",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/dense_2_1\/BiasAdd",
+      "weights" : {
+
+      },
+      "mode" : 0,
+      "debug_info" : "odometer_1d_attn_1\/dense_2_1\/Relu",
+      "top" : "odometer_1d_attn_1\/dense_2_1\/Relu",
+      "type" : "activation",
+      "name" : "odometer_1d_attn_1\/dense_2_1\/Relu"
+    },
+    {
+      "name" : "odometer_1d_attn_1\/dense_3_1\/Tensordot\/Reshape",
+      "weights" : {
+
+      },
+      "dst_w" : 256,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 2,
+      "type" : "reshape",
+      "dst_h" : 96,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "odometer_1d_attn_1\/dense_2_1\/Relu",
+      "debug_info" : "odometer_1d_attn_1\/dense_3_1\/Tensordot\/Reshape",
+      "dst_seq" : 1,
+      "dst_k" : 1,
+      "top" : "odometer_1d_attn_1\/dense_3_1\/Tensordot\/Reshape"
+    },
+    {
+      "nB" : 256,
+      "top" : "odometer_1d_attn_1\/dense_3_1\/Tensordot\/MatMul",
+      "has_biases" : 0,
+      "blob_weights_f16" : 145,
+      "nC" : 128,
+      "weights" : {
+
+      },
+      "type" : "inner_product",
+      "has_relu" : 0,
+      "bottom" : "odometer_1d_attn_1\/dense_3_1\/Tensordot\/Reshape",
+      "debug_info" : "odometer_1d_attn_1\/dense_3_1\/Tensordot\/MatMul",
+      "has_tanh" : 0,
+      "nd_mode" : true,
+      "name" : "odometer_1d_attn_1\/dense_3_1\/Tensordot\/MatMul",
+      "has_prelu" : 0
+    },
+    {
+      "name" : "odometer_1d_attn_1\/dense_3_1\/Tensordot",
+      "weights" : {
+
+      },
+      "dst_w" : 128,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 3,
+      "type" : "reshape",
+      "dst_h" : 96,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "odometer_1d_attn_1\/dense_3_1\/Tensordot\/MatMul",
+      "debug_info" : "odometer_1d_attn_1\/dense_3_1\/Tensordot",
+      "dst_seq" : 1,
+      "dst_k" : 1,
+      "top" : "odometer_1d_attn_1\/dense_3_1\/Tensordot"
+    },
+    {
+      "top" : "odometer_1d_attn_1\/dense_3_1\/BiasAdd\/ReadVariableOp",
+      "w" : 128,
+      "h" : 1,
+      "name" : "odometer_1d_attn_1\/dense_3_1\/BiasAdd\/ReadVariableOp",
+      "nd_rank" : 1,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/dense_3_1\/BiasAdd\/ReadVariableOp",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 147
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/dense_3_1\/Tensordot,odometer_1d_attn_1\/dense_3_1\/BiasAdd\/ReadVariableOp",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/dense_3_1\/BiasAdd",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/dense_3_1\/BiasAdd",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/dense_3_1\/BiasAdd",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/add_11_1\/Add,odometer_1d_attn_1\/dense_3_1\/BiasAdd",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/add_12_1\/Add",
+      "top" : "odometer_1d_attn_1\/add_12_1\/Add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/add_12_1\/Add",
+      "beta" : 0
+    },
+    {
+      "axis_mode" : 1,
+      "bottom" : "odometer_1d_attn_1\/add_12_1\/Add",
+      "weights" : {
+
+      },
+      "mode" : 1,
+      "nd_mode" : true,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_4_1\/moments\/mean",
+      "use_version" : 1,
+      "top" : "odometer_1d_attn_1\/layer_normalization_4_1\/moments\/mean",
+      "type" : "reduce",
+      "name" : "odometer_1d_attn_1\/layer_normalization_4_1\/moments\/mean"
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_4_1\/moments\/mean",
+      "alpha" : -1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_4_1\/Neg",
+      "top" : "odometer_1d_attn_1\/layer_normalization_4_1\/Neg",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_4_1\/Neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/add_12_1\/Add,odometer_1d_attn_1\/layer_normalization_4_1\/moments\/mean",
+      "alpha" : 1,
+      "operation" : 33,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_4_1\/moments\/SquaredDifference_sub",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_4_1\/moments\/SquaredDifference_sub",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_4_1\/moments\/SquaredDifference_sub",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_4_1\/moments\/SquaredDifference_sub",
+      "alpha" : 2,
+      "operation" : 13,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_4_1\/moments\/SquaredDifference",
+      "top" : "odometer_1d_attn_1\/layer_normalization_4_1\/moments\/SquaredDifference",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_4_1\/moments\/SquaredDifference",
+      "beta" : 0
+    },
+    {
+      "axis_mode" : 1,
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_4_1\/moments\/SquaredDifference",
+      "weights" : {
+
+      },
+      "mode" : 1,
+      "nd_mode" : true,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_4_1\/moments\/variance",
+      "use_version" : 1,
+      "top" : "odometer_1d_attn_1\/layer_normalization_4_1\/moments\/variance",
+      "type" : "reduce",
+      "name" : "odometer_1d_attn_1\/layer_normalization_4_1\/moments\/variance"
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_4_1\/moments\/variance",
+      "alpha" : 0.0010000000474974513,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_4_1\/add",
+      "top" : "odometer_1d_attn_1\/layer_normalization_4_1\/add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_4_1\/add",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_4_1\/add",
+      "alpha" : 1,
+      "operation" : 12,
+      "eps" : 9.999999960041972e-13,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_4_1\/Rsqrt",
+      "top" : "odometer_1d_attn_1\/layer_normalization_4_1\/Rsqrt",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_4_1\/Rsqrt",
+      "beta" : 0
+    },
+    {
+      "top" : "odometer_1d_attn_1\/layer_normalization_4_1\/Reshape",
+      "w" : 128,
+      "h" : 1,
+      "name" : "odometer_1d_attn_1\/layer_normalization_4_1\/Reshape",
+      "nd_rank" : 3,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_4_1\/Reshape",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 149
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_4_1\/Rsqrt,odometer_1d_attn_1\/layer_normalization_4_1\/Reshape",
+      "alpha" : 1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_4_1\/mul",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_4_1\/mul",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_4_1\/mul",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/add_12_1\/Add,odometer_1d_attn_1\/layer_normalization_4_1\/mul",
+      "alpha" : 1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_4_1\/mul_2",
+      "top" : "odometer_1d_attn_1\/layer_normalization_4_1\/mul_2",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_4_1\/mul_2",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_4_1\/Neg,odometer_1d_attn_1\/layer_normalization_4_1\/mul",
+      "alpha" : 1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_4_1\/mul_1",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_4_1\/mul_1",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_4_1\/mul_1",
+      "beta" : 0
+    },
+    {
+      "top" : "odometer_1d_attn_1\/layer_normalization_4_1\/Reshape_1",
+      "w" : 128,
+      "h" : 1,
+      "name" : "odometer_1d_attn_1\/layer_normalization_4_1\/Reshape_1",
+      "nd_rank" : 3,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_4_1\/Reshape_1",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 151
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_4_1\/mul_1,odometer_1d_attn_1\/layer_normalization_4_1\/Reshape_1",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_4_1\/add_1",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_4_1\/add_1",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_4_1\/add_1",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_4_1\/mul_2,odometer_1d_attn_1\/layer_normalization_4_1\/add_1",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_4_1\/add_2",
+      "top" : "odometer_1d_attn_1\/layer_normalization_4_1\/add_2",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_4_1\/add_2",
+      "beta" : 0
+    },
+    {
+      "nB" : 128,
+      "top" : "odometer_1d_attn_1\/multi_head_attention_2_1\/query_1\/MatMul",
+      "has_biases" : 0,
+      "blob_weights_f16" : 153,
+      "nC" : 128,
+      "weights" : {
+
+      },
+      "type" : "inner_product",
+      "has_relu" : 0,
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_4_1\/add_2",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_2_1\/query_1\/MatMul",
+      "has_tanh" : 0,
+      "nd_mode" : true,
+      "name" : "odometer_1d_attn_1\/multi_head_attention_2_1\/query_1\/MatMul",
+      "has_prelu" : 0
+    },
+    {
+      "nB" : 128,
+      "top" : "odometer_1d_attn_1\/multi_head_attention_2_1\/key_1\/MatMul",
+      "has_biases" : 0,
+      "blob_weights_f16" : 155,
+      "nC" : 128,
+      "weights" : {
+
+      },
+      "type" : "inner_product",
+      "has_relu" : 0,
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_4_1\/add_2",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_2_1\/key_1\/MatMul",
+      "has_tanh" : 0,
+      "nd_mode" : true,
+      "name" : "odometer_1d_attn_1\/multi_head_attention_2_1\/key_1\/MatMul",
+      "has_prelu" : 0
+    },
+    {
+      "nB" : 128,
+      "top" : "odometer_1d_attn_1\/multi_head_attention_2_1\/value_1\/MatMul",
+      "has_biases" : 0,
+      "blob_weights_f16" : 157,
+      "nC" : 128,
+      "weights" : {
+
+      },
+      "type" : "inner_product",
+      "has_relu" : 0,
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_4_1\/add_2",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_2_1\/value_1\/MatMul",
+      "has_tanh" : 0,
+      "nd_mode" : true,
+      "name" : "odometer_1d_attn_1\/multi_head_attention_2_1\/value_1\/MatMul",
+      "has_prelu" : 0
+    },
+    {
+      "name" : "odometer_1d_attn_1\/multi_head_attention_2_1\/query_1\/Reshape_1",
+      "weights" : {
+
+      },
+      "dst_w" : 32,
+      "version" : 1,
+      "dst_n" : -1,
+      "dst_nd_rank" : 4,
+      "type" : "reshape",
+      "dst_h" : 4,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_2_1\/query_1\/MatMul",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_2_1\/query_1\/Reshape_1",
+      "dst_seq" : 1,
+      "dst_k" : 96,
+      "top" : "odometer_1d_attn_1\/multi_head_attention_2_1\/query_1\/Reshape_1"
+    },
+    {
+      "name" : "odometer_1d_attn_1\/multi_head_attention_2_1\/key_1\/Reshape_1",
+      "weights" : {
+
+      },
+      "dst_w" : 32,
+      "version" : 1,
+      "dst_n" : -1,
+      "dst_nd_rank" : 4,
+      "type" : "reshape",
+      "dst_h" : 4,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_2_1\/key_1\/MatMul",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_2_1\/key_1\/Reshape_1",
+      "dst_seq" : 1,
+      "dst_k" : 96,
+      "top" : "odometer_1d_attn_1\/multi_head_attention_2_1\/key_1\/Reshape_1"
+    },
+    {
+      "name" : "odometer_1d_attn_1\/multi_head_attention_2_1\/value_1\/Reshape_1",
+      "weights" : {
+
+      },
+      "dst_w" : 32,
+      "version" : 1,
+      "dst_n" : -1,
+      "dst_nd_rank" : 4,
+      "type" : "reshape",
+      "dst_h" : 4,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_2_1\/value_1\/MatMul",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_2_1\/value_1\/Reshape_1",
+      "dst_seq" : 1,
+      "dst_k" : 96,
+      "top" : "odometer_1d_attn_1\/multi_head_attention_2_1\/value_1\/Reshape_1"
+    },
+    {
+      "top" : "odometer_1d_attn_1\/multi_head_attention_2_1\/query_1\/Add\/ReadVariableOp",
+      "w" : 32,
+      "h" : 4,
+      "name" : "odometer_1d_attn_1\/multi_head_attention_2_1\/query_1\/Add\/ReadVariableOp",
+      "nd_rank" : 2,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_2_1\/query_1\/Add\/ReadVariableOp",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 159
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_2_1\/query_1\/Reshape_1,odometer_1d_attn_1\/multi_head_attention_2_1\/query_1\/Add\/ReadVariableOp",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_2_1\/query_1\/Add",
+      "top" : "odometer_1d_attn_1\/multi_head_attention_2_1\/query_1\/Add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/multi_head_attention_2_1\/query_1\/Add",
+      "beta" : 0
+    },
+    {
+      "top" : "odometer_1d_attn_1\/multi_head_attention_2_1\/key_1\/Add\/ReadVariableOp",
+      "w" : 32,
+      "h" : 4,
+      "name" : "odometer_1d_attn_1\/multi_head_attention_2_1\/key_1\/Add\/ReadVariableOp",
+      "nd_rank" : 2,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_2_1\/key_1\/Add\/ReadVariableOp",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 161
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_2_1\/key_1\/Reshape_1,odometer_1d_attn_1\/multi_head_attention_2_1\/key_1\/Add\/ReadVariableOp",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_2_1\/key_1\/Add",
+      "top" : "odometer_1d_attn_1\/multi_head_attention_2_1\/key_1\/Add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/multi_head_attention_2_1\/key_1\/Add",
+      "beta" : 0
+    },
+    {
+      "top" : "odometer_1d_attn_1\/multi_head_attention_2_1\/value_1\/Add\/ReadVariableOp",
+      "w" : 32,
+      "h" : 4,
+      "name" : "odometer_1d_attn_1\/multi_head_attention_2_1\/value_1\/Add\/ReadVariableOp",
+      "nd_rank" : 2,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_2_1\/value_1\/Add\/ReadVariableOp",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 163
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_2_1\/value_1\/Reshape_1,odometer_1d_attn_1\/multi_head_attention_2_1\/value_1\/Add\/ReadVariableOp",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_2_1\/value_1\/Add",
+      "top" : "odometer_1d_attn_1\/multi_head_attention_2_1\/value_1\/Add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/multi_head_attention_2_1\/value_1\/Add",
+      "beta" : 0
+    },
+    {
+      "axis_h" : 2,
+      "axis_w" : 0,
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_2_1\/key_1\/Add",
+      "axis_k" : 1,
+      "axis_n" : 3,
+      "axis_seq" : 4,
+      "weights" : {
+
+      },
+      "debug_info" : "transpose_85",
+      "top" : "transpose_80",
+      "type" : "transpose",
+      "name" : "transpose_85"
+    },
+    {
+      "axis_h" : 2,
+      "axis_w" : 0,
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_2_1\/query_1\/Add",
+      "axis_k" : 1,
+      "axis_n" : 3,
+      "axis_seq" : 4,
+      "weights" : {
+
+      },
+      "debug_info" : "transpose_86",
+      "top" : "transpose_79",
+      "type" : "transpose",
+      "name" : "transpose_86"
+    },
+    {
+      "bottom" : "transpose_79,transpose_80",
+      "weights" : {
+
+      },
+      "transpose_y" : true,
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_2_1\/einsum\/Einsum",
+      "top" : "odometer_1d_attn_1\/multi_head_attention_2_1\/einsum\/Einsum",
+      "type" : "batch_matmul",
+      "name" : "odometer_1d_attn_1\/multi_head_attention_2_1\/einsum\/Einsum",
+      "channel_mode" : false
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_2_1\/einsum\/Einsum",
+      "alpha" : 0.1767766922712326,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_2_1\/Mul",
+      "top" : "odometer_1d_attn_1\/multi_head_attention_2_1\/Mul",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/multi_head_attention_2_1\/Mul",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_2_1\/Mul",
+      "weights" : {
+
+      },
+      "nd_axis" : -1,
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_2_1\/Softmax",
+      "top" : "odometer_1d_attn_1\/multi_head_attention_2_1\/Softmax",
+      "type" : "softmax_nd",
+      "name" : "odometer_1d_attn_1\/multi_head_attention_2_1\/Softmax"
+    },
+    {
+      "axis_h" : 2,
+      "axis_w" : 0,
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_2_1\/value_1\/Add",
+      "axis_k" : 1,
+      "axis_n" : 3,
+      "axis_seq" : 4,
+      "weights" : {
+
+      },
+      "debug_info" : "transpose_84",
+      "top" : "transpose_55",
+      "type" : "transpose",
+      "name" : "transpose_84"
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_2_1\/Softmax,transpose_55",
+      "weights" : {
+
+      },
+      "debug_info" : "matmul_2",
+      "top" : "matmul_2",
+      "type" : "batch_matmul",
+      "name" : "matmul_2",
+      "channel_mode" : false
+    },
+    {
+      "axis_h" : 2,
+      "axis_w" : 0,
+      "bottom" : "matmul_2",
+      "axis_k" : 1,
+      "axis_n" : 3,
+      "axis_seq" : 4,
+      "weights" : {
+
+      },
+      "debug_info" : "transpose_83",
+      "top" : "odometer_1d_attn_1\/multi_head_attention_2_1\/einsum_1\/Einsum",
+      "type" : "transpose",
+      "name" : "transpose_83"
+    },
+    {
+      "name" : "odometer_1d_attn_1\/multi_head_attention_2_1\/attention_output_1\/Reshape",
+      "weights" : {
+
+      },
+      "dst_w" : 128,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 3,
+      "type" : "reshape",
+      "dst_h" : 96,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_2_1\/einsum_1\/Einsum",
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_2_1\/attention_output_1\/Reshape",
+      "dst_seq" : 1,
+      "dst_k" : -1,
+      "top" : "odometer_1d_attn_1\/multi_head_attention_2_1\/attention_output_1\/Reshape"
+    },
+    {
+      "nB" : 128,
+      "top" : "odometer_1d_attn_1\/multi_head_attention_2_1\/attention_output_1\/BiasAdd",
+      "has_biases" : 1,
+      "blob_weights_f16" : 167,
+      "nC" : 128,
+      "weights" : {
+
+      },
+      "type" : "inner_product",
+      "has_relu" : 0,
+      "bottom" : "odometer_1d_attn_1\/multi_head_attention_2_1\/attention_output_1\/Reshape",
+      "blob_biases" : 165,
+      "has_tanh" : 0,
+      "debug_info" : "odometer_1d_attn_1\/multi_head_attention_2_1\/attention_output_1\/BiasAdd",
+      "name" : "odometer_1d_attn_1\/multi_head_attention_2_1\/attention_output_1\/BiasAdd",
+      "has_prelu" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/add_12_1\/Add,odometer_1d_attn_1\/multi_head_attention_2_1\/attention_output_1\/BiasAdd",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/add_13_1\/Add",
+      "top" : "odometer_1d_attn_1\/add_13_1\/Add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/add_13_1\/Add",
+      "beta" : 0
+    },
+    {
+      "axis_mode" : 1,
+      "bottom" : "odometer_1d_attn_1\/add_13_1\/Add",
+      "weights" : {
+
+      },
+      "mode" : 1,
+      "nd_mode" : true,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_5_1\/moments\/mean",
+      "use_version" : 1,
+      "top" : "odometer_1d_attn_1\/layer_normalization_5_1\/moments\/mean",
+      "type" : "reduce",
+      "name" : "odometer_1d_attn_1\/layer_normalization_5_1\/moments\/mean"
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_5_1\/moments\/mean",
+      "alpha" : -1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_5_1\/Neg",
+      "top" : "odometer_1d_attn_1\/layer_normalization_5_1\/Neg",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_5_1\/Neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/add_13_1\/Add,odometer_1d_attn_1\/layer_normalization_5_1\/moments\/mean",
+      "alpha" : 1,
+      "operation" : 33,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_5_1\/moments\/SquaredDifference_sub",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_5_1\/moments\/SquaredDifference_sub",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_5_1\/moments\/SquaredDifference_sub",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_5_1\/moments\/SquaredDifference_sub",
+      "alpha" : 2,
+      "operation" : 13,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_5_1\/moments\/SquaredDifference",
+      "top" : "odometer_1d_attn_1\/layer_normalization_5_1\/moments\/SquaredDifference",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_5_1\/moments\/SquaredDifference",
+      "beta" : 0
+    },
+    {
+      "axis_mode" : 1,
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_5_1\/moments\/SquaredDifference",
+      "weights" : {
+
+      },
+      "mode" : 1,
+      "nd_mode" : true,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_5_1\/moments\/variance",
+      "use_version" : 1,
+      "top" : "odometer_1d_attn_1\/layer_normalization_5_1\/moments\/variance",
+      "type" : "reduce",
+      "name" : "odometer_1d_attn_1\/layer_normalization_5_1\/moments\/variance"
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_5_1\/moments\/variance",
+      "alpha" : 0.0010000000474974513,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_5_1\/add",
+      "top" : "odometer_1d_attn_1\/layer_normalization_5_1\/add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_5_1\/add",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_5_1\/add",
+      "alpha" : 1,
+      "operation" : 12,
+      "eps" : 9.999999960041972e-13,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_5_1\/Rsqrt",
+      "top" : "odometer_1d_attn_1\/layer_normalization_5_1\/Rsqrt",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_5_1\/Rsqrt",
+      "beta" : 0
+    },
+    {
+      "top" : "odometer_1d_attn_1\/layer_normalization_5_1\/Reshape",
+      "w" : 128,
+      "h" : 1,
+      "name" : "odometer_1d_attn_1\/layer_normalization_5_1\/Reshape",
+      "nd_rank" : 3,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_5_1\/Reshape",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 169
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_5_1\/Rsqrt,odometer_1d_attn_1\/layer_normalization_5_1\/Reshape",
+      "alpha" : 1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_5_1\/mul",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_5_1\/mul",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_5_1\/mul",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/add_13_1\/Add,odometer_1d_attn_1\/layer_normalization_5_1\/mul",
+      "alpha" : 1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_5_1\/mul_2",
+      "top" : "odometer_1d_attn_1\/layer_normalization_5_1\/mul_2",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_5_1\/mul_2",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_5_1\/Neg,odometer_1d_attn_1\/layer_normalization_5_1\/mul",
+      "alpha" : 1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_5_1\/mul_1",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_5_1\/mul_1",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_5_1\/mul_1",
+      "beta" : 0
+    },
+    {
+      "top" : "odometer_1d_attn_1\/layer_normalization_5_1\/Reshape_1",
+      "w" : 128,
+      "h" : 1,
+      "name" : "odometer_1d_attn_1\/layer_normalization_5_1\/Reshape_1",
+      "nd_rank" : 3,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_5_1\/Reshape_1",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 171
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_5_1\/mul_1,odometer_1d_attn_1\/layer_normalization_5_1\/Reshape_1",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_5_1\/add_1",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_5_1\/add_1",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_5_1\/add_1",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_5_1\/mul_2,odometer_1d_attn_1\/layer_normalization_5_1\/add_1",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_5_1\/add_2",
+      "top" : "odometer_1d_attn_1\/layer_normalization_5_1\/add_2",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_5_1\/add_2",
+      "beta" : 0
+    },
+    {
+      "name" : "odometer_1d_attn_1\/dense_4_1\/Tensordot\/Reshape",
+      "weights" : {
+
+      },
+      "dst_w" : 128,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 2,
+      "type" : "reshape",
+      "dst_h" : 96,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_5_1\/add_2",
+      "debug_info" : "odometer_1d_attn_1\/dense_4_1\/Tensordot\/Reshape",
+      "dst_seq" : 1,
+      "dst_k" : 1,
+      "top" : "odometer_1d_attn_1\/dense_4_1\/Tensordot\/Reshape"
+    },
+    {
+      "nB" : 128,
+      "top" : "odometer_1d_attn_1\/dense_4_1\/Tensordot\/MatMul",
+      "has_biases" : 0,
+      "blob_weights_f16" : 173,
+      "nC" : 256,
+      "weights" : {
+
+      },
+      "type" : "inner_product",
+      "has_relu" : 0,
+      "bottom" : "odometer_1d_attn_1\/dense_4_1\/Tensordot\/Reshape",
+      "debug_info" : "odometer_1d_attn_1\/dense_4_1\/Tensordot\/MatMul",
+      "has_tanh" : 0,
+      "nd_mode" : true,
+      "name" : "odometer_1d_attn_1\/dense_4_1\/Tensordot\/MatMul",
+      "has_prelu" : 0
+    },
+    {
+      "name" : "odometer_1d_attn_1\/dense_4_1\/Tensordot",
+      "weights" : {
+
+      },
+      "dst_w" : 256,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 3,
+      "type" : "reshape",
+      "dst_h" : 96,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "odometer_1d_attn_1\/dense_4_1\/Tensordot\/MatMul",
+      "debug_info" : "odometer_1d_attn_1\/dense_4_1\/Tensordot",
+      "dst_seq" : 1,
+      "dst_k" : 1,
+      "top" : "odometer_1d_attn_1\/dense_4_1\/Tensordot"
+    },
+    {
+      "top" : "odometer_1d_attn_1\/dense_4_1\/BiasAdd\/ReadVariableOp",
+      "w" : 256,
+      "h" : 1,
+      "name" : "odometer_1d_attn_1\/dense_4_1\/BiasAdd\/ReadVariableOp",
+      "nd_rank" : 1,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/dense_4_1\/BiasAdd\/ReadVariableOp",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 175
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/dense_4_1\/Tensordot,odometer_1d_attn_1\/dense_4_1\/BiasAdd\/ReadVariableOp",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/dense_4_1\/BiasAdd",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/dense_4_1\/BiasAdd",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/dense_4_1\/BiasAdd",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/dense_4_1\/BiasAdd",
+      "weights" : {
+
+      },
+      "mode" : 0,
+      "debug_info" : "odometer_1d_attn_1\/dense_4_1\/Relu",
+      "top" : "odometer_1d_attn_1\/dense_4_1\/Relu",
+      "type" : "activation",
+      "name" : "odometer_1d_attn_1\/dense_4_1\/Relu"
+    },
+    {
+      "name" : "odometer_1d_attn_1\/dense_5_1\/Tensordot\/Reshape",
+      "weights" : {
+
+      },
+      "dst_w" : 256,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 2,
+      "type" : "reshape",
+      "dst_h" : 96,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "odometer_1d_attn_1\/dense_4_1\/Relu",
+      "debug_info" : "odometer_1d_attn_1\/dense_5_1\/Tensordot\/Reshape",
+      "dst_seq" : 1,
+      "dst_k" : 1,
+      "top" : "odometer_1d_attn_1\/dense_5_1\/Tensordot\/Reshape"
+    },
+    {
+      "nB" : 256,
+      "top" : "odometer_1d_attn_1\/dense_5_1\/Tensordot\/MatMul",
+      "has_biases" : 0,
+      "blob_weights_f16" : 177,
+      "nC" : 128,
+      "weights" : {
+
+      },
+      "type" : "inner_product",
+      "has_relu" : 0,
+      "bottom" : "odometer_1d_attn_1\/dense_5_1\/Tensordot\/Reshape",
+      "debug_info" : "odometer_1d_attn_1\/dense_5_1\/Tensordot\/MatMul",
+      "has_tanh" : 0,
+      "nd_mode" : true,
+      "name" : "odometer_1d_attn_1\/dense_5_1\/Tensordot\/MatMul",
+      "has_prelu" : 0
+    },
+    {
+      "name" : "odometer_1d_attn_1\/dense_5_1\/Tensordot",
+      "weights" : {
+
+      },
+      "dst_w" : 128,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 3,
+      "type" : "reshape",
+      "dst_h" : 96,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "odometer_1d_attn_1\/dense_5_1\/Tensordot\/MatMul",
+      "debug_info" : "odometer_1d_attn_1\/dense_5_1\/Tensordot",
+      "dst_seq" : 1,
+      "dst_k" : 1,
+      "top" : "odometer_1d_attn_1\/dense_5_1\/Tensordot"
+    },
+    {
+      "top" : "odometer_1d_attn_1\/dense_5_1\/BiasAdd\/ReadVariableOp",
+      "w" : 128,
+      "h" : 1,
+      "name" : "odometer_1d_attn_1\/dense_5_1\/BiasAdd\/ReadVariableOp",
+      "nd_rank" : 1,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/dense_5_1\/BiasAdd\/ReadVariableOp",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 179
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/dense_5_1\/Tensordot,odometer_1d_attn_1\/dense_5_1\/BiasAdd\/ReadVariableOp",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/dense_5_1\/BiasAdd",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/dense_5_1\/BiasAdd",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/dense_5_1\/BiasAdd",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/add_13_1\/Add,odometer_1d_attn_1\/dense_5_1\/BiasAdd",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/add_14_1\/Add",
+      "top" : "odometer_1d_attn_1\/add_14_1\/Add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/add_14_1\/Add",
+      "beta" : 0
+    },
+    {
+      "axis_mode" : 1,
+      "bottom" : "odometer_1d_attn_1\/add_14_1\/Add",
+      "weights" : {
+
+      },
+      "mode" : 1,
+      "nd_mode" : true,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_6_1\/moments\/mean",
+      "use_version" : 1,
+      "top" : "odometer_1d_attn_1\/layer_normalization_6_1\/moments\/mean",
+      "type" : "reduce",
+      "name" : "odometer_1d_attn_1\/layer_normalization_6_1\/moments\/mean"
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_6_1\/moments\/mean",
+      "alpha" : -1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_6_1\/Neg",
+      "top" : "odometer_1d_attn_1\/layer_normalization_6_1\/Neg",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_6_1\/Neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/add_14_1\/Add,odometer_1d_attn_1\/layer_normalization_6_1\/moments\/mean",
+      "alpha" : 1,
+      "operation" : 33,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_6_1\/moments\/SquaredDifference_sub",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_6_1\/moments\/SquaredDifference_sub",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_6_1\/moments\/SquaredDifference_sub",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_6_1\/moments\/SquaredDifference_sub",
+      "alpha" : 2,
+      "operation" : 13,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_6_1\/moments\/SquaredDifference",
+      "top" : "odometer_1d_attn_1\/layer_normalization_6_1\/moments\/SquaredDifference",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_6_1\/moments\/SquaredDifference",
+      "beta" : 0
+    },
+    {
+      "axis_mode" : 1,
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_6_1\/moments\/SquaredDifference",
+      "weights" : {
+
+      },
+      "mode" : 1,
+      "nd_mode" : true,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_6_1\/moments\/variance",
+      "use_version" : 1,
+      "top" : "odometer_1d_attn_1\/layer_normalization_6_1\/moments\/variance",
+      "type" : "reduce",
+      "name" : "odometer_1d_attn_1\/layer_normalization_6_1\/moments\/variance"
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_6_1\/moments\/variance",
+      "alpha" : 0.0010000000474974513,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_6_1\/add",
+      "top" : "odometer_1d_attn_1\/layer_normalization_6_1\/add",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_6_1\/add",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_6_1\/add",
+      "alpha" : 1,
+      "operation" : 12,
+      "eps" : 9.999999960041972e-13,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_6_1\/Rsqrt",
+      "top" : "odometer_1d_attn_1\/layer_normalization_6_1\/Rsqrt",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_6_1\/Rsqrt",
+      "beta" : 0
+    },
+    {
+      "top" : "odometer_1d_attn_1\/layer_normalization_6_1\/Reshape",
+      "w" : 128,
+      "h" : 1,
+      "name" : "odometer_1d_attn_1\/layer_normalization_6_1\/Reshape",
+      "nd_rank" : 3,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_6_1\/Reshape",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 181
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_6_1\/Rsqrt,odometer_1d_attn_1\/layer_normalization_6_1\/Reshape",
+      "alpha" : 1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_6_1\/mul",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_6_1\/mul",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_6_1\/mul",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/add_14_1\/Add,odometer_1d_attn_1\/layer_normalization_6_1\/mul",
+      "alpha" : 1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_6_1\/mul_2",
+      "top" : "odometer_1d_attn_1\/layer_normalization_6_1\/mul_2",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_6_1\/mul_2",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_6_1\/Neg,odometer_1d_attn_1\/layer_normalization_6_1\/mul",
+      "alpha" : 1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_6_1\/mul_1",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_6_1\/mul_1",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_6_1\/mul_1",
+      "beta" : 0
+    },
+    {
+      "top" : "odometer_1d_attn_1\/layer_normalization_6_1\/Reshape_1",
+      "w" : 128,
+      "h" : 1,
+      "name" : "odometer_1d_attn_1\/layer_normalization_6_1\/Reshape_1",
+      "nd_rank" : 3,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_6_1\/Reshape_1",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 183
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_6_1\/mul_1,odometer_1d_attn_1\/layer_normalization_6_1\/Reshape_1",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_6_1\/add_1",
+      "nd_mode" : true,
+      "top" : "odometer_1d_attn_1\/layer_normalization_6_1\/add_1",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_6_1\/add_1",
+      "beta" : 0
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_6_1\/mul_2,odometer_1d_attn_1\/layer_normalization_6_1\/add_1",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "odometer_1d_attn_1\/layer_normalization_6_1\/add_2",
+      "top" : "odometer_1d_attn_1\/layer_normalization_6_1\/add_2",
+      "type" : "elementwise",
+      "name" : "odometer_1d_attn_1\/layer_normalization_6_1\/add_2",
+      "beta" : 0
+    },
+    {
+      "axis_h" : 0,
+      "axis_w" : 1,
+      "bottom" : "odometer_1d_attn_1\/layer_normalization_6_1\/add_2",
+      "axis_k" : 2,
+      "axis_n" : 3,
+      "axis_seq" : 4,
+      "weights" : {
+
+      },
+      "debug_info" : "transpose_82",
+      "top" : "transpose_57",
+      "type" : "transpose",
+      "name" : "transpose_82"
+    },
+    {
+      "size_of_axes" : 1,
+      "bottom" : "transpose_57",
+      "axes_0" : -2,
+      "weights" : {
+
+      },
+      "nd_axis" : 0,
+      "debug_info" : "expand_dims_6",
+      "top" : "expand_dims_6",
+      "type" : "expand_dims",
+      "name" : "expand_dims_6"
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "conv_4",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "conv_4",
+      "K" : 128,
+      "blob_biases" : 185,
+      "name" : "conv_4",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 11,
+      "bottom" : "expand_dims_6",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1,
+      "blob_weights_f16" : 187
+    },
+    {
+      "size_of_axes" : 1,
+      "bottom" : "conv_4",
+      "axes_0" : -2,
+      "weights" : {
+
+      },
+      "nd_axis" : 0,
+      "debug_info" : "odometer_1d_attn_1\/cls_logits_1\/BiasAdd",
+      "version" : 1,
+      "top" : "odometer_1d_attn_1\/cls_logits_1\/BiasAdd",
+      "type" : "squeeze",
+      "name" : "odometer_1d_attn_1\/cls_logits_1\/BiasAdd"
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "conv_5",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "conv_5",
+      "K" : 128,
+      "blob_biases" : 189,
+      "name" : "conv_5",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 2,
+      "bottom" : "expand_dims_6",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1,
+      "blob_weights_f16" : 191
+    },
+    {
+      "size_of_axes" : 1,
+      "bottom" : "conv_5",
+      "axes_0" : -2,
+      "weights" : {
+
+      },
+      "nd_axis" : 0,
+      "debug_info" : "odometer_1d_attn_1\/reg_1\/BiasAdd",
+      "version" : 1,
+      "top" : "odometer_1d_attn_1\/reg_1\/BiasAdd",
+      "type" : "squeeze",
+      "name" : "odometer_1d_attn_1\/reg_1\/BiasAdd"
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/reg_1\/BiasAdd",
+      "weights" : {
+
+      },
+      "mode" : 10,
+      "debug_info" : "odometer_1d_attn_1\/reg_1\/Softplus",
+      "top" : "odometer_1d_attn_1\/reg_1\/Softplus",
+      "type" : "activation",
+      "name" : "odometer_1d_attn_1\/reg_1\/Softplus"
+    },
+    {
+      "bottom" : "odometer_1d_attn_1\/cls_logits_1\/BiasAdd,odometer_1d_attn_1\/reg_1\/Softplus",
+      "weights" : {
+
+      },
+      "nd_mode" : true,
+      "axis" : 1,
+      "debug_info" : "_before_transpose_op_Identity",
+      "top" : "_before_transpose_op_Identity",
+      "type" : "general_concat",
+      "name" : "_before_transpose_op_Identity"
+    },
+    {
+      "axis_seq" : 4,
+      "name" : "transpose_81",
+      "axis_n" : 3,
+      "axis_h" : 0,
+      "type" : "transpose",
+      "attributes" : {
+        "is_output" : 1
+      },
+      "bottom" : "_before_transpose_op_Identity",
+      "axis_w" : 1,
+      "axis_k" : 2,
+      "debug_info" : "transpose_81",
+      "weights" : {
+
+      },
+      "top" : "predictions"
+    }
+  ]
+}

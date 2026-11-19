@@ -1,0 +1,1936 @@
+{
+  "layer_shapes" : {
+    "odometer_1d_attn_1\/add_5_1\/Add" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/layer_normalization_4_1\/Reshape_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 1
+    },
+    "expand_dims_4" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/layer_normalization_1\/mul_2" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1\/attention_output_1\/Reshape" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_5_1\/mul" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_6_1\/add_2" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_1\/Reshape" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/layer_normalization_3_1\/Rsqrt" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/dense_2_1\/Relu" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "conv_4" : {
+      "k" : 11,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "expand_dims_2" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/add_9_1\/Add" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_1\/mul_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_1\/Reshape_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/add_1_2\/Add" : {
+      "k" : 64,
+      "w" : 192,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "odometer_1d_attn_1\/dense_5_1\/Tensordot\/MatMul" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_1_2\/add_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/batch_normalization_6_1\/batchnorm\/add_1" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 32
+    },
+    "transpose_49" : {
+      "k" : 4,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "max_pool_0" : {
+      "k" : 32,
+      "w" : 192,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "transpose_79" : {
+      "k" : 4,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "expand_dims_0" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/conv1d_1\/BiasAdd" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/reg_1\/Softplus" : {
+      "k" : 1,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 2
+    },
+    "transpose_77" : {
+      "k" : 4,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/reshape_1\/Reshape" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_6_1\/moments\/SquaredDifference_sub" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "predictions" : {
+      "k" : 1,
+      "w" : 13,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "transpose_75" : {
+      "k" : 4,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1\/value_1\/Add" : {
+      "k" : 96,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/activation_10_1\/Relu" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/batch_normalization_16_1\/batchnorm\/add_1" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 2
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1\/value_1\/MatMul" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_2_1\/mul_2" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/dense_5_1\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/multi_head_attention_2_1\/einsum\/Einsum" : {
+      "k" : 4,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_2_1\/einsum_1\/Einsum" : {
+      "k" : 96,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/layer_normalization_5_1\/Rsqrt" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "transpose_1" : {
+      "k" : 1,
+      "w" : 384,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "conv_5" : {
+      "k" : 2,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1_2\/attention_output_1\/BiasAdd" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_4_1\/mul" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "matmul_1" : {
+      "k" : 4,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/dense_1_2\/Tensordot\/MatMul" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/add_13_1\/Add" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_6_1\/add_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/dense_2_1\/Tensordot" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1_2\/einsum_1\/Einsum" : {
+      "k" : 96,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/layer_normalization_1\/moments\/variance" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/dense_1\/Tensordot\/Reshape" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/dense_5_1\/Tensordot\/Reshape" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_1\/moments\/SquaredDifference_sub" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "max_pool_5" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 2
+    },
+    "odometer_1d_attn_1\/dense_4_1\/Tensordot\/MatMul" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 96
+    },
+    "_before_transpose_op_Identity" : {
+      "k" : 1,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 13
+    },
+    "odometer_1d_attn_1\/dense_1_2\/Tensordot\/Reshape" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_1\/Neg" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_4_1\/mul_2" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1\/value_1\/Reshape_1" : {
+      "k" : 96,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1\/Mul" : {
+      "k" : 4,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/activation_15_1\/Relu" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_3_1\/moments\/SquaredDifference" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/add_10_1\/Add" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1_2\/query_1\/MatMul" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_1_2\/mul" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/batch_normalization_10_1\/batchnorm\/add_1" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 16
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1\/query_1\/MatMul" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/batch_normalization_18_1\/batchnorm\/mul" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1_2\/value_1\/Reshape_1" : {
+      "k" : 96,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/dense_1\/Tensordot" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_2_1\/mul_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_2_1\/Reshape_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/layer_normalization_3_1\/add_2" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1\/Softmax" : {
+      "k" : 4,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_2_1\/value_1\/Add\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/layer_normalization_3_1\/mul" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/activation_1\/Relu" : {
+      "k" : 32,
+      "w" : 384,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1_2\/query_1\/Add" : {
+      "k" : 96,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/layer_normalization_5_1\/moments\/SquaredDifference" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "transpose_52" : {
+      "k" : 4,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_2_1\/Mul" : {
+      "k" : 4,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1_2\/Mul" : {
+      "k" : 4,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_6_1\/add" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "transpose_80" : {
+      "k" : 4,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/add_4_1\/Add" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "odometer_1d_attn_1\/conv1d_2_1\/convolutionx" : {
+      "k" : 1,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 128
+    },
+    "odometer_1d_attn_1\/layer_normalization_5_1\/moments\/SquaredDifference_sub" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/dense_2_1\/BiasAdd" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/batch_normalization_3\/batchnorm\/add_1" : {
+      "k" : 32,
+      "w" : 384,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "max_pool_2" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 16
+    },
+    "odometer_1d_attn_1\/activation_1_2\/Relu" : {
+      "k" : 32,
+      "w" : 384,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "odometer_1d_attn_1\/layer_normalization_1_2\/moments\/SquaredDifference" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/activation_11_1\/Relu" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/layer_normalization_1_2\/mul_2" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/batch_normalization_3_2\/batchnorm\/add_1" : {
+      "k" : 64,
+      "w" : 192,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "odometer_1d_attn_1\/layer_normalization_2_1\/moments\/mean" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/add_8_1\/Add" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_2_1\/query_1\/Add\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/dense_1\/BiasAdd" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_4_1\/mul_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_5_1\/add_2" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1_2\/query_1\/Reshape_1" : {
+      "k" : 96,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/dense_4_1\/Relu" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/dense_4_1\/Tensordot\/Reshape" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_6_1\/Neg" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/dense_1_2\/Tensordot" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_3_1\/add_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_2_1\/mul" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1_2\/key_1\/Reshape_1" : {
+      "k" : 96,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/multi_head_attention_2_1\/key_1\/Add" : {
+      "k" : 96,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/layer_normalization_5_1\/add" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_2_1\/query_1\/MatMul" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_4_1\/moments\/SquaredDifference_sub" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_1_2\/moments\/mean" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_3_1\/moments\/mean" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_6_1\/mul_2" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_2_1\/attention_output_1\/Reshape" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/dense_3_1\/Tensordot\/MatMul" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_5_1\/Reshape_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/dense_3_1\/Tensordot" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/cls_logits_1\/BiasAdd" : {
+      "k" : 1,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 11
+    },
+    "odometer_1d_attn_1\/layer_normalization_1_2\/mul_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_2_1\/key_1\/Reshape_1" : {
+      "k" : 96,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/add_12_1\/Add" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_2_1\/Rsqrt" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1\/query_1\/Add" : {
+      "k" : 96,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/batch_normalization_14_1\/batchnorm\/add_1" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/add_3_1\/Add" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 16
+    },
+    "odometer_1d_attn_1\/layer_normalization_5_1\/add_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_5_1\/Neg" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_4_1\/moments\/mean" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_1_2\/moments\/variance" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_2_1\/query_1\/Add" : {
+      "k" : 96,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/dense_3_1\/BiasAdd" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_1\/moments\/mean" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_2_1\/key_1\/MatMul" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_4_1\/add" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/activation_12_1\/Relu" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 2
+    },
+    "odometer_1d_attn_1\/dense_1\/Tensordot\/MatMul" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 96
+    },
+    "matmul_2" : {
+      "k" : 4,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/dense_3_1\/Tensordot\/Reshape" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_6_1\/mul_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "max_pool_4" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1\/query_1\/Reshape_1" : {
+      "k" : 96,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "transpose_78" : {
+      "k" : 4,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_4_1\/Rsqrt" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/dense_2_1\/Tensordot\/MatMul" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_1\/Rsqrt" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "transpose_76" : {
+      "k" : 4,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/reg_1\/BiasAdd" : {
+      "k" : 1,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 2
+    },
+    "odometer_1d_attn_1\/layer_normalization_1_2\/Reshape_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/layer_normalization_5_1\/moments\/mean" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_1\/moments\/SquaredDifference" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "transpose_44" : {
+      "k" : 1,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 128
+    },
+    "odometer_1d_attn_1\/dense_1\/Relu" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "transpose_42" : {
+      "k" : 1,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 128
+    },
+    "conv_0" : {
+      "k" : 1,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 128
+    },
+    "odometer_1d_attn_1\/dense_4_1\/Tensordot" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_1_2\/add" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_4_1\/Neg" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_3_1\/moments\/SquaredDifference_sub" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1_2\/value_1\/Add" : {
+      "k" : 96,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/dense_4_1\/BiasAdd" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_3_1\/mul_2" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_3_1\/add" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1_2\/value_1\/MatMul" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_6_1\/Reshape" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/layer_normalization_6_1\/moments\/mean" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_3_1\/Reshape_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/multi_head_attention_2_1\/attention_output_1\/BiasAdd" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "max_pool_1" : {
+      "k" : 64,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 32
+    },
+    "odometer_1d_attn_1\/layer_normalization_1_2\/Rsqrt" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_2_1\/moments\/SquaredDifference" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/batch_normalization_8_1\/batchnorm\/add_1" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 32
+    },
+    "odometer_1d_attn_1\/layer_normalization_2_1\/add_2" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/conv1d_2_1\/convolution\/Squeeze" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1_2\/key_1\/MatMul" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1_2\/value_1\/Add\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/layer_normalization_1_2\/moments\/SquaredDifference_sub" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_1_2\/Neg" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "strip" : {
+      "k" : 128,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 384
+    },
+    "odometer_1d_attn_1\/add_14_1\/Add" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "conv_1" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/layer_normalization_5_1\/Reshape" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/batch_normalization_18_1\/batchnorm\/add_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "matmul_0" : {
+      "k" : 4,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_1\/add_2" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "transpose_57" : {
+      "k" : 1,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 128
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1\/attention_output_1\/BiasAdd" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_4_1\/moments\/SquaredDifference" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/dense_2_1\/Tensordot\/Reshape" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/batch_normalization_18_1\/batchnorm\/mul_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_3_1\/Neg" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/dense_2_1\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/dense_1_2\/BiasAdd" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_5_1\/mul_2" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "transpose_55" : {
+      "k" : 4,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/dense_5_1\/BiasAdd" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/activation_9_1\/Relu" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "odometer_1d_attn_1\/layer_normalization_4_1\/Reshape" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1_2\/key_1\/Add\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/activation_13_1\/Relu" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 2
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1\/einsum_1\/Einsum" : {
+      "k" : 96,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/layer_normalization_1\/add_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1_2\/key_1\/Add" : {
+      "k" : 96,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/multi_head_attention_2_1\/value_1\/Add" : {
+      "k" : 96,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/add_2_1\/Add" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 32
+    },
+    "odometer_1d_attn_1\/layer_normalization_6_1\/Rsqrt" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/activation_8_1\/Relu" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1\/key_1\/MatMul" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_2_1\/add" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1_2\/query_1\/Add\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/layer_normalization_3_1\/mul_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_4_1\/add_2" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/batch_normalization_18_1\/batchnorm\/sub" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/layer_normalization_6_1\/moments\/variance" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "max_pool_6" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/layer_normalization_3_1\/Reshape" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/activation_7_1\/Relu" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 16
+    },
+    "odometer_1d_attn_1\/add_6_1\/Add" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 2
+    },
+    "conv_2" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/layer_normalization_5_1\/moments\/variance" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_2_1\/add_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/activation_6_1\/Relu" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 16
+    },
+    "odometer_1d_attn_1\/dense_1\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/multi_head_attention_2_1\/value_1\/Reshape_1" : {
+      "k" : 96,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/layer_normalization_1_2\/Reshape" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/layer_normalization_4_1\/moments\/variance" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/batch_normalization_5_1\/batchnorm\/add_1" : {
+      "k" : 64,
+      "w" : 192,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "odometer_1d_attn_1\/layer_normalization_2_1\/Reshape" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/batch_normalization_12_1\/batchnorm\/add_1" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "odometer_1d_attn_1\/multi_head_attention_2_1\/value_1\/MatMul" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_2_1\/moments\/SquaredDifference_sub" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/activation_5_1\/Relu" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 32
+    },
+    "odometer_1d_attn_1\/dense_3_1\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1\/key_1\/Add" : {
+      "k" : 96,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1_2\/einsum\/Einsum" : {
+      "k" : 4,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_2_1\/Neg" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1\/key_1\/Reshape_1" : {
+      "k" : 96,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/layer_normalization_3_1\/moments\/variance" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_6_1\/Reshape_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/Add_7" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_1\/mul" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1_2\/attention_output_1\/Reshape" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_6_1\/mul" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_5_1\/mul_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/activation_4_1\/Relu" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 32
+    },
+    "odometer_1d_attn_1\/batch_normalization_2_1\/batchnorm\/add_1" : {
+      "k" : 32,
+      "w" : 384,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "odometer_1d_attn_1\/add_11_1\/Add" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1\/query_1\/Add\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/layer_normalization_2_1\/moments\/variance" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/dense_5_1\/Tensordot" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/batch_normalization_17_1\/batchnorm\/add_1" : {
+      "k" : 1,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 128
+    },
+    "odometer_1d_attn_1\/layer_normalization_1_2\/add_2" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/max_pooling2d_6_1\/MaxPool2d" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_6_1\/moments\/SquaredDifference" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/activation_3_1\/Relu" : {
+      "k" : 64,
+      "w" : 192,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "conv_3" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/Add_7\/y" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/dense_1_2\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/layer_normalization_4_1\/add_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "max_pool_3" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "odometer_1d_attn_1\/multi_head_attention_2_1\/key_1\/Add\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1\/value_1\/Add\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/activation_2_1\/Relu" : {
+      "k" : 64,
+      "w" : 192,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1\/key_1\/Add\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/add_1\/Add" : {
+      "k" : 32,
+      "w" : 384,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "odometer_1d_attn_1\/multi_head_attention_2_1\/query_1\/Reshape_1" : {
+      "k" : 96,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1_2\/Softmax" : {
+      "k" : 4,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/multi_head_attention_2_1\/Softmax" : {
+      "k" : 4,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/layer_normalization_1\/add" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 96
+    },
+    "expand_dims_6" : {
+      "k" : 128,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/dense_4_1\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "odometer_1d_attn_1\/multi_head_attention_1\/einsum\/Einsum" : {
+      "k" : 4,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "odometer_1d_attn_1\/activation_14_1\/Relu" : {
+      "k" : 1,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 128
+    }
+  }
+}
