@@ -6,11 +6,160 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Vr3NwnUkZLtmXQRqfmPjcXHzMdg=
+		Lar7VtI7wfaIKPY795G3QlHrAvI=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/Assets.car</key>
+		<data>
+		swIH8vGXohjd03oU3TP3vGF+oFY=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/Gilroy-Medium.otf</key>
+		<data>
+		g301aqaewXkuwgROXXQcZXNM1jo=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/Gilroy-Regular.otf</key>
+		<data>
+		Jism+NCS8FEDaFD3FJBy/mVntAc=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/Gilroy-SemiBold.otf</key>
+		<data>
+		U/S1JfRoWNxURmpAujLxRZhqZkg=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/Info.plist</key>
+		<data>
+		2lOZzc0NWWyFTev3GisaFcqGcHo=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/analytics/coremldata.bin</key>
+		<data>
+		qMS85r2UGxy0m7OOiRlWlCWG8GU=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/coremldata.bin</key>
+		<data>
+		IwBaZZqRFq1kAZ39boOiayhQIBA=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/metadata.json</key>
+		<data>
+		jBQI8BMGYGGBiYrXEvPXKS1H/wo=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/model.espresso.net</key>
+		<data>
+		bD3cebNvlBu469fBPk2AaZX9MW0=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/model.espresso.shape</key>
+		<data>
+		/tQ6fPefRLO2S9is9JVjD4kmw38=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/model.espresso.weights</key>
+		<data>
+		gpoLpLWUH7eiGjshqMkpHgvSvBA=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/model/coremldata.bin</key>
+		<data>
+		yNfQ7w7t+oLS6hqlkoRbmm1LArc=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/neural_network_optionals/coremldata.bin</key>
+		<data>
+		tkgF5pxT7RlO+9uypQti9obolyA=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		9slhmTZYKDmos4efk+3YOXYOQXo=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/StripText.mlmodelc/analytics/coremldata.bin</key>
+		<data>
+		p1qc1ngqdCmehOYkmi1MYF3NMus=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/StripText.mlmodelc/coremldata.bin</key>
+		<data>
+		4Kp2D8/WqsPis19oogjRkXjYlFA=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/StripText.mlmodelc/metadata.json</key>
+		<data>
+		NIe4MMEAfrJWVuvVgy7OeJ+4Hm4=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/StripText.mlmodelc/model.espresso.net</key>
+		<data>
+		2ffg+i1qF21nj7tQKLV7vYaBamc=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/StripText.mlmodelc/model.espresso.shape</key>
+		<data>
+		x9Fte3BnTVY956MLfA72CuMkBC4=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/StripText.mlmodelc/model.espresso.weights</key>
+		<data>
+		ohfqM05z2/lbCADVLZt1kDyTW+c=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/StripText.mlmodelc/model/coremldata.bin</key>
+		<data>
+		yNfQ7w7t+oLS6hqlkoRbmm1LArc=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/StripText.mlmodelc/neural_network_optionals/coremldata.bin</key>
+		<data>
+		tkgF5pxT7RlO+9uypQti9obolyA=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/_CodeSignature/CodeDirectory</key>
+		<data>
+		6AYhojlXPJwLGrNZWFj6idEZcss=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/_CodeSignature/CodeRequirements</key>
+		<data>
+		OnX22wWFKRSOFN1+obRynMCeyXM=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/_CodeSignature/CodeResources</key>
+		<data>
+		pYf5Y/tw5RfT5Z1xRNCmO8hroHQ=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/_CodeSignature/CodeSignature</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/arrow-bounce.json</key>
+		<data>
+		XXlkfj8R4dSmdCuG2Fpa/rvoV8Q=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/default.metallib</key>
+		<data>
+		PeniiW1gRGE4xvHVWlvuqcKeTR8=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/dot-progress-med-fade-thin.json</key>
+		<data>
+		DI722amGxWN6A6Cuo2Uwa+BOlZA=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/down-arrow.json</key>
+		<data>
+		4KHr1evCNgM5uF8sFXkEsggStFY=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KMBjAqdxroN9h6nDU9toz6G9R3g=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/meshscan-tutorial.mp4</key>
+		<data>
+		wEUTCWvFi4YnzVWqv8LpgVMqkrs=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/panorama-tutorial.mp4</key>
+		<data>
+		6IZqgevCD5KBRMc7W2PK6tqBhH8=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/stars.gif</key>
+		<data>
+		UTR3eAPWxBdF7/Sd/Su9QNRAwPs=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/vertices.mtl</key>
+		<data>
+		t27prqxvEnH9LVWZUNHZir35zcI=
+		</data>
+		<key>FlyreelCapture_FlyreelCapture.bundle/vertices.obj</key>
+		<data>
+		4x0WywfWPbuYLQz5OF/QXwHVzDk=
 		</data>
 		<key>Headers/Flyreel-Swift.h</key>
 		<data>
-		vu+BljNtHr7GxBXWLcbPVrwCEqY=
+		pCh+F0gKRCPzY+by94QNCrP+61o=
 		</data>
 		<key>Headers/Flyreel.h</key>
 		<data>
@@ -18,47 +167,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fCjv6rezka3wsYz8sIgTocmSA3g=
+		WWzHzwxSzHOg64hUcVPIi9emuUU=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		0j3qK8uciHCFPX/7g9Mlvqvw6HQ=
+		M+OUuxcHezv+iNIZWysr9+PnuBA=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		qj7dPMLBVkknprWRpXl3aWK+OK0=
+		jShlN9w8prxMivs8p5DMeRxy0LE=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		KHzjiItFb99tMbgkkq1kPKvbTdU=
+		Q1ohsj/eAW9rtnIrfGTN6GXVweo=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		fs0+/B7S1P5+DOAC0JVWwws2VCU=
+		NHTC6EVtWy2gSj+J67HAPr/YDKY=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gLVn83GiusE9XPz9z/96FHQ6fjM=
+		hj/xF0gsMrg+vBCTYkNoH6SklmM=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		0j3qK8uciHCFPX/7g9Mlvqvw6HQ=
+		M+OUuxcHezv+iNIZWysr9+PnuBA=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		XAegtHg02M6dzvHISFCcfRwRD7k=
+		CQ35MpSbZlwKx1cldQTM3IoqAYc=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		NV6NC2arX93yuxHrT4D5shOBU5Q=
+		mut7nFqlUtCBm8xhF7Y+qcx6650=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		r7thhGAGr3+PFmDgVdV5Jn/FZ7g=
+		mK8rtWdeajWHOKQld45VQhFqksc=
 		</data>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nKHrcECLcJWPYZk7Ozza50z+JPk=
+		y+P3RDX8ICsxEFy5qV8dCWnXMG0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -80,14 +229,268 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SIYJ2LGgVFATahiLRPA0dGKsnNd7gX2Svh4l8bvq+cY=
+			+BFUOrUnN3Jrna4zFT0ORS/KjxAJT3UUAiY/gUpYGJY=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			d7hAO2SLR1zHmU01ey6D/1FYh8zGs/QbGPavKNLPhFo=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/Gilroy-Medium.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			b4NndgayI14KaHU1x6CpYVa1VNYixlnO6n27kDciJcY=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/Gilroy-Regular.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EfA5WsKtBY6707RKm+Pzh2EenhS90Qt+rH04zlxcd3Y=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/Gilroy-SemiBold.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YNNNz9Rs9jKEiPXupN3fQvf+IQnOl3wWYQXAZzQSZ4E=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hGdcpT0YRxsWxzIb+L7t7cqordEDPi8kUJphTQEcyZQ=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/analytics/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qIJNqdQmYrZ7LR22QimPWO3CbLaiRiy0sWOrpIxw0ZM=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zuGqjTJfiK7GOjz51NqD1dPHa1hpmLmZyR9RXpy1mM8=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/metadata.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2+YBynhcRNU7bgQ0yerdrBENzY4pRs2UdRmNvN6IhgI=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/model.espresso.net</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HmPtFICwEbu5rrAs9NjJHL4rIHaUfhw9872j1tC2w/c=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/model.espresso.shape</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			w+lZNz8t3GIkeVyKYu325v+OdmuDfbhLfJDgooO879o=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/model.espresso.weights</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5pWzlKVc4B8LaraquiRaA3WDohBhK+OlT+zV5R48vUA=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/model/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9aX9QtFqIDAnmO9u0wmXm0MAPSMg2fDo6pgxqSdZ+0s=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/neural_network_optionals/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WTG9U2xFUClKISxvyNPBvuddqBeYC6C2cchgPa+zYjg=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ENpn8heCTwGSiOwyirq8KQqwOZxS6b53ok1JQzkTfaI=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/StripText.mlmodelc/analytics/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			M9I5LOTxKWVFV+Kf49H3ILZFKC9gmFRIup5w2bj0Z6w=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/StripText.mlmodelc/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6lr0edMRZpWcsSUTvUIjcGRAMYtk5MFfAUVnMSqLVE4=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/StripText.mlmodelc/metadata.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aHoGFSZ6qHm0N+k2fPgYBY4WQZBkCpNei4F61riw0QI=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/StripText.mlmodelc/model.espresso.net</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			INuMKDxzCr10w4ju288pLeYpxO86gknMdB2Nf59LWEw=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/StripText.mlmodelc/model.espresso.shape</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KGHc6X6y3zo/d7tHwFxFuYQeB85nnN/m7AXYVe7Luq8=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/StripText.mlmodelc/model.espresso.weights</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Q9gloOIN09z846u7fUz7DcC4xp6nPYgR2XThUDcyj40=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/StripText.mlmodelc/model/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9aX9QtFqIDAnmO9u0wmXm0MAPSMg2fDo6pgxqSdZ+0s=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/StripText.mlmodelc/neural_network_optionals/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WTG9U2xFUClKISxvyNPBvuddqBeYC6C2cchgPa+zYjg=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Km2VSC/88pZh0ATFCupXs3Mqfirl9Q9zIflv/oTC7PQ=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UwwPWsZqdYyE8Hpq1PARe4amRepfk5JQZpKtGdglBPU=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/arrow-bounce.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nZftwYrB3ij50uhTyLTEAtiuI7JiBecVt7BC9j5eYPY=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/default.metallib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LSGK/Z4SB3Bu0yzcuVOX5SJPLAmSVFvpjNm5yaS1P9Q=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/dot-progress-med-fade-thin.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KmAsWrrQfxkzq3JFEegqx+EGRmKenl8RYgKmZgn//60=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/down-arrow.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			E7ZaXN13lfSUhj3tL2PrUEzlKw9bleE1k9pJKMeylmc=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CYOkwTY+QlCz1E0D/j7GwaACzQZzV49CEvJARnpE0e8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/meshscan-tutorial.mp4</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8vcnoNrSpX9lH6H1VwS5P5znekEzNQQAy5+NXFp7n40=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/panorama-tutorial.mp4</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5urAD/MKMKAUN01qyjdjSFJk4Sa4lARZoT9Pe+cZXJo=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/stars.gif</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YoSGv9bguANXjppw1rOsDh1oBgUCeVbgWwsj5LOf5OY=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/vertices.mtl</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pvMhNlbdEu2gQeK4nkb1OqaDuGJPKMDQyJUDc3s3nSY=
+			</data>
+		</dict>
+		<key>FlyreelCapture_FlyreelCapture.bundle/vertices.obj</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tj5ozXW86RGmXKJK1RcEC/psdrV51kkDOTmOEjwrnzI=
 			</data>
 		</dict>
 		<key>Headers/Flyreel-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TEcxtkHpRHV1cbu2qrSeVRHP6VKls9NTY6qlAJdZj3c=
+			VgMgdOiKbHW4DBqE4XGUKKqDGc5tbSUoHhkv0gxV0xo=
 			</data>
 		</dict>
 		<key>Headers/Flyreel.h</key>
@@ -101,70 +504,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cd9yic9E7cTfdFHblzaUNEBe90YOmD+Sn18CYDe+Dq4=
+			wdH2OrTmUqQ5Qcjlr19GJGocHNn+BiIobCS2m5keJ7s=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kwM9DdPgxjtkc7um7Sr+UDDfTiVHQg5mecL8zyhB9uQ=
+			lP4Uv++zSaszvq+wBnFfv5cqBzVEW87Yw5vCr5SvTNA=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nyw8lO2bLdUelDQlQtWqkQzZt0grDiqbxn5zfzZn8qU=
+			z3Plj1IjvMv4Q5kTzCXEbCGDDstVOlQMsWePpvmIB/k=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JBNspKBEENBYiL+GfEpMOoi/lPFmCVmiSOYOpBaGY+s=
+			GDjf+ZEZ7OBxzi8RTJrMvPv8n/0FILD92LB8sn4/NMw=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sak/bshhPgyksYr26JDDP+jadiCZZ85/dwWIbqgq+wg=
+			QCnx7cwppOp09rpNcsGnzQJYQNVJ3SseMDJuMQievfc=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cd9yic9E7cTfdFHblzaUNEBe90YOmD+Sn18CYDe+Dq4=
+			wdH2OrTmUqQ5Qcjlr19GJGocHNn+BiIobCS2m5keJ7s=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XQn4m3QYfRR52O/NkIUlqGKNF7wXtnRiMigu6VOnJ6E=
+			rx1kBuEQQbSyEbo8fPjIQ/4l+oZkbI85LJjMNtH78TM=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1iUD9siXKiuNZ35eiPKvoiqMEnaUtr62t8tqUrqdiKI=
+			dzAm2iUSXcBdUuNI4CI/Y8Qvi4IdXJdIQ0nX9rMyhFk=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a/lLf6mWpvqjr+3CN8/yhyDfxXDMY/E7a75+HsVtm48=
+			doQ6p7eiHI8XWSVWq1VYGmk556ub1Z4r2ciFgavlW9k=
 			</data>
 		</dict>
 		<key>Modules/Flyreel.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uEZubhbJcN7jVtf0dkcHR0udrR33UiuslkBICPBRYvI=
+			XP8vN1UQGF7IlVBpTxeWqD66m6wdufPwTO9jqzo4/vg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

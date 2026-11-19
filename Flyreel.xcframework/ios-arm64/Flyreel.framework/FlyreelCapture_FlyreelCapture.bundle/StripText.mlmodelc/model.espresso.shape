@@ -1,0 +1,431 @@
+{
+  "layer_shapes" : {
+    "max_pool_1" : {
+      "k" : 64,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 16
+    },
+    "_before_transpose_op_Identity" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 39
+    },
+    "transpose_41" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 128
+    },
+    "max_pool_2" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "striptext_1d_1\/activation_6_1\/Relu" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "expand_dims_0" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "striptext_1d_1\/add_3_1\/Add" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "striptext_1d_1\/conv1d_1_2\/convolutionx" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 128
+    },
+    "striptext_1d_1\/batch_normalization_3_2\/batchnorm\/add_1" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 32
+    },
+    "transpose_1" : {
+      "k" : 1,
+      "w" : 512,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "striptext_1d_1\/batch_normalization_16_1\/batchnorm\/mul" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "expand_dims_2" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "striptext_1d_1\/batch_normalization_10_1\/batchnorm\/add_1" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "strip" : {
+      "k" : 64,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 512
+    },
+    "striptext_1d_1\/activation_1_2\/Relu" : {
+      "k" : 32,
+      "w" : 512,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "striptext_1d_1\/activation_7_1\/Relu" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 8
+    },
+    "striptext_1d_1\/batch_normalization_12_1\/batchnorm\/add_1" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "max_pool_3" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "expand_dims_4" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "striptext_1d_1\/reg_1\/BiasAdd" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 2
+    },
+    "striptext_1d_1\/batch_normalization_14_1\/batchnorm\/add_1" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 2
+    },
+    "max_pool_4" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 2
+    },
+    "striptext_1d_1\/activation_12_1\/Relu" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 128
+    },
+    "striptext_1d_1\/batch_normalization_15_1\/batchnorm\/add_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 128
+    },
+    "striptext_1d_1\/reg_1\/Softplus" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 2
+    },
+    "Identity" : {
+      "k" : 1,
+      "w" : 39,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 128
+    },
+    "striptext_1d_1\/activation_8_1\/Relu" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "striptext_1d_1\/reshape_1\/Reshape" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 128
+    },
+    "striptext_1d_1\/batch_normalization_16_1\/batchnorm\/add_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 128
+    },
+    "max_pool_5" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "striptext_1d_1\/batch_normalization_5_1\/batchnorm\/add_1" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 32
+    },
+    "striptext_1d_1\/add_2_1\/Add" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 16
+    },
+    "striptext_1d_1\/activation_9_1\/Relu" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "striptext_1d_1\/add_6_1\/Add" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 128
+    },
+    "conv_1" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "conv_3" : {
+      "k" : 2,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "striptext_1d_1\/batch_normalization_16_1\/batchnorm\/mul_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 128
+    },
+    "striptext_1d_1\/batch_normalization_6_1\/batchnorm\/add_1" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 16
+    },
+    "striptext_1d_1\/activation_10_1\/Relu" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 2
+    },
+    "striptext_1d_1\/activation_13_1\/Relu" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 128
+    },
+    "striptext_1d_1\/add_5_1\/Add" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 2
+    },
+    "striptext_1d_1\/add_1_2\/Add" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 32
+    },
+    "striptext_1d_1\/activation_2_1\/Relu" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 32
+    },
+    "striptext_1d_1\/max_pooling2d_5_1\/MaxPool2d" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "striptext_1d_1\/cls_logits_1\/BiasAdd" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 37
+    },
+    "striptext_1d_1\/batch_normalization_3\/batchnorm\/add_1" : {
+      "k" : 32,
+      "w" : 512,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "striptext_1d_1\/activation_1\/Relu" : {
+      "k" : 32,
+      "w" : 512,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "striptext_1d_1\/activation_3_1\/Relu" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 32
+    },
+    "striptext_1d_1\/batch_normalization_2_1\/batchnorm\/add_1" : {
+      "k" : 32,
+      "w" : 512,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "striptext_1d_1\/batch_normalization_8_1\/batchnorm\/add_1" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 16
+    },
+    "striptext_1d_1\/batch_normalization_16_1\/batchnorm\/sub" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "conv_0" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "striptext_1d_1\/add_4_1\/Add" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "striptext_1d_1\/activation_11_1\/Relu" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 2
+    },
+    "transpose_37" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 128
+    },
+    "conv_2" : {
+      "k" : 37,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "striptext_1d_1\/activation_4_1\/Relu" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 16
+    },
+    "striptext_1d_1\/add_1\/Add" : {
+      "k" : 32,
+      "w" : 512,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "max_pool_0" : {
+      "k" : 32,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 32
+    },
+    "striptext_1d_1\/conv1d_1_2\/convolution\/Squeeze" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 3,
+      "h" : 128
+    },
+    "striptext_1d_1\/activation_5_1\/Relu" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 16
+    }
+  }
+}

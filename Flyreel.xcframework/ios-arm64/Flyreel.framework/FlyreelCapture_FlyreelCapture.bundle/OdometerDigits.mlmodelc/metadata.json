@@ -1,0 +1,81 @@
+[
+  {
+    "metadataOutputVersion" : "3.0",
+    "shortDescription" : "odometer 1D digit detector — input 384×128 greyscale strip, output (96, 13) per-column predictions",
+    "outputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32)",
+        "shortDescription" : "Per-column predictions, shape (1, 96, 13). Channels 0-10: class logits (softmax; class 10 = background). Channel 11: d_left \/ STRIP_W. Channel 12: d_right \/ STRIP_W.",
+        "shape" : "[]",
+        "name" : "predictions",
+        "type" : "MultiArray"
+      }
+    ],
+    "storagePrecision" : "Float16",
+    "modelParameters" : [
+
+    ],
+    "specificationVersion" : 4,
+    "computePrecision" : "Float16",
+    "isUpdatable" : "0",
+    "stateSchema" : [
+
+    ],
+    "availability" : {
+      "macOS" : "10.15",
+      "tvOS" : "13.0",
+      "visionOS" : "1.0",
+      "watchOS" : "6.0",
+      "iOS" : "13.0",
+      "macCatalyst" : "13.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_neuralNetwork"
+    },
+    "inputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 128 × 384 × 1)",
+        "shortDescription" : "Greyscale strip, float32, shape (1, 128, 384, 1), values [0,1].",
+        "shape" : "[1, 128, 384, 1]",
+        "name" : "strip",
+        "type" : "MultiArray"
+      }
+    ],
+    "userDefinedMetadata" : {
+      "com.github.apple.coremltools.version" : "9.0",
+      "com.github.apple.coremltools.source" : "tensorflow==2.19.1",
+      "com.github.apple.coremltools.conversion_date" : "2026-09-10"
+    },
+    "generatedClassName" : "OdometerDigits",
+    "neuralNetworkLayerTypeHistogram" : {
+      "Transpose" : 20,
+      "Convolution" : 22,
+      "Multiply" : 17,
+      "InnerProduct" : 3,
+      "AddBroadcastable" : 14,
+      "ReduceMean" : 14,
+      "Squeeze" : 5,
+      "ActivationReLU" : 19,
+      "SubtractBroadcastable" : 7,
+      "ConcatND" : 1,
+      "Add" : 38,
+      "UnaryPower" : 7,
+      "UnaryRsqrt" : 7,
+      "BatchedMatmul" : 21,
+      "LoadConstantND" : 32,
+      "ExpandDims" : 4,
+      "ActivationSoftplus" : 1,
+      "ReshapeStatic" : 25,
+      "PoolingINVALID" : 7,
+      "SoftmaxND" : 3,
+      "MultiplyBroadcastable" : 15
+    },
+    "method" : "predict"
+  }
+]

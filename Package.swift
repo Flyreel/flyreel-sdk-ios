@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "Flyreel",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v15)],
     products: [
         .library(
             name: "Flyreel",
@@ -14,9 +14,6 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/Flyreel/flyreel-camera-ios", exact: "0.0.9"),
-        .package(url: "https://github.com/Flyreel/flyreel-fnol-ios", exact: "0.0.3"),
-        .package(url: "https://github.com/Flyreel/flyreel-meshscan-ios", exact: "0.0.3"),
-        .package(url: "https://github.com/Flyreel/flyreel-panorama-ios", exact: "0.0.6"),
     ],
     targets: [
         .binaryTarget(
@@ -28,9 +25,6 @@ let package = Package(
             dependencies: [
                 .target(name: "Flyreel"),
                 .product(name: "FlyreelCamera", package: "flyreel-camera-ios"),
-                .product(name: "FlyreelFNOL", package: "flyreel-fnol-ios"),
-                .product(name: "FlyreelMeshScan", package: "flyreel-meshscan-ios"),
-                .product(name: "FlyreelPanorama", package: "flyreel-panorama-ios"),
             ],
             path: "Sources"
         ),
