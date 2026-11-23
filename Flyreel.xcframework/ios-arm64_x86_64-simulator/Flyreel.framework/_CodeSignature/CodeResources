@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		3RGc5Y+wadGR2pipf13cCWHDIU8=
+		Lar7VtI7wfaIKPY795G3QlHrAvI=
 		</data>
 		<key>FlyreelCapture_FlyreelCapture.bundle/Assets.car</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/coremldata.bin</key>
 		<data>
-		uVCivhZj6iVzCq18mZlQQstp8PU=
+		IESVFEaKeDsbILWWYt3onzLXufc=
 		</data>
 		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/metadata.json</key>
 		<data>
-		oC4pTYfxJbYJ91pHnFtzYDOOuW4=
+		jBQI8BMGYGGBiYrXEvPXKS1H/wo=
 		</data>
 		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/model.espresso.net</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>FlyreelCapture_FlyreelCapture.bundle/StripText.mlmodelc/coremldata.bin</key>
 		<data>
-		6xrzap/LRw+IiBXuZ4Y3sO9bq9I=
+		4Kp2D8/WqsPis19oogjRkXjYlFA=
 		</data>
 		<key>FlyreelCapture_FlyreelCapture.bundle/StripText.mlmodelc/metadata.json</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>FlyreelCapture_FlyreelCapture.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		T0soivGQR6W5RkBlsKL8uC6zwxM=
+		7n/q7DwjkSLxY5+5+USASMHdSKs=
 		</data>
 		<key>FlyreelCapture_FlyreelCapture.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>FlyreelCapture_FlyreelCapture.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		CI8vGsSFgitJBmlVpSUqHwVVxN0=
+		F9nkaDnkVGHrOuRJU9kVMthM5xs=
 		</data>
 		<key>FlyreelCapture_FlyreelCapture.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -201,6 +201,10 @@
 		<data>
 		7Uzo8+s3EDhK3tBsHNAKfoss6KY=
 		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		wECOjDYdT1xPoNOVLd8iKSYLRpY=
+		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -217,7 +221,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zBAuLBIKh0JosIGuX77z6Kn7gnfRtQg3qBbAWwr9gm8=
+			+BFUOrUnN3Jrna4zFT0ORS/KjxAJT3UUAiY/gUpYGJY=
 			</data>
 		</dict>
 		<key>FlyreelCapture_FlyreelCapture.bundle/Assets.car</key>
@@ -266,14 +270,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k7hnNKPQAd23+2kqAkXKNp0oQb9XF7ZM61Szd7vRDYQ=
+			p+3AuSjDjCKk0fPhKysS24SHq81h33Xe78HmSXAraS4=
 			</data>
 		</dict>
 		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/metadata.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dX7fAwlY7EuPRf57V9AgoX/lIp9+LpNgpS7oAFK56yw=
+			2+YBynhcRNU7bgQ0yerdrBENzY4pRs2UdRmNvN6IhgI=
 			</data>
 		</dict>
 		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/model.espresso.net</key>
@@ -329,7 +333,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3+HwWjJsqL3bkXxtt14NJYHQpKaWjqIggpzJVgR0uUM=
+			6lr0edMRZpWcsSUTvUIjcGRAMYtk5MFfAUVnMSqLVE4=
 			</data>
 		</dict>
 		<key>FlyreelCapture_FlyreelCapture.bundle/StripText.mlmodelc/metadata.json</key>
@@ -378,7 +382,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lO3xRGYFOyXUom8FumrMWH+RMDmHJEMQ72VbmUFglfo=
+			AUfY8qxTqodpfcLPm8o0nzx7vjb3CR2YmOA73VJyt7I=
 			</data>
 		</dict>
 		<key>FlyreelCapture_FlyreelCapture.bundle/_CodeSignature/CodeRequirements</key>
@@ -392,7 +396,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kdG4nSrddDfTaagzwWFZzBymGJV1DEmNN13ABq01PMA=
+			0rkoeIOaGMNnvJdQebcpEGIqSm/N2jC+GJqulG7xeZk=
 			</data>
 		</dict>
 		<key>FlyreelCapture_FlyreelCapture.bundle/_CodeSignature/CodeSignature</key>
@@ -542,6 +546,13 @@
 			<key>hash2</key>
 			<data>
 			6i16OSd5WuW6XwoL9pMUxicZmRrCmS1TENVjdYMqjIo=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EOMMOiKDB/TPDuzzWZenVR50kk8yYYk5EWjmFC/2qfY=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>

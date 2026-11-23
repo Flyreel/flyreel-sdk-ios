@@ -26,11 +26,11 @@
 		</data>
 		<key>OdometerDigits.mlmodelc/coremldata.bin</key>
 		<data>
-		uVCivhZj6iVzCq18mZlQQstp8PU=
+		IESVFEaKeDsbILWWYt3onzLXufc=
 		</data>
 		<key>OdometerDigits.mlmodelc/metadata.json</key>
 		<data>
-		oC4pTYfxJbYJ91pHnFtzYDOOuW4=
+		jBQI8BMGYGGBiYrXEvPXKS1H/wo=
 		</data>
 		<key>OdometerDigits.mlmodelc/model.espresso.net</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>StripText.mlmodelc/coremldata.bin</key>
 		<data>
-		6xrzap/LRw+IiBXuZ4Y3sO9bq9I=
+		4Kp2D8/WqsPis19oogjRkXjYlFA=
 		</data>
 		<key>StripText.mlmodelc/metadata.json</key>
 		<data>
@@ -163,14 +163,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k7hnNKPQAd23+2kqAkXKNp0oQb9XF7ZM61Szd7vRDYQ=
+			p+3AuSjDjCKk0fPhKysS24SHq81h33Xe78HmSXAraS4=
 			</data>
 		</dict>
 		<key>OdometerDigits.mlmodelc/metadata.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dX7fAwlY7EuPRf57V9AgoX/lIp9+LpNgpS7oAFK56yw=
+			2+YBynhcRNU7bgQ0yerdrBENzY4pRs2UdRmNvN6IhgI=
 			</data>
 		</dict>
 		<key>OdometerDigits.mlmodelc/model.espresso.net</key>
@@ -226,7 +226,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3+HwWjJsqL3bkXxtt14NJYHQpKaWjqIggpzJVgR0uUM=
+			6lr0edMRZpWcsSUTvUIjcGRAMYtk5MFfAUVnMSqLVE4=
 			</data>
 		</dict>
 		<key>StripText.mlmodelc/metadata.json</key>

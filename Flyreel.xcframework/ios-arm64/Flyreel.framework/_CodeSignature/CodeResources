@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		3RGc5Y+wadGR2pipf13cCWHDIU8=
+		Lar7VtI7wfaIKPY795G3QlHrAvI=
 		</data>
 		<key>FlyreelCapture_FlyreelCapture.bundle/Assets.car</key>
 		<data>
-		9FqKzvFlhn4c5H7H9+tXxk4XoQc=
+		swIH8vGXohjd03oU3TP3vGF+oFY=
 		</data>
 		<key>FlyreelCapture_FlyreelCapture.bundle/Gilroy-Medium.otf</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/coremldata.bin</key>
 		<data>
-		IwBaZZqRFq1kAZ39boOiayhQIBA=
+		qlMm0qjIveOhtcA5VjqZGq89Xvw=
 		</data>
 		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/metadata.json</key>
 		<data>
-		oC4pTYfxJbYJ91pHnFtzYDOOuW4=
+		jBQI8BMGYGGBiYrXEvPXKS1H/wo=
 		</data>
 		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/model.espresso.net</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>FlyreelCapture_FlyreelCapture.bundle/StripText.mlmodelc/metadata.json</key>
 		<data>
-		NIe4MMEAfrJWVuvVgy7OeJ+4Hm4=
+		CfpyURexrKP9Lw4h3fmCIm78paA=
 		</data>
 		<key>FlyreelCapture_FlyreelCapture.bundle/StripText.mlmodelc/model.espresso.net</key>
 		<data>
@@ -165,6 +165,10 @@
 		<data>
 		7Uzo8+s3EDhK3tBsHNAKfoss6KY=
 		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		wECOjDYdT1xPoNOVLd8iKSYLRpY=
+		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -181,14 +185,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zBAuLBIKh0JosIGuX77z6Kn7gnfRtQg3qBbAWwr9gm8=
+			+BFUOrUnN3Jrna4zFT0ORS/KjxAJT3UUAiY/gUpYGJY=
 			</data>
 		</dict>
 		<key>FlyreelCapture_FlyreelCapture.bundle/Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gtnGtgGYRBix+c+Dx8gD+sJ5EwILCAyUFJH/SV4wvzw=
+			d7hAO2SLR1zHmU01ey6D/1FYh8zGs/QbGPavKNLPhFo=
 			</data>
 		</dict>
 		<key>FlyreelCapture_FlyreelCapture.bundle/Gilroy-Medium.otf</key>
@@ -230,14 +234,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zuGqjTJfiK7GOjz51NqD1dPHa1hpmLmZyR9RXpy1mM8=
+			HybSa8AE7BJqZP8eftF1aIZvQr+YDmimmQEJ9J9BGEk=
 			</data>
 		</dict>
 		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/metadata.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dX7fAwlY7EuPRf57V9AgoX/lIp9+LpNgpS7oAFK56yw=
+			2+YBynhcRNU7bgQ0yerdrBENzY4pRs2UdRmNvN6IhgI=
 			</data>
 		</dict>
 		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/model.espresso.net</key>
@@ -300,7 +304,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aHoGFSZ6qHm0N+k2fPgYBY4WQZBkCpNei4F61riw0QI=
+			DlBlWi8K2+FJJzacPPr0X4RczhgxtApyu66n2GhPAR4=
 			</data>
 		</dict>
 		<key>FlyreelCapture_FlyreelCapture.bundle/StripText.mlmodelc/model.espresso.net</key>
@@ -443,6 +447,13 @@
 			<key>hash2</key>
 			<data>
 			6i16OSd5WuW6XwoL9pMUxicZmRrCmS1TENVjdYMqjIo=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EOMMOiKDB/TPDuzzWZenVR50kk8yYYk5EWjmFC/2qfY=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>
