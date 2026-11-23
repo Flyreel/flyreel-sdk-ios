@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		swIH8vGXohjd03oU3TP3vGF+oFY=
+		9FqKzvFlhn4c5H7H9+tXxk4XoQc=
 		</data>
 		<key>Gilroy-Medium.otf</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>OdometerDigits.mlmodelc/coremldata.bin</key>
 		<data>
-		IwBaZZqRFq1kAZ39boOiayhQIBA=
+		uVCivhZj6iVzCq18mZlQQstp8PU=
 		</data>
 		<key>OdometerDigits.mlmodelc/metadata.json</key>
 		<data>
-		jBQI8BMGYGGBiYrXEvPXKS1H/wo=
+		oC4pTYfxJbYJ91pHnFtzYDOOuW4=
 		</data>
 		<key>OdometerDigits.mlmodelc/model.espresso.net</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>StripText.mlmodelc/coremldata.bin</key>
 		<data>
-		4Kp2D8/WqsPis19oogjRkXjYlFA=
+		6xrzap/LRw+IiBXuZ4Y3sO9bq9I=
 		</data>
 		<key>StripText.mlmodelc/metadata.json</key>
 		<data>
-		NIe4MMEAfrJWVuvVgy7OeJ+4Hm4=
+		CfpyURexrKP9Lw4h3fmCIm78paA=
 		</data>
 		<key>StripText.mlmodelc/model.espresso.net</key>
 		<data>
@@ -88,21 +88,9 @@
 		<data>
 		tkgF5pxT7RlO+9uypQti9obolyA=
 		</data>
-		<key>arrow-bounce.json</key>
-		<data>
-		XXlkfj8R4dSmdCuG2Fpa/rvoV8Q=
-		</data>
 		<key>default.metallib</key>
 		<data>
 		PeniiW1gRGE4xvHVWlvuqcKeTR8=
-		</data>
-		<key>dot-progress-med-fade-thin.json</key>
-		<data>
-		DI722amGxWN6A6Cuo2Uwa+BOlZA=
-		</data>
-		<key>down-arrow.json</key>
-		<data>
-		4KHr1evCNgM5uF8sFXkEsggStFY=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
@@ -140,7 +128,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d7hAO2SLR1zHmU01ey6D/1FYh8zGs/QbGPavKNLPhFo=
+			gtnGtgGYRBix+c+Dx8gD+sJ5EwILCAyUFJH/SV4wvzw=
 			</data>
 		</dict>
 		<key>Gilroy-Medium.otf</key>
@@ -175,14 +163,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zuGqjTJfiK7GOjz51NqD1dPHa1hpmLmZyR9RXpy1mM8=
+			k7hnNKPQAd23+2kqAkXKNp0oQb9XF7ZM61Szd7vRDYQ=
 			</data>
 		</dict>
 		<key>OdometerDigits.mlmodelc/metadata.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2+YBynhcRNU7bgQ0yerdrBENzY4pRs2UdRmNvN6IhgI=
+			dX7fAwlY7EuPRf57V9AgoX/lIp9+LpNgpS7oAFK56yw=
 			</data>
 		</dict>
 		<key>OdometerDigits.mlmodelc/model.espresso.net</key>
@@ -238,14 +226,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6lr0edMRZpWcsSUTvUIjcGRAMYtk5MFfAUVnMSqLVE4=
+			3+HwWjJsqL3bkXxtt14NJYHQpKaWjqIggpzJVgR0uUM=
 			</data>
 		</dict>
 		<key>StripText.mlmodelc/metadata.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aHoGFSZ6qHm0N+k2fPgYBY4WQZBkCpNei4F61riw0QI=
+			DlBlWi8K2+FJJzacPPr0X4RczhgxtApyu66n2GhPAR4=
 			</data>
 		</dict>
 		<key>StripText.mlmodelc/model.espresso.net</key>
@@ -283,32 +271,11 @@
 			WTG9U2xFUClKISxvyNPBvuddqBeYC6C2cchgPa+zYjg=
 			</data>
 		</dict>
-		<key>arrow-bounce.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nZftwYrB3ij50uhTyLTEAtiuI7JiBecVt7BC9j5eYPY=
-			</data>
-		</dict>
 		<key>default.metallib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			LSGK/Z4SB3Bu0yzcuVOX5SJPLAmSVFvpjNm5yaS1P9Q=
-			</data>
-		</dict>
-		<key>dot-progress-med-fade-thin.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KmAsWrrQfxkzq3JFEegqx+EGRmKenl8RYgKmZgn//60=
-			</data>
-		</dict>
-		<key>down-arrow.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			E7ZaXN13lfSUhj3tL2PrUEzlKw9bleE1k9pJKMeylmc=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>

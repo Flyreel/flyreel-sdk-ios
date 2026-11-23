@@ -49,8 +49,8 @@
     ],
     "userDefinedMetadata" : {
       "com.github.apple.coremltools.version" : "9.0",
-      "com.github.apple.coremltools.conversion_date" : "2026-08-11",
-      "com.github.apple.coremltools.source" : "tensorflow==2.19.1"
+      "com.github.apple.coremltools.source" : "tensorflow==2.19.1",
+      "com.github.apple.coremltools.conversion_date" : "2026-08-11"
     },
     "generatedClassName" : "StripText",
     "neuralNetworkLayerTypeHistogram" : {

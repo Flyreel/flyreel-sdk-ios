@@ -10,7 +10,7 @@
 		</data>
 		<key>FlyreelCapture_FlyreelCapture.bundle/Assets.car</key>
 		<data>
-		swIH8vGXohjd03oU3TP3vGF+oFY=
+		9FqKzvFlhn4c5H7H9+tXxk4XoQc=
 		</data>
 		<key>FlyreelCapture_FlyreelCapture.bundle/Gilroy-Medium.otf</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/metadata.json</key>
 		<data>
-		jBQI8BMGYGGBiYrXEvPXKS1H/wo=
+		oC4pTYfxJbYJ91pHnFtzYDOOuW4=
 		</data>
 		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/model.espresso.net</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>FlyreelCapture_FlyreelCapture.bundle/StripText.mlmodelc/coremldata.bin</key>
 		<data>
-		6xrzap/LRw+IiBXuZ4Y3sO9bq9I=
+		3+jYsnkWOMbVHXdH7gSEijM8tuI=
 		</data>
 		<key>FlyreelCapture_FlyreelCapture.bundle/StripText.mlmodelc/metadata.json</key>
 		<data>
@@ -96,21 +96,9 @@
 		<data>
 		tkgF5pxT7RlO+9uypQti9obolyA=
 		</data>
-		<key>FlyreelCapture_FlyreelCapture.bundle/arrow-bounce.json</key>
-		<data>
-		XXlkfj8R4dSmdCuG2Fpa/rvoV8Q=
-		</data>
 		<key>FlyreelCapture_FlyreelCapture.bundle/default.metallib</key>
 		<data>
 		aAgQ4blkUuz1nEXvVmCnA+uVmm0=
-		</data>
-		<key>FlyreelCapture_FlyreelCapture.bundle/dot-progress-med-fade-thin.json</key>
-		<data>
-		DI722amGxWN6A6Cuo2Uwa+BOlZA=
-		</data>
-		<key>FlyreelCapture_FlyreelCapture.bundle/down-arrow.json</key>
-		<data>
-		4KHr1evCNgM5uF8sFXkEsggStFY=
 		</data>
 		<key>FlyreelCapture_FlyreelCapture.bundle/en.lproj/Localizable.strings</key>
 		<dict>
@@ -200,7 +188,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d7hAO2SLR1zHmU01ey6D/1FYh8zGs/QbGPavKNLPhFo=
+			gtnGtgGYRBix+c+Dx8gD+sJ5EwILCAyUFJH/SV4wvzw=
 			</data>
 		</dict>
 		<key>FlyreelCapture_FlyreelCapture.bundle/Gilroy-Medium.otf</key>
@@ -249,7 +237,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2+YBynhcRNU7bgQ0yerdrBENzY4pRs2UdRmNvN6IhgI=
+			dX7fAwlY7EuPRf57V9AgoX/lIp9+LpNgpS7oAFK56yw=
 			</data>
 		</dict>
 		<key>FlyreelCapture_FlyreelCapture.bundle/OdometerDigits.mlmodelc/model.espresso.net</key>
@@ -305,7 +293,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3+HwWjJsqL3bkXxtt14NJYHQpKaWjqIggpzJVgR0uUM=
+			Q4dQyiK/DKvbWJ0AZcEHuZJ4DfaRXSZMNbnysjyxboQ=
 			</data>
 		</dict>
 		<key>FlyreelCapture_FlyreelCapture.bundle/StripText.mlmodelc/metadata.json</key>
@@ -350,32 +338,11 @@
 			WTG9U2xFUClKISxvyNPBvuddqBeYC6C2cchgPa+zYjg=
 			</data>
 		</dict>
-		<key>FlyreelCapture_FlyreelCapture.bundle/arrow-bounce.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nZftwYrB3ij50uhTyLTEAtiuI7JiBecVt7BC9j5eYPY=
-			</data>
-		</dict>
 		<key>FlyreelCapture_FlyreelCapture.bundle/default.metallib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			Sw5Fw+fquaz3PWVtLqySElKOTLhbfCISh444IY7HHeQ=
-			</data>
-		</dict>
-		<key>FlyreelCapture_FlyreelCapture.bundle/dot-progress-med-fade-thin.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KmAsWrrQfxkzq3JFEegqx+EGRmKenl8RYgKmZgn//60=
-			</data>
-		</dict>
-		<key>FlyreelCapture_FlyreelCapture.bundle/down-arrow.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			E7ZaXN13lfSUhj3tL2PrUEzlKw9bleE1k9pJKMeylmc=
 			</data>
 		</dict>
 		<key>FlyreelCapture_FlyreelCapture.bundle/en.lproj/Localizable.strings</key>
